@@ -1,0 +1,1 @@
+# clausulas-tool-rappi-rangers
