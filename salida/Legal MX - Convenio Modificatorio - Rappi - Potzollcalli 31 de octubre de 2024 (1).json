@@ -2,27 +2,32 @@
   "archivo": "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).pdf",
   "total_parrafos_detectados": 5,
   "total_clausulas_extraidas": 3,
+  "total_items_procesados": 5,
+  "clausulas_con_titulo": 3,
+  "clausulas_con_resumen": 3,
+  "clausulas_validas": 3,
+  "problemas_calidad": 0,
   "clausulas": [
     {
       "id": 1,
       "text": "1) INFORMACIÓN CONFIDENCIAL CONVENIO MODIFICATORIO AL ACUERDO DE COOPERACIÓN CELEBRADO ENTRE TECNOLOGÍAS RAPPI S.A.P.I. DE C.V., COCINA MEXICANA AJM, S.A. DE C.V. Y OPERADORA DE NEGOCIOS DE EXPANSIÓN RESTAURANTERA, S.A. DE C.V. (EN ADELANTE, “CONVENIO MODIFICATORIO”) Entre los suscritos, TECNOLOGÍAS RAPPI S.A.P.I. DE C.V. (en adelante, “Rappi”), por una parte, y COCINA MEXICANA AJM, S.A. DE C.V. Y OPERADORA DE NEGOCIOS DE EXPANSIÓN RESTAURANTERA, S.A. DE C.V. (en adelante, “Aliado” y en conjunto con Rappi, las “Partes”), quienes han acreditado previamente su personalidad, celebran el presente Convenio Modificatorio, de conformidad con las siguientes: DECLARACIONES I. Las Partes declaran que suscribieron en fecha 31 de octubre de 2024 un Acuerdo de Cooperación (en adelante, “Acuerdo”), en virtud del cual Rappi dispone en favor del Aliado de un espacio en la Plataforma Rappi para que éste pueda exhibir, ofrecer y comercializar sus productos por medio de la misma. II. El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales. III. Las Partes declaran conjuntamente que es su deseo celebrar y obligarse en los términos del presente Convenio Modificatorio, de acuerdo con las siguientes cláusulas: CLÁUSULAS CLÁUSULA PRIMERA. Definiciones. - Todas las palabras con mayúscula inicial o con mayúsculas utilizadas en el presente Convenio Modificatorio y que no se encuentren definidas en el mismo, tendrán el significado que se les atribuye en el Acuerdo. A su vez, las palabras técnicas que no se encuentren definidas expresamente en el Acuerdo, tendrán los significados que les correspondan según la técnica o ciencia respectiva, y las demás palabras se entenderán en su sentido natural y obvio, según el uso general de las mismas. CLÁUSULA SEGUNDA. Modificación. El presente Convenio Modificatorio tiene por objeto modificar la Cláusula Octava denominada “Forma de Pago” y el inciso (v) de la Cláusula Cuarta denominada “Obligaciones del Aliado Comercial” ambas respecto del Acuerdo, a efecto de que, a partir de la fecha de firma del presente Convenio Modificatorio, las referidas cláusulas queden redactadas en los términos que a continuación se indican: “CLÁUSULA CUARTA. – Obligaciones del Aliado Comercial. … 1-4",
       "is_clause": true,
-      "title": "Introducción y Declaraciones",
-      "summary": "Partes, existencia del Acuerdo, definiciones y objeto del convenio modificatorio."
+      "title": "Modificación de Acuerdo",
+      "summary": "Modifica cláusulas de pago y obligaciones del Aliado en el Acuerdo."
     },
     {
       "id": 2,
       "text": "2) INFORMACIÓN CONFIDENCIAL (v) Ofrecer en la Plataforma Rappi los mismos precios de los Productos ofrecidos a través de cualquier otro canal igual o similar a la Plataforma Rappi. Se exceptúa de lo anterior, el Producto correspondiente a pozole, cuyo precio se determinará conforme a lo indicado en la Cláusula Vigésima Primera del presente Acuerdo de Cooperación. Se aclara que Rappi podrá cobrar al Usuario/Consumidor valores adicionales para poder realizar la orden a través de la Plataforma Rappi, comprendiéndose que dicho cobro será responsabilidad única y exclusiva de Rappi…” “CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación: Razón Social Sucursal Cuenta Clabe Banco Cocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA AJM, S.A. de C.V. Cocina Mexicana Centro 0116922856 012180001169228562 BBVA AJM, S.A. de C.V. Cocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA AJM, S.A. de C.V. Cocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA AJM, S.A. de C.V. Cocina Mexicana Echegaray 0487318316 012180004873183165 BBVA AJM, S.A. de C.V. Cocina Mexicana Ermita 0116146325 012180001161463257 BBVA AJM, S.A. de C.V. Cocina Mexicana Izcalli 0116955444 012180001169554443 BBVA AJM, S.A. de C.V. Cocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA AJM, S.A. de C.V. Xalpa Cocina Mexicana La Viga 0116955541 012180001169555413 BBVA AJM, S.A. de C.V. Cocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA AJM, S.A. de C.V. Industrial Cocina Mexicana Miramontes 0116146279 012180001161462795 BBVA AJM, S.A. de C.V. Cocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA AJM, S.A. de C.V. Cocina Mexicana Satélite 0116146236 012180001161462368 BBVA AJM, S.A. de C.V. Cocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA AJM, S.A. de C.V. 2-4",
       "is_clause": true,
-      "title": "Obligaciones y Forma de Pago",
-      "summary": "Establece paridad de precios, excepción para pozole, cobros adicionales por Rappi y condiciones de pago semanal con descuentos."
+      "title": "Precios y pagos",
+      "summary": "Precios iguales a otros canales; excepción pozole; pago semanal al Aliado menos comisiones y descuentos."
     },
     {
       "id": 3,
       "text": "3) INFORMACIÓN CONFIDENCIAL Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V. Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V. Cocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA AJM, S.A. de C.V. Operadora de Ajusco 0112991462 012180001129914625 BBVA Negocios de Expansión Restaurantera, S.A. de C.V. Operadora de Las Américas 1135338437 072 180 01135338437 8 Banorte Negocios de Expansión Restaurantera, S.A. de C.V. Operadora de Metepec 1135336808 072 180 01135336808 0 Negocios de Expansión Restaurantera, S.A. de C.V. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.” CLÁUSULA TERCERA. Integridad. Las Partes acuerdan que en todo aquello que no haya sido modificado expresamente mediante el presente Convenio Modificatorio, el Acuerdo continuará ejecutándose en iguales condiciones a lo inicialmente pactado en dicho documento y cualquier otro Anexo/Convenio Modificatorio suscrito entre las Partes. En fe de lo expuesto se firma de forma electrónica, dejando constancia en mensaje de datos el 30 de diciembre de 2024. TECNOLOGÍAS RAPPI S.A.P.I. DE C.V. COCINA MEXICANA AJM, S.A. DE C.V. REPRESENTANTE LEGAL REPRESENTANTE LEGAL IVÁN CADAVID SILVA JOSÉ MANUEL DELGADO TÉLLEZ 3-4",
       "is_clause": true,
-      "title": "Cuentas e Integridad",
-      "summary": "Lista cuentas bancarias, aceptación de facturas electrónicas y cláusula de integridad que mantiene vigencia del Acuerdo salvo modificaciones."
+      "title": "Integridad y facturación electrónica",
+      "summary": "Acuerdo permanece vigente salvo modificaciones expresas; Aliado acepta envío y recepción de facturas electrónicas."
     }
   ],
   "raw_items": [
@@ -30,22 +35,22 @@
       "id": 1,
       "text": "1) INFORMACIÓN CONFIDENCIAL CONVENIO MODIFICATORIO AL ACUERDO DE COOPERACIÓN CELEBRADO ENTRE TECNOLOGÍAS RAPPI S.A.P.I. DE C.V., COCINA MEXICANA AJM, S.A. DE C.V. Y OPERADORA DE NEGOCIOS DE EXPANSIÓN RESTAURANTERA, S.A. DE C.V. (EN ADELANTE, “CONVENIO MODIFICATORIO”) Entre los suscritos, TECNOLOGÍAS RAPPI S.A.P.I. DE C.V. (en adelante, “Rappi”), por una parte, y COCINA MEXICANA AJM, S.A. DE C.V. Y OPERADORA DE NEGOCIOS DE EXPANSIÓN RESTAURANTERA, S.A. DE C.V. (en adelante, “Aliado” y en conjunto con Rappi, las “Partes”), quienes han acreditado previamente su personalidad, celebran el presente Convenio Modificatorio, de conformidad con las siguientes: DECLARACIONES I. Las Partes declaran que suscribieron en fecha 31 de octubre de 2024 un Acuerdo de Cooperación (en adelante, “Acuerdo”), en virtud del cual Rappi dispone en favor del Aliado de un espacio en la Plataforma Rappi para que éste pueda exhibir, ofrecer y comercializar sus productos por medio de la misma. II. El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales. III. Las Partes declaran conjuntamente que es su deseo celebrar y obligarse en los términos del presente Convenio Modificatorio, de acuerdo con las siguientes cláusulas: CLÁUSULAS CLÁUSULA PRIMERA. Definiciones. - Todas las palabras con mayúscula inicial o con mayúsculas utilizadas en el presente Convenio Modificatorio y que no se encuentren definidas en el mismo, tendrán el significado que se les atribuye en el Acuerdo. A su vez, las palabras técnicas que no se encuentren definidas expresamente en el Acuerdo, tendrán los significados que les correspondan según la técnica o ciencia respectiva, y las demás palabras se entenderán en su sentido natural y obvio, según el uso general de las mismas. CLÁUSULA SEGUNDA. Modificación. El presente Convenio Modificatorio tiene por objeto modificar la Cláusula Octava denominada “Forma de Pago” y el inciso (v) de la Cláusula Cuarta denominada “Obligaciones del Aliado Comercial” ambas respecto del Acuerdo, a efecto de que, a partir de la fecha de firma del presente Convenio Modificatorio, las referidas cláusulas queden redactadas en los términos que a continuación se indican: “CLÁUSULA CUARTA. – Obligaciones del Aliado Comercial. … 1-4",
       "is_clause": true,
-      "title": "Introducción y Declaraciones",
-      "summary": "Partes, existencia del Acuerdo, definiciones y objeto del convenio modificatorio."
+      "title": "Modificación de Acuerdo",
+      "summary": "Modifica cláusulas de pago y obligaciones del Aliado en el Acuerdo."
     },
     {
       "id": 2,
       "text": "2) INFORMACIÓN CONFIDENCIAL (v) Ofrecer en la Plataforma Rappi los mismos precios de los Productos ofrecidos a través de cualquier otro canal igual o similar a la Plataforma Rappi. Se exceptúa de lo anterior, el Producto correspondiente a pozole, cuyo precio se determinará conforme a lo indicado en la Cláusula Vigésima Primera del presente Acuerdo de Cooperación. Se aclara que Rappi podrá cobrar al Usuario/Consumidor valores adicionales para poder realizar la orden a través de la Plataforma Rappi, comprendiéndose que dicho cobro será responsabilidad única y exclusiva de Rappi…” “CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación: Razón Social Sucursal Cuenta Clabe Banco Cocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA AJM, S.A. de C.V. Cocina Mexicana Centro 0116922856 012180001169228562 BBVA AJM, S.A. de C.V. Cocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA AJM, S.A. de C.V. Cocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA AJM, S.A. de C.V. Cocina Mexicana Echegaray 0487318316 012180004873183165 BBVA AJM, S.A. de C.V. Cocina Mexicana Ermita 0116146325 012180001161463257 BBVA AJM, S.A. de C.V. Cocina Mexicana Izcalli 0116955444 012180001169554443 BBVA AJM, S.A. de C.V. Cocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA AJM, S.A. de C.V. Xalpa Cocina Mexicana La Viga 0116955541 012180001169555413 BBVA AJM, S.A. de C.V. Cocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA AJM, S.A. de C.V. Industrial Cocina Mexicana Miramontes 0116146279 012180001161462795 BBVA AJM, S.A. de C.V. Cocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA AJM, S.A. de C.V. Cocina Mexicana Satélite 0116146236 012180001161462368 BBVA AJM, S.A. de C.V. Cocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA AJM, S.A. de C.V. 2-4",
       "is_clause": true,
-      "title": "Obligaciones y Forma de Pago",
-      "summary": "Establece paridad de precios, excepción para pozole, cobros adicionales por Rappi y condiciones de pago semanal con descuentos."
+      "title": "Precios y pagos",
+      "summary": "Precios iguales a otros canales; excepción pozole; pago semanal al Aliado menos comisiones y descuentos."
     },
     {
       "id": 3,
       "text": "3) INFORMACIÓN CONFIDENCIAL Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V. Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V. Cocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA AJM, S.A. de C.V. Operadora de Ajusco 0112991462 012180001129914625 BBVA Negocios de Expansión Restaurantera, S.A. de C.V. Operadora de Las Américas 1135338437 072 180 01135338437 8 Banorte Negocios de Expansión Restaurantera, S.A. de C.V. Operadora de Metepec 1135336808 072 180 01135336808 0 Negocios de Expansión Restaurantera, S.A. de C.V. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.” CLÁUSULA TERCERA. Integridad. Las Partes acuerdan que en todo aquello que no haya sido modificado expresamente mediante el presente Convenio Modificatorio, el Acuerdo continuará ejecutándose en iguales condiciones a lo inicialmente pactado en dicho documento y cualquier otro Anexo/Convenio Modificatorio suscrito entre las Partes. En fe de lo expuesto se firma de forma electrónica, dejando constancia en mensaje de datos el 30 de diciembre de 2024. TECNOLOGÍAS RAPPI S.A.P.I. DE C.V. COCINA MEXICANA AJM, S.A. DE C.V. REPRESENTANTE LEGAL REPRESENTANTE LEGAL IVÁN CADAVID SILVA JOSÉ MANUEL DELGADO TÉLLEZ 3-4",
       "is_clause": true,
-      "title": "Cuentas e Integridad",
-      "summary": "Lista cuentas bancarias, aceptación de facturas electrónicas y cláusula de integridad que mantiene vigencia del Acuerdo salvo modificaciones."
+      "title": "Integridad y facturación electrónica",
+      "summary": "Acuerdo permanece vigente salvo modificaciones expresas; Aliado acepta envío y recepción de facturas electrónicas."
     },
     {
       "id": 4,
@@ -61,5 +66,12 @@
       "title": null,
       "summary": null
     }
-  ]
+  ],
+  "estadisticas_calidad": {
+    "total": 3,
+    "valid": 3,
+    "with_title": 3,
+    "with_summary": 3,
+    "issues": []
+  }
 }

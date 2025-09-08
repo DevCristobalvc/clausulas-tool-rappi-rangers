@@ -1,0 +1,28 @@
+[
+  {
+    "archivo": "Contrato Dairy Queen firmado.pdf",
+    "existe": true,
+    "tamaño_bytes": 520181,
+    "es_pdf_valido": true,
+    "total_paginas": 0,
+    "metodos_exitosos": [],
+    "texto_extraido": "",
+    "errores": [],
+    "metadatos": {}
+  },
+  {
+    "archivo": "Copia de Contrato Rappi.pdf",
+    "existe": true,
+    "tamaño_bytes": 3225380,
+    "es_pdf_valido": true,
+    "total_paginas": 36,
+    "metodos_exitosos": [],
+    "texto_extraido": "",
+    "errores": [],
+    "metadatos": {
+      "CreationDate": "D:20230201172459-06'00'",
+      "Creator": "Hewlett-Packard MFP",
+      "ModDate": "D:20230201172459-06'00'"
+    }
+  }
+]

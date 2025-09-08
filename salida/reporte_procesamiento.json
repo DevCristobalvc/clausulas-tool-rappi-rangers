@@ -1,0 +1,33 @@
+{
+  "resumen_procesamiento": {
+    "archivos_procesados": 7,
+    "archivos_json_generados": 12,
+    "total_parrafos_extraidos": 99,
+    "total_items_procesados": 99,
+    "total_clausulas_extraidas": 75,
+    "total_clausulas_validas": 75,
+    "promedio_clausulas_por_archivo": 6.25,
+    "promedio_parrafos_por_archivo": 8.25
+  },
+  "calidad_extraccion": {
+    "clausulas_con_titulo": 75,
+    "clausulas_con_resumen": 75,
+    "cobertura_titulos_porcentaje": 100.0,
+    "cobertura_resumenes_porcentaje": 100.0,
+    "problemas_calidad_totales": 0
+  },
+  "archivos_procesados": [
+    "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "Contrato Dairy Queen firmado.json",
+    "Copia de Contrato Rappi.json",
+    "diagnostico_pdfs_problematicos.json",
+    "diagnostico_completo_pdfs.json",
+    "Legal MX - Alsea - Rappi & VIPS.json",
+    "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "JUAN VALDEZ CAFE TyC.json",
+    "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json",
+    "resumen_diagnostico_pdfs.json"
+  ]
+}
