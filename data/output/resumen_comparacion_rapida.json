@@ -1,0 +1,9 @@
+{
+  "archivos_procesados": 9,
+  "total_clausulas": 75,
+  "total_encontradas": 14,
+  "total_extra": 61,
+  "cobertura_promedio": 18.666666666666668,
+  "confianza_promedio": 0.7327142857142857,
+  "total_lotes": 10
+}

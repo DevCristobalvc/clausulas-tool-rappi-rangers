@@ -1,0 +1,92 @@
+2025-09-08 00:00:15,239 - INFO - 🚀 INICIANDO COMPARACIÓN RÁPIDA CON LLM Y STRUCTURED OUTPUTS
+2025-09-08 00:00:15,239 - INFO - 📦 Tamaño máximo de lote: 10
+2025-09-08 00:00:15,239 - INFO - ✅ Cargadas 57 cláusulas estándar
+2025-09-08 00:00:15,240 - INFO - 📁 Archivos a procesar: 9
+2025-09-08 00:00:15,240 - INFO - 📄 Procesando: Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json
+2025-09-08 00:00:15,241 - INFO -   📋 Cláusulas extraídas: 25
+2025-09-08 00:00:15,241 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 10
+2025-09-08 00:00:15,241 - INFO - 🤖 Analizando lote de 10 cláusulas...
+2025-09-08 00:00:56,917 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:00:56,936 - INFO - ✅ LLM analizó 10 cláusulas en el lote
+2025-09-08 00:00:56,936 - INFO -   🔄 Procesando lote 2: cláusulas 11 a 20
+2025-09-08 00:00:56,936 - INFO - 🤖 Analizando lote de 10 cláusulas...
+2025-09-08 00:01:53,032 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:01:53,034 - INFO - ✅ LLM analizó 10 cláusulas en el lote
+2025-09-08 00:01:53,034 - INFO -   🔄 Procesando lote 3: cláusulas 21 a 25
+2025-09-08 00:01:53,034 - INFO - 🤖 Analizando lote de 5 cláusulas...
+2025-09-08 00:02:14,727 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:02:14,731 - INFO - ✅ LLM analizó 5 cláusulas en el lote
+2025-09-08 00:02:14,732 - INFO -   ✅ Resultados: 3/25 coincidencias (12.0%)
+2025-09-08 00:02:14,732 - INFO -   📊 Confianza promedio: 0.827
+2025-09-08 00:02:14,732 - INFO -   🔄 Lotes procesados: 3
+2025-09-08 00:02:14,732 - INFO - 📄 Procesando: Contrato Dairy Queen firmado.json
+2025-09-08 00:02:14,734 - WARNING - ⚠️ No se encontraron cláusulas en Contrato Dairy Queen firmado.json
+2025-09-08 00:02:14,734 - INFO - 📄 Procesando: Copia de Contrato Rappi.json
+2025-09-08 00:02:14,735 - WARNING - ⚠️ No se encontraron cláusulas en Copia de Contrato Rappi.json
+2025-09-08 00:02:14,735 - INFO - 📄 Procesando: Legal MX - Alsea - Rappi & VIPS.json
+2025-09-08 00:02:14,735 - WARNING - ⚠️ No se encontraron cláusulas en Legal MX - Alsea - Rappi & VIPS.json
+2025-09-08 00:02:14,735 - INFO - 📄 Procesando: Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json
+2025-09-08 00:02:14,737 - INFO -   📋 Cláusulas extraídas: 18
+2025-09-08 00:02:14,737 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 10
+2025-09-08 00:02:14,737 - INFO - 🤖 Analizando lote de 10 cláusulas...
+2025-09-08 00:03:10,124 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:03:10,128 - INFO - ✅ LLM analizó 10 cláusulas en el lote
+2025-09-08 00:03:10,128 - INFO -   🔄 Procesando lote 2: cláusulas 11 a 18
+2025-09-08 00:03:10,128 - INFO - 🤖 Analizando lote de 8 cláusulas...
+2025-09-08 00:03:55,122 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:03:55,129 - INFO - ✅ LLM analizó 8 cláusulas en el lote
+2025-09-08 00:03:55,129 - INFO -   ✅ Resultados: 4/18 coincidencias (22.2%)
+2025-09-08 00:03:55,130 - INFO -   📊 Confianza promedio: 0.607
+2025-09-08 00:03:55,130 - INFO -   🔄 Lotes procesados: 2
+2025-09-08 00:03:55,130 - INFO - 📄 Procesando: JUAN VALDEZ CAFE TyC.json
+2025-09-08 00:03:55,132 - INFO -   📋 Cláusulas extraídas: 12
+2025-09-08 00:03:55,132 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 10
+2025-09-08 00:03:55,132 - INFO - 🤖 Analizando lote de 10 cláusulas...
+2025-09-08 00:04:37,018 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:04:37,020 - INFO - ✅ LLM analizó 10 cláusulas en el lote
+2025-09-08 00:04:37,020 - INFO -   🔄 Procesando lote 2: cláusulas 11 a 12
+2025-09-08 00:04:37,020 - INFO - 🤖 Analizando lote de 2 cláusulas...
+2025-09-08 00:05:00,125 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:05:00,129 - INFO - ✅ LLM analizó 2 cláusulas en el lote
+2025-09-08 00:05:00,129 - INFO -   ✅ Resultados: 3/12 coincidencias (25.0%)
+2025-09-08 00:05:00,129 - INFO -   📊 Confianza promedio: 0.833
+2025-09-08 00:05:00,130 - INFO -   🔄 Lotes procesados: 2
+2025-09-08 00:05:00,130 - INFO - 📄 Procesando: Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json
+2025-09-08 00:05:00,133 - INFO -   📋 Cláusulas extraídas: 8
+2025-09-08 00:05:00,133 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 8
+2025-09-08 00:05:00,133 - INFO - 🤖 Analizando lote de 8 cláusulas...
+2025-09-08 00:05:38,415 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:05:38,422 - INFO - ✅ LLM analizó 8 cláusulas en el lote
+2025-09-08 00:05:38,422 - INFO -   ✅ Resultados: 2/8 coincidencias (25.0%)
+2025-09-08 00:05:38,422 - INFO -   📊 Confianza promedio: 0.650
+2025-09-08 00:05:38,422 - INFO -   🔄 Lotes procesados: 1
+2025-09-08 00:05:38,422 - INFO - 📄 Procesando: Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json
+2025-09-08 00:05:38,424 - INFO -   📋 Cláusulas extraídas: 9
+2025-09-08 00:05:38,424 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 9
+2025-09-08 00:05:38,424 - INFO - 🤖 Analizando lote de 9 cláusulas...
+2025-09-08 00:06:27,577 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:06:27,580 - INFO - ✅ LLM analizó 9 cláusulas en el lote
+2025-09-08 00:06:27,581 - INFO -   ✅ Resultados: 1/9 coincidencias (11.1%)
+2025-09-08 00:06:27,581 - INFO -   📊 Confianza promedio: 0.600
+2025-09-08 00:06:27,581 - INFO -   🔄 Lotes procesados: 1
+2025-09-08 00:06:27,581 - INFO - 📄 Procesando: Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json
+2025-09-08 00:06:27,584 - INFO -   📋 Cláusulas extraídas: 3
+2025-09-08 00:06:27,584 - INFO -   🔄 Procesando lote 1: cláusulas 1 a 3
+2025-09-08 00:06:27,584 - INFO - 🤖 Analizando lote de 3 cláusulas...
+2025-09-08 00:06:44,100 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 00:06:44,103 - INFO - ✅ LLM analizó 3 cláusulas en el lote
+2025-09-08 00:06:44,103 - INFO -   ✅ Resultados: 1/3 coincidencias (33.3%)
+2025-09-08 00:06:44,103 - INFO -   📊 Confianza promedio: 0.950
+2025-09-08 00:06:44,103 - INFO -   🔄 Lotes procesados: 1
+2025-09-08 00:06:44,113 - INFO - 📊 RESUMEN DE COMPARACIÓN RÁPIDA:
+2025-09-08 00:06:44,113 - INFO -   📁 Archivos procesados: 9
+2025-09-08 00:06:44,113 - INFO -   📋 Total cláusulas: 75
+2025-09-08 00:06:44,113 - INFO -   ✅ Cláusulas encontradas en base: 14
+2025-09-08 00:06:44,113 - INFO -   ⚠️ Cláusulas extra: 61
+2025-09-08 00:06:44,113 - INFO -   📊 Cobertura promedio: 18.7%
+2025-09-08 00:06:44,113 - INFO -   🎯 Confianza promedio: 0.733
+2025-09-08 00:06:44,114 - INFO -   🔄 Total lotes procesados: 10
+2025-09-08 00:06:44,114 - INFO -   📄 Resultados detallados: /Users/g.chipantiza/Documents/Rappi/clausulas-tool-rappi-rangers/data/output/comparacion_rapida_detallada.json
+2025-09-08 00:06:44,114 - INFO -   📊 Resumen: /Users/g.chipantiza/Documents/Rappi/clausulas-tool-rappi-rangers/data/output/resumen_comparacion_rapida.json
+2025-09-08 00:06:44,114 - INFO -   📋 Cláusulas extra: /Users/g.chipantiza/Documents/Rappi/clausulas-tool-rappi-rangers/data/output/clausulas_extra_rapidas.json
+2025-09-08 00:06:44,114 - INFO - 🎉 Proceso completado exitosamente!

@@ -1,0 +1,119 @@
+2025-09-07 23:46:53,780 - INFO - 🚀 INICIANDO IDENTIFICACIÓN DE CLAÚSULAS CON LLM MEJORADO
+2025-09-07 23:46:53,780 - ERROR - ❌ Error cargando cláusulas estándar: [Errno 2] No such file or directory: '/Users/g.chipantiza/Documents/Rappi/clausulas-tool-rappi-rangers/data/output/clausulas_estandar.json'
+2025-09-07 23:46:53,780 - ERROR - ❌ No se pudieron cargar las cláusulas estándar
+2025-09-07 23:47:09,510 - INFO - 🚀 INICIANDO IDENTIFICACIÓN DE CLAÚSULAS CON LLM MEJORADO
+2025-09-07 23:47:09,511 - INFO - ✅ Cargadas 57 cláusulas estándar
+2025-09-07 23:47:09,511 - INFO - 📁 Archivos a procesar: 13
+2025-09-07 23:47:09,511 - INFO - 📂 Procesando archivo: Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json
+2025-09-07 23:47:09,512 - INFO -    📑 Total cláusulas detectadas: 25
+2025-09-07 23:47:09,512 - INFO -    🔍 Cláusula 1/25 → Objeto y capacidad
+2025-09-07 23:48:02,098 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:48:02,118 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:48:02,119 - INFO -    📝 Razón: La cláusula proporcionada es un preámbulo y un conjunto de definiciones (Consumidores/Usuarios, Cook...
+2025-09-07 23:48:02,119 - INFO -    🔍 Cláusula 2/25 → Obligaciones de Rappi
+2025-09-07 23:48:36,778 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:48:36,779 - INFO -    ✅ Coincide con cláusula base ID 1 (confianza: 0.82)
+2025-09-07 23:48:36,779 - INFO -    📝 Razón: La cláusula suministrada contiene múltiples obligaciones de Rappi. El inciso (i) (“Diseñar, sin cost...
+2025-09-07 23:48:36,779 - INFO -    🔍 Cláusula 3/25 → Obligaciones del Aliado
+2025-09-07 23:49:04,935 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:49:04,941 - INFO -    ✅ Coincide con cláusula base ID None (confianza: 0.80)
+2025-09-07 23:49:04,941 - INFO -    📝 Razón: La cláusula proporcionada es un texto compuesto que incorpora y reproduce, con redacción distinta y ...
+2025-09-07 23:49:04,941 - INFO -    🔍 Cláusula 4/25 → Emisión de ticket
+2025-09-07 23:49:45,184 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:49:45,186 - INFO -    ✅ Coincide con cláusula base ID 17 (confianza: 0.75)
+2025-09-07 23:49:45,186 - INFO -    📝 Razón: La cláusula evaluada es compuesta y contiene varias obligaciones que coinciden con distintas cláusul...
+2025-09-07 23:49:45,186 - INFO -    🔍 Cláusula 5/25 → Venta de alcohol
+2025-09-07 23:50:09,561 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:50:09,563 - INFO -    ✅ Coincide con cláusula base ID 29 (confianza: 0.85)
+2025-09-07 23:50:09,563 - INFO -    📝 Razón: La cláusula evaluada impone al Aliado la obligación de contar con los permisos y licencias expedidos...
+2025-09-07 23:50:09,563 - INFO -    🔍 Cláusula 6/25 → Contraprestación y tarifas
+2025-09-07 23:50:33,642 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:50:33,647 - INFO -    ✅ Coincide con cláusula base ID 43 (confianza: 0.85)
+2025-09-07 23:50:33,647 - INFO -    📝 Razón: La cláusula evaluada regula principalmente el mecanismo de reembolso/pago semanal al Aliado por las ...
+2025-09-07 23:50:33,647 - INFO -    🔍 Cláusula 7/25 → Signing Bonus y condiciones
+2025-09-07 23:51:03,262 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:51:03,265 - INFO -    ✅ Coincide con cláusula base ID 50 (confianza: 0.70)
+2025-09-07 23:51:03,265 - INFO -    📝 Razón: La cláusula evaluada contiene múltiples obligaciones y disposiciones que coinciden sustancialmente c...
+2025-09-07 23:51:03,265 - INFO -    🔍 Cláusula 8/25 → Bono por nuevas aperturas
+2025-09-07 23:51:45,447 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:51:45,450 - INFO -    ✅ Coincide con cláusula base ID 54 (confianza: 0.60)
+2025-09-07 23:51:45,451 - INFO -    📝 Razón: La cláusula evaluada trata principalmente sobre la obligación de exclusividad del Aliado y las conse...
+2025-09-07 23:51:45,451 - INFO -    🔍 Cláusula 9/25 → Línea de Crédito y disposiciones
+2025-09-07 23:52:13,430 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:52:13,433 - INFO -    ⚠️ Marcada como EXTRA - parcial
+2025-09-07 23:52:13,433 - INFO -    📝 Razón: La cláusula suministrada regula dos materias principales que no están recogidas de forma equivalente...
+2025-09-07 23:52:13,433 - INFO -    🔍 Cláusula 10/25 → Condiciones de pago y vencimiento
+2025-09-07 23:52:37,905 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:52:37,908 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:52:37,908 - INFO -    📝 Razón: La cláusula evaluada regula una Línea de Crédito / préstamos entre Rappi y el Aliado: condiciones de...
+2025-09-07 23:52:37,908 - INFO -    🔍 Cláusula 11/25 → Fondos de mercadotecnia y ventas garantizadas
+2025-09-07 23:53:02,504 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:53:02,508 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:53:02,508 - INFO -    📝 Razón: La cláusula evaluada regula la constitución y manejo por parte de Rappi de (i) un fondo de mercadote...
+2025-09-07 23:53:02,509 - INFO -    🔍 Cláusula 12/25 → Cálculo y pago de garantías
+2025-09-07 23:53:22,004 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:53:22,012 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:53:22,012 - INFO -    📝 Razón: La cláusula evaluada regula un esquema de Ventas Garantizadas: método de cálculo por días de semáfor...
+2025-09-07 23:53:22,012 - INFO -    🔍 Cláusula 13/25 → Warrants y servicio logístico
+2025-09-07 23:53:58,052 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:53:58,056 - INFO -    ✅ Coincide con cláusula base ID 44 (confianza: 0.60)
+2025-09-07 23:53:58,056 - INFO -    📝 Razón: La primera parte de la cláusula evaluada (párrafo que habla de 'revisiones periódicas', determinació...
+2025-09-07 23:53:58,056 - INFO -    🔍 Cláusula 14/25 → Exclusividad y penalidades
+2025-09-07 23:54:24,953 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:54:24,955 - INFO -    ✅ Coincide con cláusula base ID 54 (confianza: 0.85)
+2025-09-07 23:54:24,955 - INFO -    📝 Razón: La cláusula evaluada regula la misma materia que la cláusula base ID 54: obliga al Aliado a mantener...
+2025-09-07 23:54:24,956 - INFO -    🔍 Cláusula 15/25 → Terminación optativa exclusividad
+2025-09-07 23:55:00,898 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:55:00,902 - INFO -    ✅ Coincide con cláusula base ID 54 (confianza: 0.65)
+2025-09-07 23:55:00,903 - INFO -    📝 Razón: La cláusula evaluada regula la terminación optativa de la obligación de exclusividad y por tanto tra...
+2025-09-07 23:55:00,903 - INFO -    🔍 Cláusula 16/25 → Efectos y impuestos
+2025-09-07 23:55:30,546 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:55:30,550 - INFO -    ⚠️ Marcada como EXTRA - parcial
+2025-09-07 23:55:30,551 - INFO -    📝 Razón: La cláusula evaluada trata principalmente sobre exclusividad y consecuencias económicas al término d...
+2025-09-07 23:55:30,551 - INFO -    🔍 Cláusula 17/25 → Incumplimiento y daños
+2025-09-07 23:55:46,518 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:55:46,521 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:55:46,521 - INFO -    📝 Razón: La cláusula analizada es una cláusula general de cumplimiento y responsabilidad por incumplimiento: ...
+2025-09-07 23:55:46,521 - INFO -    🔍 Cláusula 18/25 → No transferencia tecnológica
+2025-09-07 23:56:10,288 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:56:10,291 - INFO -    ⚠️ Marcada como EXTRA - parcial
+2025-09-07 23:56:10,291 - INFO -    📝 Razón: La cláusula aportada establece expresamente que el Acuerdo no constituye transferencia, a ningún tít...
+2025-09-07 23:56:10,291 - INFO -    🔍 Cláusula 19/25 → Propiedad industrial y uso de marca
+2025-09-07 23:56:32,155 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:56:32,156 - INFO -    ⚠️ Marcada como EXTRA - parcial
+2025-09-07 23:56:32,156 - INFO -    📝 Razón: La cláusula analizada trata sobre propiedad industrial: establece que la firma del acuerdo no implic...
+2025-09-07 23:56:32,156 - INFO -    🔍 Cláusula 20/25 → Protección datos y penalidad
+2025-09-07 23:56:55,987 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:56:55,991 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:56:55,992 - INFO -    📝 Razón: La cláusula evaluada regula el tratamiento de datos personales (definición de 'base de datos'), obli...
+2025-09-07 23:56:55,992 - INFO -    🔍 Cláusula 21/25 → Acuerdo total y modificaciones
+2025-09-07 23:57:13,596 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:57:13,602 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:57:13,603 - INFO -    📝 Razón: La cláusula provista contiene dos contenidos distintos: (a) una frase breve y algo aislada sobre "cu...
+2025-09-07 23:57:13,603 - INFO -    🔍 Cláusula 22/25 → Confidencialidad
+2025-09-07 23:57:30,557 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:57:30,559 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:57:30,560 - INFO -    📝 Razón: La cláusula evaluada regula la confidencialidad: obligación de mantener información compartida en de...
+2025-09-07 23:57:30,560 - INFO -    🔍 Cláusula 23/25 → Indemnidad
+2025-09-07 23:57:51,159 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:57:51,163 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:57:51,164 - INFO -    📝 Razón: La cláusula evaluada es una cláusula general de indemnidad/mutua protección: establece que las Parte...
+2025-09-07 23:57:51,164 - INFO -    🔍 Cláusula 24/25 → Notificaciones y domicilios
+2025-09-07 23:58:17,783 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:58:17,788 - INFO -    ⚠️ Marcada como EXTRA - parcial
+2025-09-07 23:58:17,788 - INFO -    📝 Razón: La cláusula evaluada es una cláusula de notificaciones y domicilios electrónicos (direcciones de cor...
+2025-09-07 23:58:17,788 - INFO -    🔍 Cláusula 25/25 → Ley aplicable y jurisdicción
+2025-09-07 23:58:31,605 - INFO - HTTP Request: POST https://rappi.litellm-prod.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-07 23:58:31,607 - INFO -    ⚠️ Marcada como EXTRA - no_coincide
+2025-09-07 23:58:31,607 - INFO -    📝 Razón: La cláusula evaluada establece el régimen de ley aplicable (leyes federales de los Estados Unidos Me...
+2025-09-07 23:58:31,607 - INFO - 📌 Archivo procesado: Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json
+2025-09-07 23:58:31,607 - INFO - ✅ Encontradas 10 cláusulas base, 15 cláusulas extra
+2025-09-07 23:58:31,607 - INFO - 📊 Cobertura: 40.0%, Confianza promedio: 0.747
+2025-09-07 23:58:31,607 - INFO - 📂 Procesando archivo: Contrato Dairy Queen firmado.json
+2025-09-07 23:58:31,609 - WARNING - ⚠️ No se encontraron cláusulas en Contrato Dairy Queen firmado.json
+2025-09-07 23:59:27,827 - INFO - 🚀 INICIANDO IDENTIFICACIÓN DE CLAÚSULAS CON LLM MEJORADO
+2025-09-07 23:59:27,828 - INFO - ✅ Cargadas 57 cláusulas estándar
+2025-09-07 23:59:27,828 - INFO - 📁 Archivos a procesar: 13
+2025-09-07 23:59:27,828 - INFO - 📂 Procesando archivo: Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json
+2025-09-07 23:59:27,829 - INFO -    📑 Total cláusulas detectadas: 25
+2025-09-07 23:59:27,829 - INFO -    🔍 Cláusula 1/25 → Objeto y capacidad

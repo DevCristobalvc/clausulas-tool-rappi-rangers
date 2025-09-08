@@ -1,0 +1,133 @@
+2025-09-07 23:13:46,230 - INFO - �� Cargando cláusulas estándar...
+2025-09-07 23:13:46,231 - INFO - ✅ Cargadas 57 cláusulas estándar
+2025-09-07 23:13:46,231 - INFO - 📁 Encontrados 9 archivos procesados
+2025-09-07 23:13:46,231 - INFO - 🔍 Analizando Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json...
+2025-09-07 23:13:46,232 - INFO -   📄 Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.pdf: 25 cláusulas extraídas
+2025-09-07 23:13:48,864 - INFO -   ✅ 0 coincidencias, 25 sin coincidencia
+2025-09-07 23:13:48,865 - INFO - 🔍 Analizando Contrato Dairy Queen firmado.json...
+2025-09-07 23:13:48,866 - INFO -   📄 Contrato Dairy Queen firmado.pdf: 0 cláusulas extraídas
+2025-09-07 23:13:48,866 - INFO -   ✅ 0 coincidencias, 0 sin coincidencia
+2025-09-07 23:13:48,866 - INFO - 🔍 Analizando Copia de Contrato Rappi.json...
+2025-09-07 23:13:48,866 - INFO -   📄 Copia de Contrato Rappi.pdf: 0 cláusulas extraídas
+2025-09-07 23:13:48,866 - INFO -   ✅ 0 coincidencias, 0 sin coincidencia
+2025-09-07 23:13:48,866 - INFO - 🔍 Analizando Legal MX - Alsea - Rappi & VIPS.json...
+2025-09-07 23:13:48,867 - INFO -   📄 Legal MX - Alsea - Rappi & VIPS.pdf: 0 cláusulas extraídas
+2025-09-07 23:13:48,867 - INFO -   ✅ 0 coincidencias, 0 sin coincidencia
+2025-09-07 23:13:48,867 - INFO - 🔍 Analizando Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json...
+2025-09-07 23:13:48,867 - INFO -   📄 Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.pdf: 18 cláusulas extraídas
+2025-09-07 23:13:51,660 - INFO -   ✅ 0 coincidencias, 18 sin coincidencia
+2025-09-07 23:13:51,660 - INFO - 🔍 Analizando JUAN VALDEZ CAFE TyC.json...
+2025-09-07 23:13:51,662 - INFO -   📄 JUAN VALDEZ CAFE TyC.pdf: 12 cláusulas extraídas
+2025-09-07 23:13:53,518 - INFO -   ✅ 0 coincidencias, 12 sin coincidencia
+2025-09-07 23:13:53,518 - INFO - 🔍 Analizando Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json...
+2025-09-07 23:13:53,519 - INFO -   📄 Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).pdf: 8 cláusulas extraídas
+2025-09-07 23:13:54,520 - INFO -   ✅ 0 coincidencias, 8 sin coincidencia
+2025-09-07 23:13:54,520 - INFO - 🔍 Analizando Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json...
+2025-09-07 23:13:54,520 - INFO -   📄 Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).pdf: 9 cláusulas extraídas
+2025-09-07 23:13:55,426 - INFO -   ✅ 0 coincidencias, 9 sin coincidencia
+2025-09-07 23:13:55,426 - INFO - 🔍 Analizando Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json...
+2025-09-07 23:13:55,427 - INFO -   📄 Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).pdf: 3 cláusulas extraídas
+2025-09-07 23:13:55,686 - INFO -   ✅ 0 coincidencias, 3 sin coincidencia
+2025-09-07 23:13:55,686 - INFO - 📊 Generando reporte de comparación...
+2025-09-07 23:13:55,687 - INFO - ============================================================
+2025-09-07 23:13:55,687 - INFO - 📋 RESUMEN DE COMPARACIÓN
+2025-09-07 23:13:55,687 - INFO - ============================================================
+2025-09-07 23:13:55,687 - INFO - 📁 Archivos procesados: 9
+2025-09-07 23:13:55,687 - INFO - 📄 Total cláusulas extraídas: 75
+2025-09-07 23:13:55,687 - INFO - ✅ Cláusulas con coincidencia: 0
+2025-09-07 23:13:55,687 - INFO - ❌ Cláusulas sin coincidencia: 75
+2025-09-07 23:13:55,687 - INFO - 📊 Porcentaje de coincidencia: 0.0%
+2025-09-07 23:13:55,687 - INFO - ============================================================
+2025-09-07 23:13:55,687 - INFO - 🔍 ARCHIVOS CON MÁS CLAÚSULAS NO ENCONTRADAS:
+2025-09-07 23:13:55,688 - INFO -   📄 Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.pdf: 25 cláusulas no encontradas
+2025-09-07 23:13:55,688 - INFO -   📄 Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.pdf: 18 cláusulas no encontradas
+2025-09-07 23:13:55,688 - INFO -   📄 JUAN VALDEZ CAFE TyC.pdf: 12 cláusulas no encontradas
+2025-09-07 23:13:55,688 - INFO -   📄 Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).pdf: 9 cláusulas no encontradas
+2025-09-07 23:13:55,688 - INFO -   📄 Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).pdf: 8 cláusulas no encontradas
+2025-09-07 23:13:55,688 - INFO - ============================================================
+2025-09-07 23:13:55,688 - INFO - 💾 Resultados guardados en:
+2025-09-07 23:13:55,688 - INFO -   📄 salida/comparacion_clausulas_detallada.json
+2025-09-07 23:13:55,688 - INFO -   📄 salida/clausulas_no_encontradas.json
+2025-09-07 23:16:32,080 - INFO - 🔍 INICIANDO COMPARACIÓN DE CLÁUSULAS
+2025-09-07 23:16:32,081 - INFO - 📋 Cláusulas estándar cargadas: 57
+2025-09-07 23:16:32,081 - INFO - 📁 Archivos a comparar: 11
+2025-09-07 23:16:32,081 - INFO - 📄 Comparando cláusulas de Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json...
+2025-09-07 23:16:32,081 - INFO -   📋 Cláusulas extraídas: 25
+2025-09-07 23:16:35,054 - INFO -   ✅ Cláusulas encontradas: 0
+2025-09-07 23:16:35,054 - INFO -   ❌ Cláusulas no encontradas: 25
+2025-09-07 23:16:35,054 - INFO -   📊 Cobertura: 0.0%
+2025-09-07 23:16:35,054 - INFO - 📄 Comparando cláusulas de Contrato Dairy Queen firmado.json...
+2025-09-07 23:16:35,054 - WARNING - No se encontraron cláusulas en Contrato Dairy Queen firmado.json
+2025-09-07 23:16:35,055 - INFO - 📄 Comparando cláusulas de Copia de Contrato Rappi.json...
+2025-09-07 23:16:35,055 - WARNING - No se encontraron cláusulas en Copia de Contrato Rappi.json
+2025-09-07 23:16:35,055 - INFO - 📄 Comparando cláusulas de comparacion_clausulas_detallada.json...
+2025-09-07 23:16:35,056 - WARNING - No se encontraron cláusulas en comparacion_clausulas_detallada.json
+2025-09-07 23:16:35,056 - INFO - 📄 Comparando cláusulas de Legal MX - Alsea - Rappi & VIPS.json...
+2025-09-07 23:16:35,056 - WARNING - No se encontraron cláusulas en Legal MX - Alsea - Rappi & VIPS.json
+2025-09-07 23:16:35,056 - INFO - 📄 Comparando cláusulas de Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json...
+2025-09-07 23:16:35,056 - INFO -   📋 Cláusulas extraídas: 18
+2025-09-07 23:16:37,947 - INFO -   ✅ Cláusulas encontradas: 0
+2025-09-07 23:16:37,947 - INFO -   ❌ Cláusulas no encontradas: 18
+2025-09-07 23:16:37,947 - INFO -   📊 Cobertura: 0.0%
+2025-09-07 23:16:37,947 - INFO - 📄 Comparando cláusulas de JUAN VALDEZ CAFE TyC.json...
+2025-09-07 23:16:37,948 - INFO -   📋 Cláusulas extraídas: 12
+2025-09-07 23:16:40,038 - INFO -   ✅ Cláusulas encontradas: 1
+2025-09-07 23:16:40,038 - INFO -   ❌ Cláusulas no encontradas: 11
+2025-09-07 23:16:40,038 - INFO -   📊 Cobertura: 8.3%
+2025-09-07 23:16:40,038 - INFO - 📄 Comparando cláusulas de Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json...
+2025-09-07 23:16:40,038 - INFO -   📋 Cláusulas extraídas: 8
+2025-09-07 23:16:41,170 - INFO -   ✅ Cláusulas encontradas: 0
+2025-09-07 23:16:41,170 - INFO -   ❌ Cláusulas no encontradas: 8
+2025-09-07 23:16:41,170 - INFO -   📊 Cobertura: 0.0%
+2025-09-07 23:16:41,170 - INFO - 📄 Comparando cláusulas de Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json...
+2025-09-07 23:16:41,171 - INFO -   📋 Cláusulas extraídas: 9
+2025-09-07 23:16:42,189 - INFO -   ✅ Cláusulas encontradas: 0
+2025-09-07 23:16:42,189 - INFO -   ❌ Cláusulas no encontradas: 9
+2025-09-07 23:16:42,189 - INFO -   📊 Cobertura: 0.0%
+2025-09-07 23:16:42,189 - INFO - 📄 Comparando cláusulas de clausulas_no_encontradas.json...
+2025-09-07 23:16:42,190 - WARNING - No se encontraron cláusulas en clausulas_no_encontradas.json
+2025-09-07 23:16:42,191 - INFO - 📄 Comparando cláusulas de Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json...
+2025-09-07 23:16:42,191 - INFO -   📋 Cláusulas extraídas: 3
+2025-09-07 23:16:42,477 - INFO -   ✅ Cláusulas encontradas: 0
+2025-09-07 23:16:42,477 - INFO -   ❌ Cláusulas no encontradas: 3
+2025-09-07 23:16:42,477 - INFO -   📊 Cobertura: 0.0%
+2025-09-07 23:16:42,481 - INFO - 📊 RESUMEN DE COMPARACIÓN:
+2025-09-07 23:16:42,481 - INFO -   📁 Archivos procesados: 11
+2025-09-07 23:16:42,481 - INFO -   📋 Total cláusulas extraídas: 75
+2025-09-07 23:16:42,481 - INFO -   ✅ Cláusulas encontradas en estándar: 1
+2025-09-07 23:16:42,481 - INFO -   ❌ Cláusulas NO encontradas: 74
+2025-09-07 23:16:42,481 - INFO -   📊 Cobertura general: 1.3%
+2025-09-07 23:16:42,481 - INFO -   📄 Comparación detallada: salida/comparacion_clausulas_detallada.json
+2025-09-07 23:16:42,481 - INFO -   📋 Cláusulas no encontradas: salida/clausulas_no_encontradas.json
+2025-09-07 23:16:42,481 - INFO -   📊 Resumen: salida/resumen_comparacion_clausulas.json
+2025-09-07 23:16:42,481 - INFO - 
+📋 CLAÚSULAS NO ENCONTRADAS POR ARCHIVO:
+2025-09-07 23:16:42,481 - INFO -   📄 Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json: 25 cláusulas
+2025-09-07 23:16:42,481 - INFO -     - Objeto y capacidad: 2) siempre y cuando el Aliado ejerza algún tipo de control sobre la Marca. Entre las partes previame...
+2025-09-07 23:16:42,482 - INFO -     - Obligaciones de Rappi: 3) Tercera. Obligaciones de Rappi. Son obligaciones de Rappi las siguientes: (i) Diseñar, sin costo ...
+2025-09-07 23:16:42,482 - INFO -     - Obligaciones del Aliado: 4) cualquier cambio de precios de uno o más productos o elementos del menú podrá instrumentarse en u...
+2025-09-07 23:16:42,482 - INFO -     ... y 22 más
+2025-09-07 23:16:42,482 - INFO -   📄 Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json: 18 cláusulas
+2025-09-07 23:16:42,482 - INFO -     - Objeto y aplicación: 4) INFORMACI(cid:211)N CONFIDENCIAL bb) Repartidores Independientes (Comisionistas). Personas f(cid:...
+2025-09-07 23:16:42,482 - INFO -     - Obligaciones de Rappi y Aliado: 5) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA TERCERA. - Obligaciones de Rappi. (i) Diseæar, sin cost...
+2025-09-07 23:16:42,482 - INFO -     - Obligaciones adicionales y tarifas: 6) INFORMACI(cid:211)N CONFIDENCIAL asumir el valor del(los) Producto(s) errado(s) y/o faltante(s). ...
+2025-09-07 23:16:42,482 - INFO -     ... y 15 más
+2025-09-07 23:16:42,482 - INFO -   📄 JUAN VALDEZ CAFE TyC.json: 11 cláusulas
+2025-09-07 23:16:42,482 - INFO -     - Objeto y Aplicación: 1) TÉRMINOS & CONDICIONES PLATAFORMA RAPPI – VERTICAL PREPARED FOODS Tecnologías Rappi S.A.P.I. de C...
+2025-09-07 23:16:42,482 - INFO -     - Responsabilidad Portal Partners: 2) - Establecimientos de Comercio. Se refiere a todos los establecimientos de comercio del Aliado Co...
+2025-09-07 23:16:42,482 - INFO -     - Modificación y obligaciones Rappi: 3) - Repartidores Independientes. Personas físicas, quienes, de manera libre, autónoma y voluntaria,...
+2025-09-07 23:16:42,482 - INFO -     ... y 8 más
+2025-09-07 23:16:42,482 - INFO -   📄 Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json: 8 cláusulas
+2025-09-07 23:16:42,482 - INFO -     - Obligaciones de Rappi y Aliado: 2) ACUERDO DE COOPERACIÓN - RAPPI para que realicen las entregas de los productos y presten los prop...
+2025-09-07 23:16:42,482 - INFO -     - Manejo de Base de Datos y Pedidos: 3) ACUERDO DE COOPERACIÓN - RAPPI denominada Manejo de Base de Datos; (v) Todos los pedidos se otorg...
+2025-09-07 23:16:42,482 - INFO -     - Contraprestación y Exclusividad: 4) ACUERDO DE COOPERACIÓN - RAPPI • Titular: Operadora Alimentos y Malteadas SAPI de CV comercializa...
+2025-09-07 23:16:42,482 - INFO -     ... y 5 más
+2025-09-07 23:16:42,482 - INFO -   📄 Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json: 9 cláusulas
+2025-09-07 23:16:42,482 - INFO -     - Objeto y Modificaciones: 2) C L Á U S U L A S CLÁUSULA PRIMERA. - Definiciones. Todas las palabras con mayúscula inicial o co...
+2025-09-07 23:16:42,482 - INFO -     - Cancelaciones atribuibles al Aliado: 3) a) Stockout: productos que existen en inventario de conformidad con el reporte enviado a Rappi, p...
+2025-09-07 23:16:42,482 - INFO -     - Contraprestación y Comisión Variable: 4) Las Partes de común acuerdo modifican el apartado “xiv” (Décimo Cuarto) de la Cláusula 5 (Quinta)...
+2025-09-07 23:16:42,482 - INFO -     ... y 6 más
+2025-09-07 23:16:42,482 - INFO -   📄 Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json: 3 cláusulas
+2025-09-07 23:16:42,482 - INFO -     - Modificación de Acuerdo: 1) INFORMACIÓN CONFIDENCIAL CONVENIO MODIFICATORIO AL ACUERDO DE COOPERACIÓN CELEBRADO ENTRE TECNOLO...
+2025-09-07 23:16:42,482 - INFO -     - Precios y pagos: 2) INFORMACIÓN CONFIDENCIAL (v) Ofrecer en la Plataforma Rappi los mismos precios de los Productos o...
+2025-09-07 23:16:42,482 - INFO -     - Integridad y facturación electrónica: 3) INFORMACIÓN CONFIDENCIAL Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. ...
