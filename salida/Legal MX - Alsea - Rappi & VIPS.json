@@ -1,0 +1,57 @@
+{
+  "archivo": "Legal MX - Alsea - Rappi & VIPS.pdf",
+  "total_parrafos_detectados": 7,
+  "total_clausulas_extraidas": 0,
+  "clausulas": [],
+  "raw_items": [
+    {
+      "id": 1,
+      "text": "1) 1-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 2,
+      "text": "2) 2-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 3,
+      "text": "3) 3-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 4,
+      "text": "4) 4-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 5,
+      "text": "5) 5-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 6,
+      "text": "6) 6-6",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    },
+    {
+      "id": 7,
+      "text": "7) IIDD DDEELL CCOONNTTRRAATTOO 5f10e000634f066c3103d5a8 NNOOMMBBRREE DDEELL CCOONNTTRRAATTOO 36945 - Legal MX - Alsea - Rappi & VIPS TTIIPPOO DDEE FFIIRRMMAA Firma Digital EESSTTAATTUUSS Firmado y Completo FFIIRRMMAANNTTEESS NNoommbbrree:: Tecnologías Rappi S.A.P.I. de C.V. EEmmaaiill:: asolis@rappi.com HHaasshh:: 8m/zo9uaKO/oc2IKOFzTPGO67jivvNqhsM868r+X8+Y= IIPP:: 187.190.163.112 FFiirrmmaaddoo eell:: 17/Jul/2020 21:10 FFEECCHHAA DDEE FFIIRRMMAA 17/Jul/2020 21:10 UURRLL ddee llaa AAuuddiittoorrííaa https://rappi.app.trato.io/r/2tfsRPEmH *Este documento fue firmado con el uso de medios electrónicos y garantiza la integridad del documento, así como la identidad de los firmantes. La URL que se detalla en la parte superior permite validar las firmas electrónicas, el mensaje de datos y el estado del documento.",
+      "is_clause": false,
+      "title": null,
+      "summary": null
+    }
+  ]
+}
