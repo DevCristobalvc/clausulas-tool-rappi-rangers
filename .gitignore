@@ -1,2 +1,58 @@
-final.json
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Variables de entorno
 .env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de backup
+backup_*/
+*.bak
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de datos grandes (opcional)
+# data/raw/*.pdf
+# data/processed/*.json
+
+# Archivos de configuración local
+config/local_*

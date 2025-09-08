@@ -1,0 +1,50 @@
+{
+  "project": {
+    "name": "Sistema de Análisis de Cláusulas Contractuales Rappi",
+    "version": "1.0.0",
+    "description": "Sistema automatizado para extraer, analizar y comparar cláusulas contractuales",
+    "author": "Rappi Rangers",
+    "created": "2025-09-07"
+  },
+  "directories": {
+    "data": "data/",
+    "raw": "data/raw/",
+    "processed": "data/processed/",
+    "output": "data/output/",
+    "scripts": "scripts/",
+    "logs": "logs/",
+    "reports": "reports/",
+    "config": "config/"
+  },
+  "files": {
+    "standard_clauses": "data/output/clausulas_estandar.json",
+    "expanded_clauses": "data/output/clausulas_estandar_expandido.json",
+    "categorized_clauses": "data/output/clausulas_por_categoria.json",
+    "new_clauses": "data/output/clausulas_nuevas_encontradas.json"
+  },
+  "processing": {
+    "batch_size": 20,
+    "similarity_threshold": 0.6,
+    "min_paragraph_length": 50,
+    "max_retries": 3
+  },
+  "categories": {
+    "objeto_definiciones": "Objeto y Definiciones",
+    "obligaciones_rappi": "Obligaciones de Rappi",
+    "obligaciones_aliado": "Obligaciones del Aliado",
+    "financiero_pagos": "Financiero y Pagos",
+    "operativo_logistica": "Operativo y Logística",
+    "exclusividad_terminacion": "Exclusividad y Terminación",
+    "calidad_responsabilidad": "Calidad y Responsabilidad",
+    "confidencialidad_propiedad": "Confidencialidad y Propiedad",
+    "especializado": "Especializado",
+    "general": "General"
+  },
+  "status": {
+    "total_standard_clauses": 57,
+    "total_new_clauses": 74,
+    "total_expanded_clauses": 131,
+    "processed_files": 7,
+    "coverage_percentage": 1.3
+  }
+}

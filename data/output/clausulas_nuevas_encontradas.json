@@ -1,0 +1,668 @@
+[
+  {
+    "id": 58,
+    "clausula": "2) siempre y cuando el Aliado ejerza algún tipo de control sobre la Marca. Entre las partes previamente identificadas en la tabla anterior, es decir, Rappi y el Aliado (conjuntamente, las “Partes”) se...",
+    "titulo": "Objeto y capacidad",
+    "resumen": "Establece objeto comercial y que las Partes actúan independientes, sin vínculo laboral, con capacidad para obligarse.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 59,
+    "clausula": "3) Tercera. Obligaciones de Rappi. Son obligaciones de Rappi las siguientes: (i) Diseñar, sin costo alguno, un catálogo de productos personalizado para el Aliado; (ii) Tener disponibilidad logística p...",
+    "titulo": "Obligaciones de Rappi",
+    "resumen": "Lista obligaciones de Rappi: catálogo, logística, protocolos, reportes y cambios de precios con plazos.",
+    "categoria": "obligaciones_rappi",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 60,
+    "clausula": "4) cualquier cambio de precios de uno o más productos o elementos del menú podrá instrumentarse en un plazo máximo de 3 (tres) días hábiles contados a partir del momento en que el Aliado lo notifique ...",
+    "titulo": "Obligaciones del Aliado",
+    "resumen": "Detalla obligaciones operativas, de empaque, reportes, acceso a tablets, responsabilidad por calidad y descuentos por reclamos.",
+    "categoria": "calidad_responsabilidad",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 61,
+    "clausula": "5) refiere el presente párrafo, Rappi se obliga a asumir el costo de cualesquiera reembolsos, notas de crédito, descuentos o demás beneficios que por concepto de indemnización deban ser entregados al ...",
+    "titulo": "Emisión de ticket",
+    "resumen": "Obliga al Aliado a emitir ticket a nombre del Usuario y enviar productos 100% empaquetados; Rappi asume ciertas compensaciones.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 62,
+    "clausula": "6) Sexta. Venta de bebidas alcohólicas. El Aliado reconoce que cuenta con los permisos y licencias de las autoridades competentes para la venta y expendio de bebidas alcohólicas. Se aclara que es resp...",
+    "titulo": "Venta de alcohol",
+    "resumen": "El Aliado es responsable de obtener y mantener permisos para venta de alcohol y cumplir restricciones legales.",
+    "categoria": "especializado",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 63,
+    "clausula": "7) Séptima. Contraprestación. Rappi reembolsará al Aliado el valor de todas las órdenes solicitadas de lunes a domingo por los usuarios/consumidores y tramitadas a través de la plataforma virtual de R...",
+    "titulo": "Contraprestación y tarifas",
+    "resumen": "Define pagos semanales al Aliado, comisión 9%+IVA, procesos de notificación por incumplimientos y condiciones Pick-Up.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 64,
+    "clausula": "8) (iii) El Aliado asumirá el valor total de las compensaciones otorgadas a los Usuarios/Consumidores por órdenes reportadas como no entregadas al Usuario/Consumidor, y cuya entrega no pueda ser compr...",
+    "titulo": "Signing Bonus y condiciones",
+    "resumen": "Establece monto, desembolsos, condiciones de comprobantes y obligación de operar exclusivamente; devolución por incumplimiento.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 65,
+    "clausula": "9) comprobantes de pago correspondientes y Rappi pagará el diferencial 15 (quince) días después de haber recibido dichos comprobantes. El Aliado acepta y reconoce que deberá de sacar en paz y a salvo ...",
+    "titulo": "Bono por nuevas aperturas",
+    "resumen": "Define bonos por nuevas sucursales, límites, condiciones de desembolso y devolución por incumplimiento de exclusividad.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 66,
+    "clausula": "10) Se aclara que el Bono de Nueva Apertura a que se hace referencia en la presente cláusula se encuentra condicionado a que la nueva apertura de que se trate se encuentre en una zona donde Rappi cuen...",
+    "titulo": "Línea de Crédito y disposiciones",
+    "resumen": "Establece línea de crédito con tres disposiciones, plazos, anexos y documentación requerida.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 67,
+    "clausula": "11) anterior, y las condiciones de entrega y devolución de dicho préstamo. Las disposiciones de cantidad alguna a las que se hacen referencia en la presente cláusula se efectuarán mediante transferenc...",
+    "titulo": "Condiciones de pago y vencimiento",
+    "resumen": "Regula descuentos semanales, pagos de intereses, vencimiento anticipado por incumplimiento de exclusividad y penalidades.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 68,
+    "clausula": "12) 9) Dicho fondo será manejado por Rappi a efecto de desarrollar un plan de mercadotecnia para promocionar la alianza, adquirir nuevos usuarios, reactivar usuarios de la plataforma Rappi, pautar las...",
+    "titulo": "Fondos de mercadotecnia y ventas garantizadas",
+    "resumen": "Fondo de marketing y compensación condicionados a exclusividad; establece metas anuales de ventas según semáforo COVID.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 69,
+    "clausula": "13) Para el cálculo de las ventas garantizadas por día se tomarán en cuenta los días de cada Semáforo aplicables y se sumarán al final del trimestre de ejecución, a efecto de calcular de forma exacta ...",
+    "titulo": "Cálculo y pago de garantías",
+    "resumen": "Regula método de cálculo diario, pago del 60% de faltante, condiciones de conectividad y revisiones periódicas.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 70,
+    "clausula": "14) Asimismo, se aclara que para efectos de esta cláusula, las revisiones periódicas y determinación de los montos a ser pagados o rembolsados por una parte a la otra conforme a esta cláusula será sob...",
+    "titulo": "Warrants y servicio logístico",
+    "resumen": "Obliga a tramitar warrants, condiciones de vesting y ofrece servicio logístico con tarifas escalonadas tras 2,500 órdenes.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 71,
+    "clausula": "15) Décima Quinta. Exclusividad. El Aliado se obliga a tener exclusividad con Rappi, con excepción de zonas de servicio de sucursales del Aliado en las que Rappi no tenga cobertura, o teniendo la cobe...",
+    "titulo": "Exclusividad y penalidades",
+    "resumen": "Impone exclusividad, excepciones, aumento automático de comisión a 18%+IVA y penalidad del 10% de ventas por incumplimiento.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 72,
+    "clausula": "16) Décima Sexta. Terminación Optativa de Exclusividad. A. Terminación Optativa al Concluir el Décimo Mes de Vigencia. Las Partes acuerdan que únicamente dentro de los 30 (treinta) días de calendario ...",
+    "titulo": "Terminación optativa exclusividad",
+    "resumen": "Regula plazos y condiciones para terminar la exclusividad por tiempo o por insuficiencia de ventas, y efectos sobre comisiones y beneficios.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 73,
+    "clausula": "17) presente cláusula y en adelante. Cabe mencionar que el Aliado deberá de seguir cumpliendo con cualquier obligación de repago de la Línea de Crédito y/o cualquier otro adeudo en favor de Rappi, ind...",
+    "titulo": "Efectos y impuestos",
+    "resumen": "Obliga al pago de deudas pendientes tras terminar exclusividad y establece responsabilidad tributaria individual de cada Parte.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 74,
+    "clausula": "18) Décima Octava. Cumplimiento. En caso de que cualquiera de las Partes incumpla cualquiera de las obligaciones establecidas en el presente Acuerdo, o lo termine anticipadamente sin causa justificada...",
+    "titulo": "Incumplimiento y daños",
+    "resumen": "Responsabilidad por daños y perjuicios por incumplimiento o terminación anticipada sin causa.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 75,
+    "clausula": "19) Décima Novena. No transferencia de tecnología. El presente Acuerdo bajo ningún presupuesto se podrá entender como transferencia a cualquier título de la tecnología de la cual es propietaria Rappi,...",
+    "titulo": "No transferencia tecnológica",
+    "resumen": "Establece que no hay cesión ni transferencia de tecnología entre las Partes bajo el Acuerdo.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 76,
+    "clausula": "20) Vigésima. Derechos de propiedad industrial. La firma del presente Acuerdo no se entenderá como cesión a ninguna de las Partes de los derechos de propiedad industrial de la otra Parte (marcas, sign...",
+    "titulo": "Propiedad industrial y uso de marca",
+    "resumen": "No hay cesión de derechos industriales; uso razonable de marcas para cumplir el objeto sin dañar imagen.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 77,
+    "clausula": "21) Vigésima Primera. Manejo de bases de Datos. Debe entenderse por base de datos, el conjunto organizado de datos personales que pueda ser objeto de cualquier operación o conjunto de operaciones: rec...",
+    "titulo": "Protección datos y penalidad",
+    "resumen": "Regula tratamiento de datos, prohibe uso externo, responsabiliza al Aliado por reclamaciones y fija penalidad de $1,000,000.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 78,
+    "clausula": "22) cualquier otra comunicación que no sea única y exclusivamente para promocionar la alianza entre las Partes. Esto solo aplica para los canales de Rappi. Vigésima Segunda. Acuerdo total. El presente...",
+    "titulo": "Acuerdo total y modificaciones",
+    "resumen": "Contrato constituye acuerdo íntegro; modificaciones requieren acuerdo mutuo y por escrito.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 79,
+    "clausula": "23) Vigésima Tercera. Confidencialidad. Las Partes se obligan a mantener estricta confidencialidad sobre todo tipo de información compartida en desarrollo y en el cumplimiento del presente Acuerdo. La...",
+    "titulo": "Confidencialidad",
+    "resumen": "Obliga a confidencialidad sobre información compartida; responsabilidad por daños y vigencia post-terminación.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 80,
+    "clausula": "24) Vigésima Cuarta. Indemnidad. Las Partes acuerdan mantenerse indemnes respecto de terceros que pudieran ser afectados por una de las Partes, en atención a la obligación de mantenerse indemnes, resp...",
+    "titulo": "Indemnidad",
+    "resumen": "Cada Parte se obliga a indemnizar por perjuicios causados a terceros derivado de sus acciones u omisiones.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 81,
+    "clausula": "25) Vigésima Quinta. Notificaciones. Las Partes extenderán las notificaciones en los apartados indicados en la tabla al inicio del presente documento o al correo electrónico: Rappi: asolis@rappi.com; ...",
+    "titulo": "Notificaciones y domicilios",
+    "resumen": "Establece domicilios y correos para notificaciones y obligación de avisar cambios con cinco días hábiles.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 82,
+    "clausula": "26) Vigésima Sexta. Ley Aplicable; Jurisdicción. El presente Acuerdo se regirá por e interpretará de conformidad con las leyes federales de los Estados Unidos Mexicanos, sin referencia a sus principio...",
+    "titulo": "Ley aplicable y jurisdicción",
+    "resumen": "Ley mexicana rige el Acuerdo; tribunales de Ciudad de México son jurisdicción exclusiva para controversias.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Hooters - Rappi - VF firmada - 04.02.2021 versión ZOHO.json",
+    "es_nueva": true
+  },
+  {
+    "id": 83,
+    "clausula": "4) INFORMACI(cid:211)N CONFIDENCIAL bb) Repartidores Independientes (Comisionistas). Personas f(cid:237)sicas, quienes, de manera libre, aut(cid:243)noma y voluntaria, aceptan la gesti(cid:243)n de la...",
+    "titulo": "Objeto y aplicación",
+    "resumen": "Rappi y Aliado regulan exhibición y venta de Productos con las Marcas en Plataforma Rappi.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 84,
+    "clausula": "5) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA TERCERA. - Obligaciones de Rappi. (i) Diseæar, sin costo alguno, el espacio dentro de la Plataforma Rappi para que el Aliado Comercial pueda exhibir, ofrec...",
+    "titulo": "Obligaciones de Rappi y Aliado",
+    "resumen": "Rappi proporciona plataforma, reportes y cubre 35% de cancelaciones; Aliado suministra marcas, catálogo, tramita órdenes y mantiene calidad y precios.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 85,
+    "clausula": "6) INFORMACI(cid:211)N CONFIDENCIAL asumir el valor del(los) Producto(s) errado(s) y/o faltante(s). De esta manera, el Aliado Comercial autoriza el descuento semanal de dichos valores del total de sus...",
+    "titulo": "Obligaciones adicionales y tarifas",
+    "resumen": "Compensaciones por errores y retrasos; balanceo por Rappi; Aliado responsable higiene; tarifa Uso y Alquiler 17% + IVA.",
+    "categoria": "calidad_responsabilidad",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 86,
+    "clausula": "7) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA OCTAVA. - Forma de pago. Rappi reembolsarÆ al Aliado Comercial el valor de las (cid:243)rdenes solicitadas semanalmente por los Usuarios/Consumidores y tra...",
+    "titulo": "Pagos, conciliaciones y Pick-Up",
+    "resumen": "Reembolsos semanales menos comisiones; retenciones; Pick-Up tarifa 13% + IVA y responsabilidad de compensaciones al Aliado.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 87,
+    "clausula": "8) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA D(cid:201)CIMA SEGUNDA. - Tablets. En el caso en el que el Aliado Comercial adquiera a travØs de Rappi las tablets necesarias para recibir y tramitar las (...",
+    "titulo": "Vigencia y terminación",
+    "resumen": "Vigencia 36 meses con prórroga automática; avisos y penalidades por terminación anticipada, fórmulas para ventas futuras y obligaciones pendientes.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 88,
+    "clausula": "9) INFORMACI(cid:211)N CONFIDENCIAL numeral 18.4 de la ClÆusula DØcima Octava del presente Acuerdo de Cooperaci(cid:243)n. El pago de las penalidades referenciadas anteriormente deberÆ ser realizado d...",
+    "titulo": "Exclusividad y sanciones",
+    "resumen": "Exclusividad obligatoria; incumplimiento duplica comisión y genera 10% ventas como multa, aplicable retroactivamente.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 89,
+    "clausula": "10) INFORMACI(cid:211)N CONFIDENCIAL presente Acuerdo de Cooperaci(cid:243)n, todas las marcas operadas en el mismo domicilio se entenderÆ que forman parte del Acuerdo de Cooperaci(cid:243)n, por lo q...",
+    "titulo": "Bono de firma",
+    "resumen": "Bono $18,500,000 MXN; desembolso 60% y 40%; devolución y 50% penalidad si incumplimientos o terminación anticipada.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 90,
+    "clausula": "11) INFORMACI(cid:211)N CONFIDENCIAL mensual en Paquete(s) de Clicks equivalente al 2.5% (dos punto cinco por ciento) del Sell Out del Aliado Comercial del mes inmediatamente anterior (en adelante “In...",
+    "titulo": "Ads inversión y ventas garantizadas",
+    "resumen": "Inversión Ads 2.5% del sell-out; Rappi garantiza ventas mensuales $4,000,000 con ajustes por conectividad y servicio.",
+    "categoria": "obligaciones_rappi",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 91,
+    "clausula": "12) INFORMACI(cid:211)N CONFIDENCIAL Comercio del Aliado Comercial ha afectado las ventas del mismo por medio de la Plataforma Rappi, notificarÆ al Aliado Comercial y presentarÆ mediante datos y cifra...",
+    "titulo": "Fondo mercadotecnia y compromisos",
+    "resumen": "Fondo marketing hasta $1,000,000 MXN gestionado por Rappi; Aliado debe hacer promociones y publicaciones mensuales.",
+    "categoria": "especializado",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 92,
+    "clausula": "13) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA VIG(cid:201)SIMA. - Declaraciones y Garant(cid:237)as del Aliado Comercial. El Aliado Comercial declara y garantiza que es el titular de las Marcas en los...",
+    "titulo": "Propiedad intelectual y confidencialidad",
+    "resumen": "Aliado titular de marcas; indemniza por IP; confidencialidad por vigencia y obligaciones de seguridad y notificación de incidentes en 24 horas.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 93,
+    "clausula": "14) INFORMACI(cid:211)N CONFIDENCIAL CL`USULA VIG(cid:201)SIMA TERCERA. - Independencia de las Partes. El Aliado Comercial y Rappi son contratistas independientes y nada en este Acuerdo de Cooperaci(c...",
+    "titulo": "Independencia, fuerza mayor e indemnidad",
+    "resumen": "Partes contratistas independientes; fuerza mayor exime responsabilidad; mutua indemnidad; Aliado responsable por incumplimiento y perjuicios.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 94,
+    "clausula": "15) INFORMACI(cid:211)N CONFIDENCIAL Las Partes deberÆn: (i) garantizar el adecuado Tratamiento de la informaci(cid:243)n contenida en las bases de datos de la otra Parte, que Østa le suministre en de...",
+    "titulo": "Protección datos y disposiciones generales",
+    "resumen": "Obligaciones sobre tratamiento de datos, uso limitado y penalidad $1,000,000 por uso indebido; incluye cláusulas generales contractuales.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 95,
+    "clausula": "16) INFORMACI(cid:211)N CONFIDENCIAL Parte serÆ responsable de los pagos de los impuestos que la Ley Aplicable le imponga con ocasi(cid:243)n de la celebraci(cid:243)n y ejecuci(cid:243)n de el presen...",
+    "titulo": "Disposiciones generales",
+    "resumen": "Cláusulas sobre impuestos, modificaciones de plataforma, disponibilidad, notificaciones, responsabilidad por productos y venta de alcohol.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 96,
+    "clausula": "17) INFORMACI(cid:211)N CONFIDENCIAL Acuerdo de Cooperaci(cid:243)n, las Partes se someten a las leyes de los Estados Unidos Mexicanos. Para todos los efectos legales el domicilio contractual serÆ la ...",
+    "titulo": "Cumplimiento, auditoría y sanciones",
+    "resumen": "Ley aplicable MX; Rappi puede retener ventas para sanciones; obligaciones AML, anticorrupción y notificación en 24 horas.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 97,
+    "clausula": "18) INFORMACI(cid:211)N CONFIDENCIAL de la notificaci(cid:243)n de la investigaci(cid:243)n. (xvi) Sourcing. El Aliado Comercial se compromete a no tener ni mantener una relaci(cid:243)n comercial con...",
+    "titulo": "Sourcing, auditoría y firmas",
+    "resumen": "Aliado prohíbe proveedores con prácticas ilícitas; Rappi puede auditar, cesar plataforma y cobrar costo de auditoría; firmas digitales.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 98,
+    "clausula": "19) INFORMACI(cid:211)N CONFIDENCIAL Anexo 1 – Nivel de Servicio del Aliado Comercial El nivel de servicio del Aliado Comercial se medirÆ en 3 (tres) componentes; (1) Aceptaci(cid:243)n de (cid:243)rd...",
+    "titulo": "Nivel de servicio (SLA)",
+    "resumen": "SLA ponderado: aceptación órdenes 60%, tiempo espera repartidor 20%, satisfacción usuario 20% con tabla de métricas.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 99,
+    "clausula": "20) INFORMACI(cid:211)N CONFIDENCIAL ANEXO DE ADHESI(cid:211)N AL ACUERDO DE COOPERACI(cid:211)N CELEBRADO EN FECHA 11 DE JULIO DE 2024 (EN ADELANTE, “ANEXO”), ENTRE TECNOLOGÍAS RAPPI S.A.P.I. DE C.V...",
+    "titulo": "Anexo de adhesión objeto",
+    "resumen": "Anexo incorpora nuevas sociedades y sucursales al Acuerdo existente, aplicando los mismos términos y condiciones.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 100,
+    "clausula": "21) INFORMACI(cid:211)N CONFIDENCIAL 2. Que la informaci(cid:243)n societaria y bancaria proporcionada mÆs adelante es correcta, actualizada y veraz a la fecha. 3. Que las sociedades y/o personas f(ci...",
+    "titulo": "Pagos a sucursales y renuncia",
+    "resumen": "Pagos se efectuarán directamente a cada sucursal según listado bancario; TQ renuncia a cobro directo sobre ventas.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf.json",
+    "es_nueva": true
+  },
+  {
+    "id": 101,
+    "clausula": "1) TÉRMINOS & CONDICIONES PLATAFORMA RAPPI – VERTICAL PREPARED FOODS Tecnologías Rappi S.A.P.I. de C.V. es una sociedad constituida conforme a las leyes de los Estados Unidos Mexicanos, con RFC No. TR...",
+    "titulo": "Objeto y Aplicación",
+    "resumen": "Regula exhibición, oferta y venta de Productos en la Plataforma Rappi.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 102,
+    "clausula": "2) - Establecimientos de Comercio. Se refiere a todos los establecimientos de comercio del Aliado Comercial dentro del área de Cobertura de la Plataforma Rappi, que se encuentren vinculados a la Plata...",
+    "titulo": "Responsabilidad Portal Partners",
+    "resumen": "Aliado custodiará credenciales y responderá por todas las actuaciones desde su cuenta.",
+    "categoria": "calidad_responsabilidad",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 103,
+    "clausula": "3) - Repartidores Independientes. Personas físicas, quienes, de manera libre, autónoma y voluntaria, aceptan la gestión de las órdenes solicitadas por los Usuarios/Consumidores por medio de la Platafo...",
+    "titulo": "Modificación y obligaciones Rappi",
+    "resumen": "Rappi puede modificar Términos con 8 días; provee plataforma, reportes y cubre parte de órdenes canceladas.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 104,
+    "clausula": "4) Obligaciones del Aliado Comercial. (i) Entregar a Rappi, de manera gratuita, los logotipos, imagotipos, isotipos, isológos y artes de su Marca en el formato requerido por Rappi para ser exhibidas a...",
+    "titulo": "Obligaciones Aliado Comercial",
+    "resumen": "Aliado suministra marca y catálogo, gestiona órdenes, mantiene calidad y precios, y proporciona empaques y tickets.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 105,
+    "clausula": "5) (xv) En el caso en el que el Usuario/Consumidor reciba un Producto errado o una orden incompleta, el Aliado Comercial deberá asumir el valor del(los) Producto(s) errado(s) y/o faltante(s). De esta ...",
+    "titulo": "Penalidades y Uso Plataforma",
+    "resumen": "Compensaciones por errores y retrasos; Aliado paga porcentaje variable por uso; Rappi puede balancear demanda.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 106,
+    "clausula": "6) ,Mes 7: 21% + IVA; ,Mes 8: 21% + IVA; ,Mes 9: 21% + IVA; ,Mes 10: 21% + IVA; ,Mes 11: 21% + IVA; ,Mes 12: 21% + IVA; ,Mes 13: 21% + IVA; ,Mes 14: 21% + IVA; ,Mes 15: 21% + IVA; ,Mes 16: 21% + IVA; ...",
+    "titulo": "Tarifas, Pagos y Pick-Up",
+    "resumen": "Porcentaje variable de uso (0% mes1; 21% luego); pagos semanales menos comisiones; condiciones Pick-Up.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 107,
+    "clausula": "8) (iv) En el caso en el que exista incumplimiento de las obligaciones por Rappi o el Aliado Comercial se podrá cesar el uso de la Plataforma Rappi por parte del Aliado Comercial, sin que haya lugar a...",
+    "titulo": "Confidencialidad y Seguridad",
+    "resumen": "Aliado protege datos, gestiona riesgos cibernéticos, notifica incidentes en 24 horas y mantiene indemnidad a Rappi.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 108,
+    "clausula": "9) Resolución de Conflictos. Toda controversia o diferencia generada con ocasión de los presentes Términos y Condiciones o su ejecución, se intentará resolver en primera instancia mediante arreglo dir...",
+    "titulo": "Protección Datos y Sanciones",
+    "resumen": "Datos transferidos solo para entrega; uso indebido penalidad de $1,000,000 y obligación de indemnizar.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 109,
+    "clausula": "10) Disposiciones generales. (i) Nulidad parcial y no renuncia de derechos. En el caso en el que alguna disposición de estos Términos y Condiciones fuera considerada nula, ilegal o no exigible, la val...",
+    "titulo": "Disposiciones Generales y Ley Aplicable",
+    "resumen": "Cláusulas varias: cesión prohibida, impuestos, disponibilidad, responsabilidad productos, ley mexicana y domicilio Ciudad de México.",
+    "categoria": "calidad_responsabilidad",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 110,
+    "clausula": "11) y acepta que en cualquier momento y sin previo aviso, Rappi podrá modificar el diseño, los visuales y el arte de la Plataforma Rappi, la Aplicación Rappi Aliados y/o el Portal de Partners. (vi) Di...",
+    "titulo": "Cumplimiento, AML y Ética",
+    "resumen": "Aliado garantiza legalidad de fondos, cumple políticas AML, anticorrupción y notificará investigaciones a Rappi.",
+    "categoria": "obligaciones_aliado",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 111,
+    "clausula": "12) género; b) el trabajo infantil; c) el trabajo esclavo o degradante; y d) el acoso moral o sexual o derivado de actividades ilícitas o relacionadas con el narcotráfico o el financiamiento del terro...",
+    "titulo": "Auditoría y Cumplimiento Legal",
+    "resumen": "Rappi puede auditar cumplimiento; incumplimiento obliga indemnizar, cesar uso y cobrar costo de auditoría.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "JUAN VALDEZ CAFE TyC.json",
+    "es_nueva": true
+  },
+  {
+    "id": 112,
+    "clausula": "2) ACUERDO DE COOPERACIÓN - RAPPI para que realicen las entregas de los productos y presten los proporcionado a Rappi para establecerse en la plataforma. servicios solicitados por los Usuarios/Consumi...",
+    "titulo": "Obligaciones de Rappi y Aliado",
+    "resumen": "Rappi: diseñar catálogo, logística y reportes; Aliado: enviar artes, tramitar pedidos y entregar productos.",
+    "categoria": "operativo_logistica",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 113,
+    "clausula": "3) ACUERDO DE COOPERACIÓN - RAPPI denominada Manejo de Base de Datos; (v) Todos los pedidos se otorgará con el fin de no generar perjuicios adicionales al de Rappi deben ser tramitados a través de cua...",
+    "titulo": "Manejo de Base de Datos y Pedidos",
+    "resumen": "Pedidos por plataforma; Aliado asume valor por errores; manejo y prohibición de uso indebido de datos.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 114,
+    "clausula": "4) ACUERDO DE COOPERACIÓN - RAPPI • Titular: Operadora Alimentos y Malteadas SAPI de CV comercialización de estos productos, especialmente la ● Cuenta Bancaria: 0180378291 prohibición de venta a menor...",
+    "titulo": "Contraprestación y Exclusividad",
+    "resumen": "Exclusividad con Rappi; tarifas variables (0% durante exclusividad, luego 10%+IVA; condiciones y plazos de pago).",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 115,
+    "clausula": "5) ACUERDO DE COOPERACIÓN - RAPPI a través de la plataforma a cambio de los pedidos, conforme firma del Anexo. a lo establecido en el apartado de contraprestación. La presente cláusula se encuentra co...",
+    "titulo": "Integración POS y Fondo Marketing",
+    "resumen": "Rappi integra POS en cinco días; fondo marketing MXN10,000,000 administrado para campañas conjuntas y depósitos iniciales.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 116,
+    "clausula": "6) ACUERDO DE COOPERACIÓN - RAPPI podrá exhibir sus productos ni mostrar sus marcas y logos en ● Titular: TECNOLOGÍAS RAPPI S.A.P.I. DE C.V. una plataforma (aplicación móvil o sitio web) igual o simil...",
+    "titulo": "Incumplimiento Exclusividad y PI",
+    "resumen": "Incumplimiento eleva comisión al 20%+IVA; Aliado paga 10% ventas y devuelve fondo; no cesión tecnológica.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 117,
+    "clausula": "7) ACUERDO DE COOPERACIÓN - RAPPI demás que formen parte de la marca del Aliado sin previo reclamación o sanción por parte de los acuerdo entre las partes. usuarios/consumidores y/o de la autoridad co...",
+    "titulo": "Confidencialidad y Protección Datos",
+    "resumen": "Partes deben preservar confidencialidad; Aliado responsable tratamiento datos; penalidad $1,000,000 por uso indebido.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 118,
+    "clausula": "8) ACUERDO DE COOPERACIÓN - RAPPI establecida en esta cláusula se mantendrá vigente, incluso firma del presente Acuerdo, y se prorrogará automáticamente después de la terminación de este Acuerdo. Se a...",
+    "titulo": "Vigencia, Terminación y Notificaciones",
+    "resumen": "Vigencia 12 meses; causales de terminación; notificaciones y penalidades por terminación anticipada.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 119,
+    "clausula": "9) ACUERDO DE COOPERACIÓN - RAPPI dentro de los 30 (treinta) días siguientes a la fecha de de la Plataforma. terminación deseada, mediante consignación bancaria a la cuenta que Rappi le señale al Alia...",
+    "titulo": "Penalidades por Terminación",
+    "resumen": "Penalidades por terminación anticipada: pago de fondos marketing según quién termine durante primer año.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2).json",
+    "es_nueva": true
+  },
+  {
+    "id": 120,
+    "clausula": "2) C L Á U S U L A S CLÁUSULA PRIMERA. - Definiciones. Todas las palabras con mayúscula inicial o con mayúsculas utilizadas en el presente Convenio Modificatorio y que no se encuentren definidas en el...",
+    "titulo": "Objeto y Modificaciones",
+    "resumen": "Modifica, elimina y adiciona cláusulas al Acuerdo de Cooperación, incluyendo obligaciones y reembolsos.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 121,
+    "clausula": "3) a) Stockout: productos que existen en inventario de conformidad con el reporte enviado a Rappi, pero no se encuentran físicamente en los establecimientos de comercio del Aliado. b) Tienda cerrada: ...",
+    "titulo": "Cancelaciones atribuibles al Aliado",
+    "resumen": "Define stockout y tienda cerrada como cancelaciones atribuibles al Aliado.",
+    "categoria": "general",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 122,
+    "clausula": "4) Las Partes de común acuerdo modifican el apartado “xiv” (Décimo Cuarto) de la Cláusula 5 (Quinta) denominada “Obligaciones del Aliado” del Acuerdo de Cooperación, el cual a partir del 1 de enero de...",
+    "titulo": "Contraprestación y Comisión Variable",
+    "resumen": "Rappi reembolsa ventas menos comisión variable según ventas trimestrales McDonald's; condiciones de pago semanal.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 123,
+    "clausula": "5) Entre $132.500.000,01 (ciento treinta y dos El 17% (diecisiete por ciento) más IVA millones doscientos veinticinco mil pesos del importe total de las ventas después de 01/100 Moneda Nacional) y imp...",
+    "titulo": "Contraprestación y Comisión Variable",
+    "resumen": "Establece escalas de comisión según ventas trimestrales McDonald’s, ajustes, pagos a cuenta bancaria y facturación electrónica.",
+    "categoria": "financiero_pagos",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 124,
+    "clausula": "6) Se aclara que, a partir de la suscripción del Convenio Modificatorio No. 2 del presente Acuerdo de Cooperación, en ningún caso, las Partes podrán conciliar órdenes o pagos que tengan una vigencia s...",
+    "titulo": "Conciliación y Plazos Máximos",
+    "resumen": "Órdenes/pagos conciliables hasta 2 meses; compensaciones conciliables hasta 3 meses antes del reporte automático.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 125,
+    "clausula": "7) 1. Las Partes de común acuerdo adicionan el apartado “(xvi)” (Décimo Sexto”) a la Cláusula 5 (Quinta) denominada “Obligaciones del Aliado” del Acuerdo de Cooperación, el cual a partir del 1 de ener...",
+    "titulo": "Obligaciones Aliado por Compensaciones",
+    "resumen": "Aliado asume valor de productos errados/incompletos/mal estado con tope 0.5% trimestral; requisitos de evidencia y descuentos semanales.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 126,
+    "clausula": "8) total de las ventas generadas por el Aliado de manera trimestral a través de la Plataforma Rappi. Consecuentemente, al finalizar cada trimestre, las Partes revisarán los valores asumidos por el Ali...",
+    "titulo": "Compensaciones y Reembolsos Aliado",
+    "resumen": "Revisión trimestral, reembolso por exceso sobre 0.5% y conciliaciones mensuales con evidencia fotográfica requerida.",
+    "categoria": "objeto_definiciones",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 127,
+    "clausula": "9) b) MXN 7.000.000 (siete millones de pesos 00/100 Moneda Nacional), los cuales serán ejecutados para la ejecución de servicios internos y/o por medio de la agencia de medios determinada por Rappi pa...",
+    "titulo": "Inversión Publicidad y Marketing",
+    "resumen": "Rappi y Aliado realizan inversiones específicas en publicidad, con aprobaciones, exclusividades y reportes.",
+    "categoria": "exclusividad_terminacion",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 128,
+    "clausula": "11) Anexo 1 Convenio Modificatorio No. 2 Reporte Pedidos Compensados I. Información: El reporte incluirá las siguiente 2 (dos) tablas: a. Tabla de compensaciones: En esta tabla se exhibirá la informac...",
+    "titulo": "Reporte Pedidos Compensados",
+    "resumen": "Reporte incluirá tablas de compensaciones y detalle de pedidos con campos y tipologías específicas, compartido por dashboard.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Convenio Modificatorio No. 2 - Acuerdo de Cooperación - McDonald_s  Rappi - V - 02.06.20 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 129,
+    "clausula": "1) INFORMACIÓN CONFIDENCIAL CONVENIO MODIFICATORIO AL ACUERDO DE COOPERACIÓN CELEBRADO ENTRE TECNOLOGÍAS RAPPI S.A.P.I. DE C.V., COCINA MEXICANA AJM, S.A. DE C.V. Y OPERADORA DE NEGOCIOS DE EXPANSIÓN ...",
+    "titulo": "Modificación de Acuerdo",
+    "resumen": "Modifica cláusulas de pago y obligaciones del Aliado en el Acuerdo.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 130,
+    "clausula": "2) INFORMACIÓN CONFIDENCIAL (v) Ofrecer en la Plataforma Rappi los mismos precios de los Productos ofrecidos a través de cualquier otro canal igual o similar a la Plataforma Rappi. Se exceptúa de lo a...",
+    "titulo": "Precios y pagos",
+    "resumen": "Precios iguales a otros canales; excepción pozole; pago semanal al Aliado menos comisiones y descuentos.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json",
+    "es_nueva": true
+  },
+  {
+    "id": 131,
+    "clausula": "3) INFORMACIÓN CONFIDENCIAL Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V. Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V. Cocina Mexi...",
+    "titulo": "Integridad y facturación electrónica",
+    "resumen": "Acuerdo permanece vigente salvo modificaciones expresas; Aliado acepta envío y recepción de facturas electrónicas.",
+    "categoria": "confidencialidad_propiedad",
+    "archivo_origen": "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1).json",
+    "es_nueva": true
+  }
+]

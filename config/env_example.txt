@@ -1,0 +1,12 @@
+# Configuración de OpenAI
+OPENAI_API_KEY=tu_api_key_aqui
+OPENAI_BASE_URL=https://rappi.litellm-prod.ai/v1
+MODEL_NAME=gpt-5-mini
+
+# Configuración de procesamiento
+BATCH_SIZE=20
+SIMILARITY_THRESHOLD=0.6
+MIN_PARAGRAPH_LENGTH=50
+
+# Configuración de logging
+LOG_LEVEL=INFO

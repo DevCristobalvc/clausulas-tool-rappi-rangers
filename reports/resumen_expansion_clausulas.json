@@ -1,0 +1,21 @@
+{
+  "total_clausulas_originales": 57,
+  "total_clausulas_nuevas": 74,
+  "total_clausulas_expandidas": 131,
+  "categorias_nuevas": {
+    "objeto_definiciones": 21,
+    "obligaciones_rappi": 2,
+    "calidad_responsabilidad": 4,
+    "operativo_logistica": 6,
+    "especializado": 2,
+    "financiero_pagos": 16,
+    "exclusividad_terminacion": 13,
+    "confidencialidad_propiedad": 8,
+    "obligaciones_aliado": 1,
+    "general": 1
+  },
+  "archivos_generados": {
+    "clausulas_expandidas": "clausulas_estandar_expandido.json",
+    "clausulas_nuevas": "clausulas_nuevas_encontradas.json"
+  }
+}
