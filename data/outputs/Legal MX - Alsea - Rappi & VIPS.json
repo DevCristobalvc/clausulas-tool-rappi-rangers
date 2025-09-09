@@ -1,12 +1,22 @@
 {
   "archivo": "Legal MX - Alsea - Rappi & VIPS",
   "analisis": {
-    "TieneDesembolsos": false,
+    "TieneDesembolsos": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "PeriodicidadPagos": "",
     "FormaPago": "",
     "CondicionesPago": "",
     "DetalleDesembolsos": "",
-    "TieneExclusividad": false,
+    "TieneExclusividad": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "AlcanceExclusividad": "",
     "RupturaExclusividad": "",
     "CondicionesExclusividad": "",
@@ -14,11 +24,26 @@
     "DuracionContrato": "",
     "FechaInicio": null,
     "FechaFin": null,
-    "TerminacionUnilateral": false,
-    "PenalidadTerminacion": false,
+    "TerminacionUnilateral": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
+    "PenalidadTerminacion": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "Preaviso": "",
     "DetalleTermino": "",
-    "TieneRenovacionAutomatica": false,
+    "TieneRenovacionAutomatica": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "PeriodicidadRenovacion": "",
     "PreavisoNoRenovacion": "",
     "DetalleVigencia": ""

@@ -1,229 +1,48 @@
 {
-  "documento": "Convenio Modificatorio al Acuerdo de Cooperación",
-  "confidencial": true,
-  "numero_identificador": "6772fc5d92416269cc645115",
-  "nombre_documento": "Legal MX - Convenio Modificatorio - Rappi & Potzollcalli 2.pdf",
-  "partes": [
-    {
-      "nombre": "TECNOLOGÍAS RAPPI S.A.P.I. DE C.V.",
-      "rol": "Rappi",
-      "representante_legal": "IVÁN CADAVID SILVA",
-      "email_representante": "ivan@rappi.com"
-    },
-    {
-      "nombre": "COCINA MEXICANA AJM, S.A. DE C.V.",
-      "rol": "Aliado",
-      "representante_legal": "JOSÉ MANUEL DELGADO TÉLLEZ",
-      "email_representante": "jmdtpotz@prodigy.net.mx"
-    },
-    {
-      "nombre": "OPERADORA DE NEGOCIOS DE EXPANSIÓN RESTAURANTERA, S.A. DE C.V.",
-      "rol": "Aliado",
-      "representante_legal": "JOSÉ MANUEL DELGADO TÉLLEZ",
-      "email_representante": "jmdtpotz@prodigy.net.mx"
-    }
-  ],
-  "objeto": "Modificar la Cláusula Octava (Forma de Pago) y el inciso (v) de la Cláusula Cuarta (Obligaciones del Aliado Comercial) del Acuerdo de Cooperación celebrado el 31 de octubre de 2024.",
-  "resumen_ejecutivo": "El Convenio Modificatorio actualiza la obligación del Aliado de igualar precios ofrecidos en la Plataforma Rappi (con excepción del pozole) y redefine la forma de pago: Rappi reembolsará semanalmente las órdenes tramitadas por la Plataforma, aplicando cargos por Uso y Alquiler y otros descuentos conforme al Acuerdo; además se especifican las cuentas bancarias por razón social para el pago.",
-  "clausulas_modificadas": [
-    {
-      "identificador": "Cláusula Cuarta inciso (v)",
-      "texto": "Ofrecer en la Plataforma Rappi los mismos precios de los Productos ofrecidos a través de cualquier otro canal igual o similar a la Plataforma Rappi. Se exceptúa de lo anterior, el Producto correspondiente a pozole, cuyo precio se determinará conforme a lo indicado en la Cláusula Vigésima Primera del presente Acuerdo de Cooperación. Se aclara que Rappi podrá cobrar al Usuario/Consumidor valores adicionales para poder realizar la orden a través de la Plataforma Rappi, comprendiéndose que dicho cobro será responsabilidad única y exclusiva de Rappi…"
-    },
-    {
-      "identificador": "Cláusula Octava - Forma de pago",
-      "texto": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas en el Convenio. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos."
-    }
-  ],
-  "cuentas_bancarias": [
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Azcapotzalco",
-      "cuenta": "0116955495",
-      "clabe": "012180001169554951",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Centro",
-      "cuenta": "0116922856",
-      "clabe": "012180001169228562",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Ixtapaluca",
-      "cuenta": "0116146252",
-      "clabe": "012180001161462520",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Cuauhtémoc",
-      "cuenta": "0116146333",
-      "clabe": "012180001161463338",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Echegaray",
-      "cuenta": "0487318316",
-      "clabe": "012180004873183165",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Ermita",
-      "cuenta": "0116146325",
-      "clabe": "012180001161463257",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Izcalli",
-      "cuenta": "0116955444",
-      "clabe": "012180001169554443",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Iztapalapa Xalpa",
-      "cuenta": "0116146201",
-      "clabe": "012180001161462012",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "La Viga",
-      "cuenta": "0116955541",
-      "clabe": "012180001169555413",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Lerma Parque Industrial",
-      "cuenta": "0116955525",
-      "clabe": "012180001169555251",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Miramontes",
-      "cuenta": "0116146279",
-      "clabe": "012180001161462795",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Pensylvania",
-      "cuenta": "0116146309",
-      "clabe": "012180001161463095",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Satélite",
-      "cuenta": "0116146236",
-      "clabe": "012180001161462368",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Taxqueña",
-      "cuenta": "0116146341",
-      "clabe": "012180001161463419",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Tlatelolco",
-      "cuenta": "0116146368",
-      "clabe": "012180001161463684",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Universidad",
-      "cuenta": "0116146287",
-      "clabe": "012180001161462876",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Cocina Mexicana AJM, S.A. de C.V.",
-      "sucursal": "Zaragoza",
-      "cuenta": "0116905889",
-      "clabe": "012180001169058897",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Operadora de Negocios de Expansión Restaurantera, S.A. de C.V.",
-      "sucursal": "Ajusco",
-      "cuenta": "0112991462",
-      "clabe": "012180001129914625",
-      "banco": "BBVA"
-    },
-    {
-      "razon_social": "Operadora de Negocios de Expansión Restaurantera, S.A. de C.V.",
-      "sucursal": "Las Américas",
-      "cuenta": "1135338437",
-      "clabe": "072180011353384378",
-      "banco": "Banorte"
-    },
-    {
-      "razon_social": "Operadora de Negocios de Expansión Restaurantera, S.A. de C.V.",
-      "sucursal": "Metepec",
-      "cuenta": "1135336808",
-      "clabe": "072180011353368080",
-      "banco": "Banorte"
-    }
-  ],
-  "integridad": "Las Partes acuerdan que todo lo no modificado por este Convenio Modificatorio permanece en vigor según el Acuerdo original y demás anexos o convenios modificatorios previamente suscritos.",
-  "fecha_firma_mensaje_datos": "2024-12-30",
-  "fecha_version_final_firmada": "2025-01-06T20:55:09.642Z",
-  "firmas": [
-    {
-      "nombre": "Iván",
-      "apellidos": "Cadavid Silva",
-      "email": "ivan@rappi.com",
-      "hash": "8J9y4h6j/gcKpsg5O6s9xjsnbOBEbA+4FCLyNlhwTPk=",
-      "direccion_ip": "186.81.100.196",
-      "firmado_el": "2025-01-02T21:23:51.650Z"
-    },
-    {
-      "nombre": "José Manuel",
-      "apellidos": "Delgado Téllez",
-      "email": "jmdtpotz@prodigy.net.mx",
-      "hash": "3+HZinnOEZABe600z2cK4VqTAxTTflsEmg7U/bRR2HQ=",
-      "direccion_ip": "187.190.159.156",
-      "firmado_el": "2025-01-06T20:54:30.215Z"
-    },
-    {
-      "nombre": "José Manuel",
-      "apellidos": "Delgado Téllez",
-      "email": "jmdtpotz@prodigy.net.mx",
-      "hash": "eVAGm6iTfwTQMgsln+k0eZYtdv+tk/IZKeUULmgU+Po=",
-      "direccion_ip": "187.190.159.156",
-      "firmado_el": "2025-01-06T20:55:08.511Z",
-      "visualizacion_mensaje_datos": "2025-01-06T18:59:39.596Z"
-    }
-  ],
-  "auditoria_url": "https://enterprise.app.trato.io/r/Oy0_0j3qzj6BN6sXvDYzy",
-  "estatus_firma": "Firmado y Completo",
-  "tipo_firma": "Firma Electrónica Fiable",
-  "observaciones_legales": [
-    "Se mantiene la excepción específica para el precio del pozole, remitiendo su determinación a la Cláusula Vigésima Primera del Acuerdo original.",
-    "La obligación de igualar precios aplica a los Productos ofrecidos en la Plataforma Rappi y en otros canales iguales o similares; conviene precisar alcance geográfico y aplicabilidad por canal si existen promociones o descuentos específicos.",
-    "Se aclara que cargos adicionales cobrados al Usuario/Consumidor por Rappi son responsabilidad exclusiva de Rappi; recomendable documentar la mecánica y límites de dichos cargos."
-  ],
-  "riesgos": [
-    "Riesgo operacional si las cuentas bancarias o CLABEs contienen errores (confirmar exactitud).",
-    "Riesgo de interpretación sobre alcance de la obligación de igualar precios (canales/promociones/excepciones).",
-    "Riesgo de conciliación por múltiples razones sociales y sucursales: requiere control contable y conciliación semanal."
-  ],
-  "recomendaciones": [
-    "Verificar y confirmar la exactitud de las cuentas y CLABEs registradas antes del primer pago.",
-    "Documentar por escrito la excepción del pozole y su cálculo conforme a la Cláusula Vigésima Primera para evitar disputas.",
-    "Solicitar a Rappi la confirmación por escrito de la fecha de corte semanal y el procedimiento de visualización de descuentos en el Portal Partners.",
-    "Establecer mecanismo de conciliación y responsable por razón social/sucursal para recibir y conciliar pagos semanales."
-  ]
+  "TieneDesembolsos": {
+    "valor": true,
+    "evidencia": "CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners.",
+    "ubicacion": "Cláusula Octava - Forma de pago",
+    "confianza": "alta"
+  },
+  "TieneExclusividad": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TerminacionUnilateral": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PenalidadTerminacion": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneRenovacionAutomatica": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PeriodicidadPagos": "Rappi reembolsará ... semanalmente ... la semana inmediatamente siguiente al corte semanal",
+  "FormaPago": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación.",
+  "CondicionesPago": "Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación.",
+  "DetalleDesembolsos": "Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación: Razón Social Sucursal Cuenta Clabe Banco Cocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA AJM, S.A. de C.V.; Cocina Mexicana Centro 0116922856 012180001169228562 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA AJM, S.A. de C.V.; Cocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA AJM, S.A. de C.V.; Cocina Mexicana Echegaray 0487318316 012180004873183165 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ermita 0116146325 012180001161463257 BBVA AJM, S.A. de C.V.; Cocina Mexicana Izcalli 0116955444 012180001169554443 BBVA AJM, S.A. de C.V.; Cocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA AJM, S.A. de C.V. Xalpa; Cocina Mexicana La Viga 0116955541 012180001169555413 BBVA AJM, S.A. de C.V.; Cocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA AJM, S.A. de C.V. Industrial; Cocina Mexicana Miramontes 0116146279 012180001161462795 BBVA AJM, S.A. de C.V.; Cocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA AJM, S.A. de C.V.; Cocina Mexicana Satélite 0116146236 012180001161462368 BBVA AJM, S.A. de C.V.; Cocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA AJM, S.A. de C.V.; Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V.; Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V.; Cocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA AJM, S.A. de C.V.; Operadora de Ajusco 0112991462 012180001129914625 BBVA Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Las Américas 1135338437 072180011353384378 Banorte Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Metepec 1135336808 072180011353368080 Negocios de Expansión Restaurantera, S.A. de C.V. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.",
+  "AlcanceExclusividad": "",
+  "RupturaExclusividad": "",
+  "CondicionesExclusividad": "",
+  "DetalleExclusividad": "",
+  "DuracionContrato": "El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales.",
+  "FechaInicio": "2024-12-30",
+  "FechaFin": null,
+  "Preaviso": "",
+  "DetalleTermino": "",
+  "PeriodicidadRenovacion": "",
+  "PreavisoNoRenovacion": "",
+  "DetalleVigencia": "Las Partes declaran que suscribieron en fecha 31 de octubre de 2024 un Acuerdo de Cooperación... II. El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales."
 }

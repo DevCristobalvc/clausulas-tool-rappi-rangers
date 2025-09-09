@@ -1,16 +1,22 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, Dict, Any
+
+class Evidencia(BaseModel):
+    valor: bool = False
+    evidencia: str = ""
+    ubicacion: str = ""
+    confianza: str = "baja"  # baja, media, alta
 
 class ContratoAnalisis(BaseModel):
     # Desembolsos
-    TieneDesembolsos: bool = False
+    TieneDesembolsos: Evidencia = Evidencia()
     PeriodicidadPagos: str = ""
     FormaPago: str = ""
     CondicionesPago: str = ""
     DetalleDesembolsos: str = ""
 
     # Exclusividad
-    TieneExclusividad: bool = False
+    TieneExclusividad: Evidencia = Evidencia()
     AlcanceExclusividad: str = ""
     RupturaExclusividad: str = ""
     CondicionesExclusividad: str = ""
@@ -20,13 +26,13 @@ class ContratoAnalisis(BaseModel):
     DuracionContrato: str = ""
     FechaInicio: Optional[str] = None
     FechaFin: Optional[str] = None
-    TerminacionUnilateral: bool = False
-    PenalidadTerminacion: bool = False
+    TerminacionUnilateral: Evidencia = Evidencia()
+    PenalidadTerminacion: Evidencia = Evidencia()
     Preaviso: str = ""
     DetalleTermino: str = ""
 
     # Vigencia
-    TieneRenovacionAutomatica: bool = False
+    TieneRenovacionAutomatica: Evidencia = Evidencia()
     PeriodicidadRenovacion: str = ""
     PreavisoNoRenovacion: str = ""
     DetalleVigencia: str = ""

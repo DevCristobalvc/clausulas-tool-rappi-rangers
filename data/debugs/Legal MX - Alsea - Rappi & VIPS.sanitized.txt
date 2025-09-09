@@ -1,19 +1,48 @@
 {
-  "id": "5f10e000634f066c3103d5a8",
-  "nombre": "36945 - Legal MX - Alsea - Rappi & VIPS",
-  "tipoFirma": "Firma Digital",
-  "estatus": "Firmado y Completo",
-  "firmantes": [
-    {
-      "nombre": "Tecnologías Rappi S.A.P.I. de C.V.",
-      "email": "asolis@rappi.com",
-      "hash": "8m/zo9uaKO/oc2IKOFzTPGO67jivvNqhsM868r+X8+Y=",
-      "ip": "187.190.163.112",
-      "firmadoEl": "2020-07-17T21:10:00Z"
-    }
-  ],
-  "fechaFirma": "2020-07-17T21:10:00Z",
-  "urlAuditoria": "https://rappi.app.trato.io/r/2tfsRPEmH",
-  "observaciones": "Este documento fue firmado con el uso de medios electrónicos y garantiza la integridad del documento, así como la identidad de los firmantes. La URL que se detalla en la parte superior permite validar las firmas electrónicas, el mensaje de datos y el estado del documento.",
-  "esValido": true
+  "TieneDesembolsos": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneExclusividad": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TerminacionUnilateral": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PenalidadTerminacion": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneRenovacionAutomatica": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PeriodicidadPagos": "",
+  "FormaPago": "",
+  "CondicionesPago": "",
+  "DetalleDesembolsos": "",
+  "AlcanceExclusividad": "",
+  "RupturaExclusividad": "",
+  "CondicionesExclusividad": "",
+  "DetalleExclusividad": "",
+  "DuracionContrato": "",
+  "FechaInicio": null,
+  "FechaFin": null,
+  "Preaviso": "",
+  "DetalleTermino": "",
+  "PeriodicidadRenovacion": "",
+  "PreavisoNoRenovacion": "",
+  "DetalleVigencia": ""
 }

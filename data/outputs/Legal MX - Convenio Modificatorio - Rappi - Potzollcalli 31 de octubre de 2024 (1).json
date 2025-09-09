@@ -1,26 +1,51 @@
 {
   "archivo": "Legal MX - Convenio Modificatorio - Rappi - Potzollcalli 31 de octubre de 2024 (1)",
   "analisis": {
-    "TieneDesembolsos": false,
-    "PeriodicidadPagos": "",
-    "FormaPago": "",
-    "CondicionesPago": "",
-    "DetalleDesembolsos": "",
-    "TieneExclusividad": false,
+    "TieneDesembolsos": {
+      "valor": true,
+      "evidencia": "CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners.",
+      "ubicacion": "Cláusula Octava - Forma de pago",
+      "confianza": "alta"
+    },
+    "PeriodicidadPagos": "Rappi reembolsará ... semanalmente ... la semana inmediatamente siguiente al corte semanal",
+    "FormaPago": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación.",
+    "CondicionesPago": "Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación.",
+    "DetalleDesembolsos": "Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación: Razón Social Sucursal Cuenta Clabe Banco Cocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA AJM, S.A. de C.V.; Cocina Mexicana Centro 0116922856 012180001169228562 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA AJM, S.A. de C.V.; Cocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA AJM, S.A. de C.V.; Cocina Mexicana Echegaray 0487318316 012180004873183165 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ermita 0116146325 012180001161463257 BBVA AJM, S.A. de C.V.; Cocina Mexicana Izcalli 0116955444 012180001169554443 BBVA AJM, S.A. de C.V.; Cocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA AJM, S.A. de C.V. Xalpa; Cocina Mexicana La Viga 0116955541 012180001169555413 BBVA AJM, S.A. de C.V.; Cocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA AJM, S.A. de C.V. Industrial; Cocina Mexicana Miramontes 0116146279 012180001161462795 BBVA AJM, S.A. de C.V.; Cocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA AJM, S.A. de C.V.; Cocina Mexicana Satélite 0116146236 012180001161462368 BBVA AJM, S.A. de C.V.; Cocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA AJM, S.A. de C.V.; Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V.; Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V.; Cocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA AJM, S.A. de C.V.; Operadora de Ajusco 0112991462 012180001129914625 BBVA Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Las Américas 1135338437 072180011353384378 Banorte Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Metepec 1135336808 072180011353368080 Negocios de Expansión Restaurantera, S.A. de C.V. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.",
+    "TieneExclusividad": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "AlcanceExclusividad": "",
     "RupturaExclusividad": "",
     "CondicionesExclusividad": "",
     "DetalleExclusividad": "",
-    "DuracionContrato": "",
-    "FechaInicio": null,
+    "DuracionContrato": "El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales.",
+    "FechaInicio": "2024-12-30",
     "FechaFin": null,
-    "TerminacionUnilateral": false,
-    "PenalidadTerminacion": false,
+    "TerminacionUnilateral": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
+    "PenalidadTerminacion": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "Preaviso": "",
     "DetalleTermino": "",
-    "TieneRenovacionAutomatica": false,
+    "TieneRenovacionAutomatica": {
+      "valor": false,
+      "evidencia": "",
+      "ubicacion": "",
+      "confianza": "baja"
+    },
     "PeriodicidadRenovacion": "",
     "PreavisoNoRenovacion": "",
-    "DetalleVigencia": ""
+    "DetalleVigencia": "Las Partes declaran que suscribieron en fecha 31 de octubre de 2024 un Acuerdo de Cooperación... II. El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales."
   }
 }

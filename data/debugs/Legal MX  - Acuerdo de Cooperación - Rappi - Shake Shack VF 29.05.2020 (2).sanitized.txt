@@ -1,184 +1,48 @@
 {
-  "contrato_id": "5ee0faf78e5b8e0fd2b87cb2",
-  "nombre": "Acuerdo de Cooperación - Rappi & Shake Shack",
-  "tipo_firma": "Firma Digital",
-  "estatus": "Firmado y Completo",
-  "fecha_firma": "2020-06-17",
-  "fecha_efectiva": "2020-05-19",
-  "vigencia_meses": 12,
-  "partes": [
-    {
-      "razon_social": "Tecnologías Rappi S.A.P.I. de C.V.",
-      "registro_federal_contribuyentes": "TRA150604TW1",
-      "domicilio": "Boulevard Miguel de Cervantes Saavedra 57, Col. Ampliación Granada, Del. Miguel Hidalgo. Ciudad de México, C.P. 11520",
-      "representante_legal": "Juan Pablo Ortega Merino",
-      "identificacion_representante": "Pasaporte No. AO224477",
-      "email": "juan@rappi.com",
-      "banco": {
-        "titular": "TECNOLOGÍAS RAPPI S.A.P.I. DE C.V.",
-        "cuenta": "92-00203415-2",
-        "clabe": "014180920020341528",
-        "banco": "SANTANDER"
-      }
-    },
-    {
-      "razon_social": "Operadora de Alimentos y Malteadas S.A.P.I. de C.V. (Shake Shack)",
-      "registro_federal_contribuyentes": "OCC110111QTA",
-      "domicilio": "Avenida Ejército Nacional 769, Torre B Piso 10, Granada, Miguel Hidalgo, Ciudad de México, 11520",
-      "representante_legal": "Juan Carlos Alverde Losada",
-      "identificacion_representante": "Pasaporte No. G22457877",
-      "email": "rlosada@shakeshack.com.mx",
-      "banco": {
-        "titular": "Operadora Alimentos y Malteadas SAPI de CV",
-        "cuenta": "0180378291",
-        "clabe": "012180001803782911",
-        "banco": "BBVA"
-      }
-    }
-  ],
-  "objeto": "Convenio de cooperación para la comercialización y venta de productos del Aliado en la plataforma digital de Rappi, regulando obligaciones comerciales, operación de pedidos, manejo de datos, fondo de mercadotecnia, exclusividad, contraprestación y demás términos relacionados.",
-  "obligaciones_rappi": [
-    "Diseñar sin costo un catálogo personalizado para el Aliado",
-    "Disponibilidad logística para procesar pedidos (salvo fuerza mayor o problemas técnicos mayores)",
-    "Cumplir protocolos de entrega acordados con el Aliado (horarios, sucursales, etc.)",
-    "Enviar reporte semanal detallado de ventas (número de orden, punto de venta, fecha y hora, productos vendidos, forma de pago y perfil de desempeño)",
-    "No cobrar más del porcentaje establecido por uso y alquiler de la plataforma según periodos de exclusividad"
-  ],
-  "obligaciones_aliado": [
-    "Enviar logos y artes de la marca en el formato requerido",
-    "Diligenciar información de productos y precios en los formatos requeridos",
-    "Notificar modificaciones relevantes (productos, ingredientes, dirección, horarios) al día siguiente de realizadas",
-    "Entregar productos a Rappitenderos en empaques adecuados y sellados, con accesorios necesarios (cubiertos, servilletas, salsas, condimentos)",
-    "Tramitar todos los pedidos recibidos a través de cualquier plataforma de Rappi",
-    "Autorizar uso de imagen de la marca para publicaciones físicas y digitales previa conciliación con mercadotecnia del Aliado",
-    "Ubicar material publicitario suministrado por Rappi en lugar visible y promocionar la alianza en redes sociales previa autorización",
-    "Emitir ticket del pedido a nombre del usuario que realizó el pedido y entregarlo con la entrega",
-    "Contar y mantener permisos y licencias para la venta de bebidas alcohólicas, cumplir restricciones de zonas y horarios"
-  ],
-  "contraprestacion": {
-    "durante_exclusividad_porcentaje_plataforma": 0.0,
-    "post_exclusividad_porcentaje_plataforma": 10.0,
-    "si_continua_exclusividad_despues_12_meses_porcentaje": 5.0,
-    "porcentaje_maximo_cancelaciones_usuario": 60.0,
-    "monto_porcentaje_adicional_alianza": "",
-    "detalle_pago": "Transferencia semanal: las cantidades recibidas de lunes a domingo serán transferidas por Rappi al Aliado a más tardar el viernes siguiente antes de las 10:00 hrs. Rappi emite factura semanal a semana vencida el primer día de la semana siguiente.",
-    "metodo_transferencia": "consignación bancaria a la cuenta registrada, con prórroga al primer día hábil si el último día cae en día inhábil"
+  "TieneDesembolsos": {
+    "valor": true,
+    "evidencia": "Fondo de mercadotecnia. Rappi destinará un fondo de mercadotecnia de hasta MXN $10,000,000.00 (diez millones de pesos 00/100 Moneda Nacional). Dicho fondo será manejado de la siguiente manera: • Rappi otorgará a la cuenta bancaria del Aliado antes referida la cantidad de $5,0000,0000.00 (Cinco Millones de Pesos) por concepto de contraprestación por Fondo de Mercadotecnia para el desarrollo de un plan de publicidad en conjunto con el Aliado, mismo que deberá ser definido y suscrito por las partes en un Anexo que formará parte integral del presente Acuerdo ... Mientras tanto el que Rappi le otorgará al Aliado deberá ser depositado por Rappi a más tardar dentro de los 15 (quince) días hábiles siguientes a la firma del Anexo.",
+    "ubicacion": "Sección: Fondo de mercadotecnia / Página 5",
+    "confianza": "alta"
   },
-  "fondo_mercadotecnia": {
-    "total": 10000000,
-    "aporte_rappi": 5000000,
-    "aporte_aliado": 5000000,
-    "uso": "Desarrollo conjunto de planes de publicidad definidos en Anexo firmado por las partes; inversiones graduales durante la vigencia para potenciar ventas",
-    "condicion_retencion_deposito": "Rappi depositará su monto al Aliado dentro de 15 días hábiles siguientes a la firma del Anexo; si el Aliado incumple la exclusividad debe devolver íntegramente el monto depositado dentro de 30 días"
+  "TieneExclusividad": {
+    "valor": true,
+    "evidencia": "Contraprestación. Las partes acuerdan que Rappi contará con una exclusividad en su favor de conformidad con lo establecido en la cláusula denominada Exclusividad. ... Exclusividad. El Aliado se obliga a tener exclusividad con Rappi durante los primeros 6 (seis) meses de ejecución del presente Acuerdo, contados a partir de la fecha efectiva de inicio de operaciones que de común acuerdo establezcan las Partes ... En caso de incumplir con esta obligación durante el período o períodos de exclusividad acordado en la presente cláusula, el Aliado se verá obligado a duplicar el porcentaje acordado por concepto del alquiler y uso de la plataforma ... El incumplimiento del Aliado de la obligación de exclusividad frente a Rappi antes mencionada, lo hará incurrir en el pago del 10% (diez por ciento) del valor total de las ventas realizadas a través de la plataforma hasta el momento en que se configure el incumplimiento ...",
+    "ubicacion": "Sección: Contraprestación / Exclusividad / Páginas 4-6",
+    "confianza": "alta"
   },
-  "exclusividad": {
-    "obligatoria": true,
-    "periodo_inicial_meses": 6,
-    "prorroga_meses": 6,
-    "notificacion_no_prorroga_dias": 30,
-    "restricciones": "Durante exclusividad el Aliado no podrá exhibir sus productos ni mostrar marcas en plataforma igual o similar a Rappi",
-    "incumplimiento_penalidad_porcentaje_ventas": 10.0,
-    "incumplimiento_restitucion_fondo": true,
-    "incumplimiento_duplicacion_porcentaje": 20.0,
-    "observaciones": "Si el Aliado incumple la exclusividad se le cobrará 10% del valor total de ventas hasta el momento del incumplimiento y deberá reintegrar los montos del Fondo de Mercadotecnia. Si exhibe en otra plataforma durante exclusividad, el porcentaje de uso/alquiler se duplicará a 20% + IVA a partir de notificación."
+  "TerminacionUnilateral": {
+    "valor": true,
+    "evidencia": "Vigencia y terminación. El presente Acuerdo tendrá una vigencia de 12 (doce) meses... El presente Acuerdo terminará con justa causa en cualquiera de los siguientes eventos: 1.- Por mutuo acuerdo entre las Partes en cualquier momento ... 4.- Por cualquiera de las Partes cuando exista incumplimiento de las obligaciones por alguna de las Partes. Lo anterior aplicará, en caso de que la Parte que incumplió, no subsane ni remedie el incumplimiento dentro del plazo de diez (10) días calendario, contados a partir de la configuración del incumplimiento. 5.- En caso de que el Aliado desee terminar unilateralmente el presente Acuerdo de manera anticipada, deberá notificarle a Rappi, con un periodo no inferior a 90 (noventa) días calendario a la fecha de terminación deseada. 7. Posterior al primer año de vigencia del presente acuerdo cualquiera de las Partes podrá dar por terminado el mismo sin responsabilidad, ni penalización alguna, notificando con cuando menos 90 (noventa) días anteriores a la fecha efectiva de terminación.",
+    "ubicacion": "Sección: Vigencia y terminación / Páginas 7-9",
+    "confianza": "alta"
   },
-  "penalidades": [
-    {
-      "concepto": "Uso no autorizado de datos personales de usuarios",
-      "monto": 1000000,
-      "moneda": "MXN",
-      "observaciones": "Prohibido utilizar datos para fines distintos al objeto; penalidad aplicada por incumplimiento del manejo de bases de datos"
-    },
-    {
-      "concepto": "Incumplimiento de exclusividad (reintegro fondo + % ventas)",
-      "monto_porcentaje_ventas": 10.0,
-      "observaciones": "Pago dentro de 30 días; además devolución del fondo de mercadotecnia depositado"
-    },
-    {
-      "concepto": "Exhibición en plataforma competidora durante exclusividad",
-      "monto_porcentaje_ventas": 20.0,
-      "observaciones": "Aplicable desde notificación y acreditación de incumplimiento por Rappi hasta cese de exhibición en la otra plataforma"
-    }
-  ],
-  "manejo_datos": {
-    "transfieren_datos_personales": true,
-    "datos_transferidos": [
-      "nombre",
-      "correo electrónico",
-      "teléfono"
-    ],
-    "responsable_tratamiento_aliado": true,
-    "alcance_uso": "Único y exclusivo para el objeto del Convenio; el Aliado no puede utilizarlos para fines externos",
-    "obligaciones": "El Aliado debe contar con autorización de titulares y cumplir Ley Federal de Protección de Datos Personales en Posesión de los Particulares; indemnizar y mantener en paz y a salvo a Rappi por reclamaciones",
-    "aviso_privacidad_url": "https://legal.rappi.com/mexico/aviso-de-privacidad-usuarios/"
+  "PenalidadTerminacion": {
+    "valor": true,
+    "evidencia": "6.- En caso de que el Aliado desee dar por terminado el presente contrato durante el primer año de vigencia del mismo, se obligará al Aliado a pagarle a Rappi de vuelta la cantidad depositada al Aliado por concepto de Fondo de Mercadotecnia. El pago de la penalidad deberá ser realizado dentro de los 30 (treinta) días siguientes a la fecha de terminación deseada, mediante consignación bancaria a la cuenta que Rappi le señale al Aliado para ese fin. ... 7. En caso de que Rappi desee dar por terminado el presente contrato durante el primer año de vigencia del mismo, se obligará Rappi a pagarle al Aliado el equivalente a la cantidad depositada al Aliado por concepto de Fondo de Mercadotecnia. El pago de la penalidad deberá ser realizado dentro de los 30 (treinta) días siguientes a la fecha de terminación deseada, mediante consignación bancaria a la cuenta que el Aliado le señale a Rappi para ese fin.",
+    "ubicacion": "Sección: Vigencia y terminación / Páginas 8-9",
+    "confianza": "alta"
   },
-  "propiedad_intelectual": {
-    "transferencia_tecnologia": false,
-    "derechos_marcarios": "No constituye cesión de derechos de propiedad industrial. Las partes podrán usar razonablemente la marca de la otra para alcanzar el objeto, sin afectar imagen y buen nombre.",
-    "restricciones_software": "Abstenerse de reproducir, copiar o desarrollar cualquier software de Rappi (aplicación y sitio web)"
+  "TieneRenovacionAutomatica": {
+    "valor": true,
+    "evidencia": "Vigencia y terminación. El presente Acuerdo tendrá una vigencia de 12 (doce) meses, contados a partir de la fecha de firma del presente Acuerdo, y se prorrogará automáticamente por periodos similares al finalizar cada periodo. En caso de que el Aliado, no desee prorrogar el Acuerdo deberá notificarlo a Rappi con un periodo no inferior a 60 (sesenta) días calendario a la fecha de terminación.",
+    "ubicacion": "Sección: Vigencia y terminación / Página 7",
+    "confianza": "alta"
   },
-  "confidencialidad": {
-    "obligacion": true,
-    "alcance": "Mantener estricta confidencialidad sobre información compartida; obligación se mantiene incluso después de la terminación del Acuerdo",
-    "consecuencias_incumplimiento": "Responsabilidad por daños y perjuicios, acciones civiles y penales"
-  },
-  "integracion_pos": {
-    "obligacion_rappi": true,
-    "plazo_habiles": 5
-  },
-  "venta_bebidas_alcoholicas": {
-    "aliado_responsable_permiso": true,
-    "observaciones": "El Aliado es responsable de expedición y renovación de licencias y de cumplir restricciones de venta por zonas y horarios"
-  },
-  "impuestos": "Cada parte será responsable del pago de los impuestos que le correspondan por ley.",
-  "notificaciones": {
-    "rappi_emails": [
-      "contacto.comerciales@rappi.com",
-      "luis@rappi.com"
-    ],
-    "aliado_email": "rlosada@shakeshack.com.mx",
-    "cambio_direccion_plazo_dias": 5
-  },
-  "jurisdiccion": "Juzgados y tribunales de la Ciudad de México, México",
-  "terminacion": {
-    "causas": [
-      "Mutuo acuerdo",
-      "Decisión de autoridad competente",
-      "Disolución o liquidación de cualquiera de las Partes",
-      "Incumplimiento de obligaciones por alguna de las Partes (con 10 días para subsanar salvo otras disposiciones)",
-      "Renuncia unilateral del Aliado con 90 días de antelación",
-      "Renuncia unilateral de cualquiera de las Partes tras el primer año sin penalización (90 días aviso)"
-    ],
-    "efectos_primer_ano": "Si el Aliado termina el contrato durante el primer año deberá devolver el Fondo de Mercadotecnia depositado; Rappi si termina durante el primer año deberá pagar al Aliado el equivalente al fondo depositado"
-  },
-  "firmas": [
-    {
-      "parte": "Rappi",
-      "nombre": "Juan Pablo Ortega Merino",
-      "email": "juan@rappi.com",
-      "fecha_firma": "2020-06-10"
-    },
-    {
-      "parte": "Aliado",
-      "nombre": "Juan Carlos Alverde Losada",
-      "email": "jcalverde@toks.com.mx",
-      "fecha_firma": "2020-06-17"
-    }
-  ],
-  "url_auditoria": "https://rappi.app.trato.io/r/ZtTgTmMf5",
-  "riesgos_principales": [
-    "Responsabilidad por manejo indebido de datos personales (penalidad de $1,000,000 MXN y obligación de indemnizar a Rappi)",
-    "Obligación de exclusividad que limita canales comerciales y puede generar sanciones y devolución de fondos si se incumple",
-    "Riesgo financiero por penalidades y reintegro del Fondo de Mercadotecnia en caso de terminación anticipada por el Aliado en el primer año"
-  ],
-  "recomendaciones": [
-    "Verificar y documentar consentimiento de titulares para el tratamiento y transferencia de datos personales antes del intercambio de información",
-    "Asegurar registro y control de campañas y presencia en plataformas para cumplir la cláusula de exclusividad",
-    "Mantener evidencia documental de depósitos y uso del Fondo de Mercadotecnia para mitigar riesgos en caso de disputa",
-    "Revisar procedimientos de emisión de tickets y control de inventarios para minimizar reclamaciones por pedidos errados o incompletos"
-  ],
-  "anexos": [
-    "Anexo 1 – Formato Reporte Semanal / Formato Reporte Mensual (flujo de reporte del Aliado en la plataforma)",
-    "Anexo de Plan de Publicidad (a suscribir por las partes) - detalla acciones asumidas por ambos para el uso del Fondo de Mercadotecnia"
-  ]
+  "PeriodicidadPagos": "Las cantidades pagadas por los consumidores finales por los Pedidos que sean recibidas de lunes a domingo serán transferidos por Rappi al Aliado a más tardar el día viernes próximo antes de las 10:00 horas, quedando así un pago semanal a la cuenta bancaria.",
+  "FormaPago": "Transferencia/consignación bancaria a la cuenta bancaria del Aliado (indica que Rappi transferirá semanalmente y que pagos/penalidades se harán mediante consignación bancaria a la cuenta que cada Parte señale).",
+  "CondicionesPago": "Rappi entregará factura a semana vencida el primer día de la semana siguiente; durante el periodo de exclusividad el porcentaje cobrado por concepto de alquiler y uso de la plataforma será del 0% si se cumple lo establecido; una vez concluido dicho(s) periodo(s) de exclusividad, el Aliado deberá pagar 10% + IVA del total transado; si el Aliado continúa con exclusividad pasado 12 meses el porcentaje será 5% + IVA; Rappi podrá descontar semanalmente valores por productos errados asumidos por el Aliado y hay referencias a porcentajes máximos (ej. porcentaje por descuentos no podrá superar el 3%).",
+  "DetalleDesembolsos": "Rappi destinará un fondo de mercadotecnia de hasta MXN $10,000,000.00. Rappi otorgará a la cuenta bancaria del Aliado la cantidad de $5,000,000.00 por concepto de Fondo de Mercadotecnia para el desarrollo de un plan de publicidad conjunto; además Rappi destinará $5,000,000.00 para el desarrollo de un plan de publicidad en conjunto. El monto que Rappi otorgará deberá ser depositado por Rappi dentro de los 15 (quince) días hábiles siguientes a la firma del Anexo. En caso de terminación durante el primer año, la parte que termine deberá devolver la cantidad depositada por concepto de Fondo de Mercadotecnia dentro de 30 días mediante consignación bancaria.",
+  "AlcanceExclusividad": "El Aliado se obliga a tener exclusividad con Rappi durante los primeros 6 meses contados a partir de la fecha efectiva de inicio de operaciones pactada; durante dicho(s) periodos no podrá exhibir sus productos ni mostrar sus marcas y logos en una plataforma igual o similar a Rappi; la exclusividad podrá prorrogarse por 6 meses adicionales si acordado por las Partes.",
+  "RupturaExclusividad": "Si el Aliado incumple la obligación de exclusividad incurre en: (i) pago de 10% del valor total de las ventas realizadas a través de la plataforma hasta el momento en que se configure el incumplimiento, a pagarse dentro de 30 días; (ii) pagar de vuelta íntegramente la cantidad depositada en su cuenta por concepto de Fondo de Mercadotecnia dentro de 30 días; (iii) en caso de incumplir durante el periodo de exclusividad el Aliado se verá obligado a duplicar el porcentaje acordado (pasando a 20% + IVA) a partir de la notificación y acreditación del incumplimiento y hasta que termine el acuerdo con la otra plataforma.",
+  "CondicionesExclusividad": "La exclusividad comienza a partir de la fecha efectiva de inicio de operaciones que de común acuerdo establezcan las Partes y cuando se firme el documento correspondiente para el inicio de dicho plazo; la cláusula está condicionada al cumplimiento del Aliado de la obligación de exclusividad; si el Aliado no desea continuar con la exclusividad al término de los primeros 6 meses deberá notificarlo a Rappi con al menos 30 días de anticipación al vencimiento de dicho período.",
+  "DetalleExclusividad": "El Aliado deberá mantener exclusividad con Rappi por los primeros 6 meses desde el inicio efectivo de operaciones; si incumple enfrenta penalidades económicas (10% de ventas y devolución del Fondo de Mercadotecnia y/o duplicación del porcentaje de alquiler a 20% + IVA tras notificación); durante la exclusividad el porcentaje cobrado por uso de la plataforma será 0% si se cumple lo establecido; si el Aliado continúa con exclusividad pasados los primeros 12 meses, el porcentaje será 5% + IVA; si no continúa con exclusividad al concluir los periodos el Aliado pagará 10% + IVA por concepto de alquiler y uso de la plataforma.",
+  "DuracionContrato": "El presente Acuerdo tendrá una vigencia de 12 (doce) meses, contados a partir de la fecha de firma del presente Acuerdo.",
+  "FechaInicio": "29/05/2020",
+  "FechaFin": "29/05/2021",
+  "Preaviso": "El Aliado deberá notificar a Rappi con un periodo no inferior a 60 (sesenta) días calendario si no desea prorrogar el Acuerdo; para terminación unilateral anticipada el Aliado debe notificar con 90 (noventa) días calendario; para no continuar con exclusividad pasados 6 meses debe notificar 30 días.",
+  "DetalleTermino": "El Acuerdo terminará por: 1) mutuo acuerdo; 2) decisión de autoridad competente; 3) disolución o liquidación obligatoria de cualquiera de las Partes; 4) cualquiera de las Partes cuando exista incumplimiento no subsanado dentro de 10 días calendario; 5) si el Aliado desea terminar unilateralmente deberá notificar con mínimo 90 días; 6) si el Aliado termina durante el primer año deberá devolver el Fondo de Mercadotecnia dentro de 30 días; 7) si Rappi termina durante el primer año deberá pagar al Aliado el equivalente al Fondo de Mercadotecnia dentro de 30 días; posterior al primer año cualquiera de las Partes puede terminar con 90 días de notificación sin responsabilidad ni penalización.",
+  "PeriodicidadRenovacion": "Se prorrogará automáticamente por periodos similares al finalizar cada periodo (implícito: prórrogas anuales de igual duración).",
+  "PreavisoNoRenovacion": "En caso de que el Aliado no desee prorrogar el Acuerdo deberá notificarlo a Rappi con un periodo no inferior a 60 (sesenta) días calendario a la fecha de terminación.",
+  "DetalleVigencia": "El presente Acuerdo tendrá una vigencia de 12 (doce) meses, contados a partir de la fecha de firma del presente Acuerdo, y se prorrogará automáticamente por periodos similares al finalizar cada periodo. En caso de que el Aliado no desee prorrogar el Acuerdo deberá notificarlo a Rappi con un periodo no inferior a 60 (sesenta) días calendario a la fecha de terminación."
 }

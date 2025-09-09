@@ -1,28 +1,48 @@
 {
-  "id": "",
-  "titulo": "",
-  "partes": [],
-  "fecha_inicio": null,
-  "fecha_fin": null,
-  "duracion_meses": 0,
-  "objeto": "",
-  "obligaciones": [],
-  "clausulas_resolucion": "",
-  "clausula_confidencialidad": false,
-  "clausula_no_competencia": false,
-  "clausula_arbitraje": false,
-  "responsabilidad_limitada": false,
-  "sanciones_por_incumplimiento": "",
-  "riesgo_legal": "",
-  "cumplimiento_regulatorio": false,
-  "recomendaciones": [],
-  "resumen_ejecutivo": "",
-  "fecha_revision": null,
-  "analista": "",
-  "confidencial": false,
-  "anexos": [],
-  "contratos_relacionados": [],
-  "firmado": false,
-  "fecha_firma": null,
-  "observaciones": ""
+  "TieneDesembolsos": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneExclusividad": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TerminacionUnilateral": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PenalidadTerminacion": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneRenovacionAutomatica": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PeriodicidadPagos": "",
+  "FormaPago": "",
+  "CondicionesPago": "",
+  "DetalleDesembolsos": "",
+  "AlcanceExclusividad": "",
+  "RupturaExclusividad": "",
+  "CondicionesExclusividad": "",
+  "DetalleExclusividad": "",
+  "DuracionContrato": "",
+  "FechaInicio": null,
+  "FechaFin": null,
+  "Preaviso": "",
+  "DetalleTermino": "",
+  "PeriodicidadRenovacion": "",
+  "PreavisoNoRenovacion": "",
+  "DetalleVigencia": ""
 }

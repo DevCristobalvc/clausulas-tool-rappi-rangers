@@ -1,28 +1,48 @@
 {
-  "id": "",
-  "titulo": "",
-  "partes": [],
-  "fecha_firma": null,
-  "fecha_inicio": null,
-  "fecha_termino": null,
-  "objeto": "",
-  "monto": {
-    "cantidad": 0,
-    "moneda": ""
+  "TieneDesembolsos": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
   },
-  "obligaciones": [],
-  "clausulas": [],
-  "riesgos": [],
-  "recomendaciones": [],
-  "incumplimientos": [],
-  "cumplimiento_legal": false,
-  "resumen_ejecutivo": "",
-  "conclusion": "",
-  "analista": {
-    "nombre": "",
-    "firma": "",
-    "fecha": null
+  "TieneExclusividad": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
   },
-  "es_valido": false,
-  "referencias": []
+  "TerminacionUnilateral": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PenalidadTerminacion": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "TieneRenovacionAutomatica": {
+    "valor": false,
+    "evidencia": "",
+    "ubicacion": "",
+    "confianza": "baja"
+  },
+  "PeriodicidadPagos": "",
+  "FormaPago": "",
+  "CondicionesPago": "",
+  "DetalleDesembolsos": "",
+  "AlcanceExclusividad": "",
+  "RupturaExclusividad": "",
+  "CondicionesExclusividad": "",
+  "DetalleExclusividad": "",
+  "DuracionContrato": "",
+  "FechaInicio": null,
+  "FechaFin": null,
+  "Preaviso": "",
+  "DetalleTermino": "",
+  "PeriodicidadRenovacion": "",
+  "PreavisoNoRenovacion": "",
+  "DetalleVigencia": ""
 }

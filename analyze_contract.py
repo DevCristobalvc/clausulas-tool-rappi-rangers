@@ -14,13 +14,53 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 client = OpenAI(base_url=OPENAI_BASE_URL, api_key=OPENAI_API_KEY)
 
 SYSTEM_PROMPT = """
-Eres un analista legal experto.
-Devuelve ÚNICAMENTE un JSON válido, bien formado, que siga exactamente esta estructura de Python Pydantic (ContratoAnalisis).
+Eres un analista legal experto especializado en contratos comerciales.
+Analiza el documento proporcionado y extrae información específica sobre desembolsos, exclusividad, términos y vigencia.
+
+Para cada campo booleano (TieneDesembolsos, TieneExclusividad, TerminacionUnilateral, PenalidadTerminacion, TieneRenovacionAutomatica), debes proporcionar:
+- valor: true/false según si la cláusula existe
+- evidencia: el texto exacto del contrato que respalda tu conclusión
+- ubicacion: la sección, artículo o página donde se encuentra la información
+- confianza: "alta", "media" o "baja" según qué tan clara es la evidencia
+
+Para campos de texto, proporciona la información específica encontrada en el contrato.
+
+Devuelve ÚNICAMENTE un JSON válido, bien formado, que siga exactamente esta estructura:
+{
+  "TieneDesembolsos": {
+    "valor": true/false,
+    "evidencia": "texto del contrato",
+    "ubicacion": "sección/artículo",
+    "confianza": "alta/media/baja"
+  },
+  "TieneExclusividad": { ... },
+  "TerminacionUnilateral": { ... },
+  "PenalidadTerminacion": { ... },
+  "TieneRenovacionAutomatica": { ... },
+  "PeriodicidadPagos": "texto específico",
+  "FormaPago": "texto específico",
+  "CondicionesPago": "texto específico",
+  "DetalleDesembolsos": "texto específico",
+  "AlcanceExclusividad": "texto específico",
+  "RupturaExclusividad": "texto específico",
+  "CondicionesExclusividad": "texto específico",
+  "DetalleExclusividad": "texto específico",
+  "DuracionContrato": "texto específico",
+  "FechaInicio": "fecha o null",
+  "FechaFin": "fecha o null",
+  "Preaviso": "texto específico",
+  "DetalleTermino": "texto específico",
+  "PeriodicidadRenovacion": "texto específico",
+  "PreavisoNoRenovacion": "texto específico",
+  "DetalleVigencia": "texto específico"
+}
+
+Si no encuentras información para un campo, usa:
+- Para objetos Evidencia: {"valor": false, "evidencia": "", "ubicacion": "", "confianza": "baja"}
+- Para strings: ""
+- Para fechas: null
+
 No incluyas comentarios, explicaciones, ni texto fuera del objeto JSON.
-Si no hay información para un campo, usa:
-- false para booleanos
-- "" para strings
-- null para fechas
 Devuelve un único bloque JSON cerrado con { }.
 """
 
@@ -129,6 +169,27 @@ def _fill_missing(parsed_json: dict) -> dict:
     base = ContratoAnalisis().model_dump()
     if not isinstance(parsed_json, dict):
         return base
+    
+    # Para campos de evidencia, asegurar que tengan la estructura correcta
+    evidencia_fields = ['TieneDesembolsos', 'TieneExclusividad', 'TerminacionUnilateral', 
+                       'PenalidadTerminacion', 'TieneRenovacionAutomatica']
+    
+    for field in evidencia_fields:
+        if field in parsed_json:
+            if isinstance(parsed_json[field], dict):
+                # Si ya es un dict, asegurar que tenga todos los campos necesarios
+                evidencia_default = {"valor": False, "evidencia": "", "ubicacion": "", "confianza": "baja"}
+                evidencia_default.update(parsed_json[field])
+                parsed_json[field] = evidencia_default
+            else:
+                # Si es un booleano simple, convertir a estructura de evidencia
+                parsed_json[field] = {
+                    "valor": bool(parsed_json[field]),
+                    "evidencia": "",
+                    "ubicacion": "",
+                    "confianza": "baja"
+                }
+    
     base.update(parsed_json)
     return base
 

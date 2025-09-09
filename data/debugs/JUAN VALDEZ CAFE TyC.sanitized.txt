@@ -1,316 +1,48 @@
 {
-  "contrato_valido": true,
-  "razones_no_valido": "",
-  "partes": [
-    {
-      "nombre": "Tecnologías Rappi S.A.P.I. de C.V.",
-      "rfc": "TRA150604TW1",
-      "domicilio": "Calzada General Mariano Escobedo 555, pisos 11 y 12, Miguel Hidalgo, Ciudad de México, C.P. 11580"
-    },
-    {
-      "nombre": "INVERSIONES EN RESTAURANTES Y HOTELES",
-      "rfc": "IRH150302UU3",
-      "domicilio": ""
-    }
-  ],
-  "vigencia": {
-    "inicio": "2024-03-27",
-    "meses": 24,
-    "prorroga_automatica": true,
-    "terminacion_anticipada": {
-      "por_parte_aliado_dias_notificacion": 90,
-      "por_parte_rappi_dias_notificacion": 90,
-      "incumplimiento_subsanacion_dias": 10,
-      "penalidad_porcentaje": 10.0,
-      "penalidad_formula": "VF = VP * (VA - ME)"
-    }
+  "TieneDesembolsos": {
+    "valor": true,
+    "evidencia": "Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en los presentes Términos y Condiciones. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial.",
+    "ubicacion": "Forma de pago (sección) / Términos & Condiciones - págs. 5-6",
+    "confianza": "alta"
   },
-  "tarifas": {
-    "meses": [
-      {
-        "mes": 1,
-        "porcentaje": 0.0,
-        "nota": "0% + IVA"
-      },
-      {
-        "mes": 2,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 3,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 4,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 5,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 6,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 7,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 8,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 9,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 10,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 11,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 12,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 13,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 14,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 15,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 16,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 17,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 18,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 19,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 20,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 21,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 22,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 23,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      },
-      {
-        "mes": 24,
-        "porcentaje": 21.0,
-        "nota": "21% + IVA"
-      }
-    ],
-    "pick_up_porcentaje": 13.0,
-    "nota_cancelaciones": "Rappi cubrirá el 35% del valor total de órdenes canceladas cuya cancelación no sea culpa exclusiva del Aliado Comercial (excluye productos que no requieren preparación)."
+  "TieneExclusividad": {
+    "valor": true,
+    "evidencia": "Exclusividad. El Aliado Comercial se obliga a tener exclusividad con Rappi, por lo que no podrá celebrar y/o ejecutar, de manera directa o indirecta, ningún tipo de acuerdo con un objeto igual o similar al objeto de los presentes Términos y Condiciones con cualquier empresa y/o plataforma virtual que preste servicios iguales o similares a Rappi (en adelante "Empresa Tercera").",
+    "ubicacion": "Exclusividad (sección)",
+    "confianza": "alta"
   },
-  "obligaciones": {
-    "rappi": [
-      "Diseñar sin costo el espacio dentro de la Plataforma para que el Aliado exhiba, ofrezca y comercialice sus Productos.",
-      "Disponer la Plataforma para que Usuarios/Consumidores adquieran Productos (excepto fuerza mayor, caso fortuito o inconvenientes técnicos mayores).",
-      "Compartir un reporte semanal detallado de ventas al Aliado (por Portal de Partners o mecanismo definido).",
-      "Cubrir parte del valor de órdenes canceladas según lo establecido (35% en condiciones señaladas)."
-    ],
-    "aliado": [
-      "Entregar gratuitamente logos y artes de la Marca en el formato requerido.",
-      "Diligenciar y actualizar la información del Catálogo (productos, precios, descripciones).",
-      "Notificar modificaciones relevantes de Catálogo, dirección y horarios.",
-      "Responder por la veracidad de la información en su tienda virtual y mantener la misma calidad y precios que en otros canales.",
-      "Atender y tramitar órdenes recibidas a través de la Plataforma conforme a lo solicitado por Usuarios/Consumidores.",
-      "No preparar órdenes no aceptadas dentro de los 7 minutos siguientes a su recepción (se eliminarán).",
-      "Emitir tickets de cada orden (no a nombre de Rappi).",
-      "Entregar Productos en empaques adecuados, sellados, con accesorios y ticket; no exigir pago a Repartidores Independientes por retiro.",
-      "Verificar entrega de pedidos al Repartidor Independiente correcto.",
-      "Asumir valor de productos errados o faltantes y autorizar descuento semanal de dichos valores.",
-      "Pagar $10 MXN por cada demora de 5 minutos o más en entregar la orden al Repartidor Independiente después del Cooking Time (descuento semanal).",
-      "Compensar al Usuario/Consumidor con 10% del valor de la orden si la preparación toma más de 40 minutos (valor descontado del reembolso por Rappi al Aliado).",
-      "Gestionar permisos, licencias y autorizaciones necesarias para operación conforme a Ley Aplicable.",
-      "Permitir acceso y revisión de tablets o dispositivos usados para tramitar órdenes.",
-      "Abstenerse de reproducir, copiar o desarrollar software de Rappi y eliminar software de Rappi al cesar uso."
-    ]
+  "TerminacionUnilateral": {
+    "valor": true,
+    "evidencia": "(iii) En el caso en el que Rappi desee que el Aliado Comercial cese el uso de la Plataforma Rappi para ofrecer, exhibir y comercializar sus Productos, de manera anticipada, deberá notificarle al Aliado Comercial, con un periodo no inferior a 90 (noventa) días calendario a la fecha de terminación deseada. (iv) En el caso en el que exista incumplimiento de las obligaciones por Rappi o el Aliado Comercial se podrá cesar el uso de la Plataforma Rappi por parte del Aliado Comercial, sin que haya lugar a indemnización. Lo anterior aplicará, en el caso en el que quien haya incumplido no subsane ni remedie el incumplimiento dentro del plazo de 10 (diez) días calendario, contados a partir de la notificación por escrito del incumplimiento. (vi) Rappi podrá cesar el uso de la Plataforma Rappi por parte del Aliado Comercial, en el caso en el que identifique actuaciones irregulares en la cuenta del Aliado Comercial en el Portal de Partners, en la Aplicación Rappi Aliados y/o en la(s) tienda(s) virtual(es) del Aliado Comercial al interior de la Plataforma Rappi.",
+    "ubicacion": "Término (iii),(iv),(vi) - págs. 6-7",
+    "confianza": "alta"
   },
-  "balanceo_y_control_operativo": {
-    "facultades_rappi": [
-      "Apagar o suspender Establecimientos de Comercio.",
-      "Apagar o suspender Productos.",
-      "Aumentar o reducir Radio de Cobertura.",
-      "Habilitar o deshabilitar métodos de pago.",
-      "Usar herramientas para balancear demanda."
-    ]
+  "PenalidadTerminacion": {
+    "valor": true,
+    "evidencia": "(ii) En el caso en el que el Aliado Comercial desee cesar el uso de la Plataforma Rappi para ofrecer, exhibir y comercializar sus Productos, de manera anticipada, deberá notificarle a Rappi, con un periodo no inferior a 90 (noventa) días calendario a la fecha de terminación deseada. De igual manera, se obligará al Aliado Comercial a pagarle a Rappi la penalidad de mayor valor de las siguientes 2 (dos) penalidades: i) el 10% (diez por ciento) del valor total de las ventas realizadas por el Aliado Comercial a través de la Plataforma Rappi hasta la fecha de terminación deseada; ii) el 10% (diez por ciento) del valor total de las ventas futuras del Aliado Comercial a través de la Plataforma Rappi. Se aclara que el valor de las ventas futuras del Aliado Comercial se determinará de conformidad con la siguiente ecuación: VF = VP * (VA – ME) VF = Ventas futuras del Aliado Comercial. VP = Ventas promedio del Aliado Comercial. VA = Vigencia de los Términos y Condiciones (en meses). ME = Meses ejecutados de los Términos y Condiciones. El pago del valor de la penalidad deberá ser realizado dentro de los 30 (treinta) días siguientes a la fecha de terminación deseada, mediante transferencia bancaria a la cuenta que Rappi le señale al Aliado Comercial para ese fin.",
+    "ubicacion": "Término (ii) - págs. 6-7",
+    "confianza": "alta"
   },
-  "seguridad_higiene": {
-    "responsabilidad_aliado": "El Aliado es totalmente responsable por calidad, higiene, elaboración y seguridad de ingredientes y debe cumplir la Ley Aplicable en materia de seguridad alimentaria.",
-    "consecuencia_incumplimiento": "Aliado asume el valor de reclamos por Usuarios/Consumidores; Rappi realizará descuento semanal correspondiente."
+  "TieneRenovacionAutomatica": {
+    "valor": true,
+    "evidencia": "Término. (i) Los presentes Términos y Condiciones aplicarán durante un periodo de 24 meses, contados a partir de la suscripción de los mismos por parte del Aliado Comercial. Se aclara que la vigencia de los mismos se prorrogará automáticamente por periodos similares al finalizar cada periodo.",
+    "ubicacion": "Término (i) - págs. 6",
+    "confianza": "alta"
   },
-  "forma_de_pago_y_cuentas": {
-    "frecuencia_reembolso": "semanal",
-    "mecanica": "Rappi reembolsará el valor de órdenes tramitadas la semana siguiente al corte semanal menos Uso y Alquiler y otros descuentos aplicables.",
-    "fecha_corte": "",
-    "cuenta_bancaria": {
-      "titular": "INVERSIONES EN RESTAURANTES Y HOTELES SAPI",
-      "cuenta": "01720121531965",
-      "clabe_interbancaria": "127180001215319650",
-      "banco": "AZTECA - BANCO AZTECA SA"
-    },
-    "facturacion_electronica": true,
-    "conciliaciones_max_antiguedad_meses": 2
-  },
-  "retenciones": "Rappi efectuará las retenciones correspondientes sobre el valor de las ventas del Aliado Comercial realizadas a través de la Plataforma Rappi.",
-  "modalidad_pick_up": {
-    "uso_alquiler_porcentaje": 13.0,
-    "cobertura_cancelaciones": "Rappi cubrirá 35% del valor total de órdenes canceladas no atribuibles al Aliado (excluye productos sin preparación).",
-    "responsabilidades_aliado": [
-      "Asumir compensaciones por producto equivocado, orden incompleta o producto en mal estado (descuento sobre reembolso semanal).",
-      "Asumir compensaciones por órdenes reportadas como no entregadas si no puede comprobar entrega.",
-      "Cobrar al Usuario en establecimiento en pagos en efectivo o débito conforme al precio en Plataforma (no cobrar distinto).",
-      "Verificar entrega al Usuario/Consumidor correcto.",
-      "Rappi podrá desactivar Pick-Up unilateralmente con notificación."
-    ]
-  },
-  "condiciones_especiales": {
-    "aliados_premium_enlace": "https://legalaliados.rappi.com/?page_id=6",
-    "notificacion_modificaciones_dias": 8
-  },
-  "exclusividad": {
-    "obligatoria": true,
-    "consecuencia_incumplimiento": "duplicar el porcentaje acordado por Uso y Alquiler y pago adicional del 10% del valor total de ventas hasta momento del incumplimiento; aplicación retroactiva mientras dure el acuerdo con tercero.",
-    "pago_adicional_por_incumplimiento_porcentaje": 10.0,
-    "plazo_pago_dias": 30
-  },
-  "propiedad_intelectual": {
-    "rappi_propietaria": "Rappi conserva todos los derechos sobre la Plataforma Rappi, Aplicación Rappi Aliados y Portal de Partners.",
-    "aliado_responsable": "El Aliado declara tener derechos sobre imágenes/fotografías compartidas y mantendrá indemne a Rappi frente a reclamaciones de terceros."
-  },
-  "independencia_partes": "Las Partes son contratistas independientes; no existe relación laboral ni joint venture.",
-  "fuerza_mayor": "Ninguna Parte será responsable por retrasos o incumplimientos derivados de caso fortuito o fuerza mayor según definición contractual.",
-  "indemnidad_y_responsabilidad": {
-    "aliado_responsable_por": [
-      "salarios y acreencias laborales de su personal",
-      "inconvenientes con Producto o entrega",
-      "falta de calidad, idoneidad y seguridad de Productos",
-      "daños a terceros por acciones u omisiones",
-      "incumplimiento de obligaciones contractuales"
-    ],
-    "obligacion_indemnizar": "Las Partes se mantienen indemnizadas respecto de terceros por incumplimiento y Ley Aplicable."
-  },
-  "confidencialidad": {
-    "definicion": "Información técnica, comercial, financiera, estratégica, legal y de cualquier naturaleza relacionada con operaciones de negocios reveladas entre las Partes.",
-    "duracion_anos": 3,
-    "excepcion_secreto_comercial": "Persistirá en la medida que constituya secreto comercial debidamente identificado según Ley Aplicable."
-  },
-  "ciberseguridad_y_notificacion_incidentes": {
-    "obligaciones_aliado": [
-      "Gestionar riesgos cibernéticos y proteger información con medidas no menos rigurosas que la Ley Aplicable.",
-      "Notificar a Rappi incidentes cibernéticos que afecten confidencialidad, integridad o disponibilidad dentro de 24 horas desde conocimiento, detallando información comprometida."
-    ]
-  },
-  "resolucion_conflictos": {
-    "primera_instancia": "Arreglo directo entre las Partes",
-    "plazo_arreglo_directo_dias": 30,
-    "jurisdiccion_final": "tribunales de la jurisdicción ordinaria de la Ciudad de México"
-  },
-  "proteccion_datos_personales": {
-    "obligaciones": [
-      "Garantizar adecuado Tratamiento de la información contenida en bases de datos suministradas por la otra Parte con autorización de Titulares.",
-      "Cumplir la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y demás Ley Aplicable.",
-      "Mantener estándares máximos de seguridad, protección, resguardo y confidencialidad."
-    ],
-    "finalidad_transferencia_a_aliado": "Trámite y entrega de una orden activa dentro de la Plataforma Rappi; eliminar inmediatamente una vez utilizada para dicha finalidad.",
-    "penalidad_por_uso_indebido_mxn": 1000000.0,
-    "plazo_pago_penalidad_dias": 30
-  },
-  "disposiciones_generales": {
-    "nulidad_parcial_no_renuncia": "Si alguna disposición es nula, el resto permanece vigente; la falta o demora en ejercicio de derechos no constituye renuncia.",
-    "cesion": "Aliado no podrá ceder total o parcialmente la ejecución de los Términos y Condiciones.",
-    "acuerdo_total": "Estos Términos y Condiciones representan el acuerdo exclusivo entre las Partes.",
-    "impuestos": "Cada Parte será responsable de sus impuestos conforme a Ley Aplicable.",
-    "modificaciones_plataforma_sin_aviso": "Rappi podrá modificar diseño, visuales y arte de la Plataforma, Aplicación y Portal sin previo aviso.",
-    "disponibilidad_no_garantizada": "Rappi no garantiza disponibilidad o uptime; hará mejores esfuerzos en caso de inestabilidad.",
-    "canales_de_comunicacion": [
-      "Portal Aliados",
-      "notificacionlegalmx@rappi.com",
-      "Calzada General Mariano Escobedo 555, pisos 11 y 12, Miguel Hidalgo, Ciudad de México, C.P. 11580"
-    ],
-    "venta_bebidas_alcoholicas": "Aliado declara contar con permisos y cumplir restricciones de zona, horario y demás limitaciones aplicables.",
-    "ley_aplicable": "Leyes de los Estados Unidos Mexicanos",
-    "domicilio_contractual": "Ciudad de México (efectos legales); domicilio tributario conforme a municipio desde donde comercialice Productos.",
-    "autorizacion_retenccion_ventas": "Aliado autoriza a Rappi a ejecutar penalidades y liquidar adeudos reteniendo cantidades de ventas semanales.",
-    "cumplimiento_anticorrupcion_y_sourcing": "Aliado declara ingresos lícitos, cumplimiento de leyes anticorrupción y no mantener relaciones con proveedores que vulneren derechos laborales o leyes aplicables."
-  },
-  "derecho_revision_auditoria": {
-    "derecho_rappi": "Rappi podrá revisar y auditar cumplimiento de numerales relacionados con ética, anticorrupción, sourcing y cumplimiento legal con aviso previo de 5 días hábiles.",
-    "consecuencias_auditoria": [
-      "Aliado deberá indemnizar por daños y perjuicios derivados",
-      "Rappi podrá cesar uso de Plataforma sin preaviso",
-      "Rappi podrá cobrar costo de auditoría"
-    ]
-  },
-  "resumen": "Contrato de adhesión para uso de la Plataforma Rappi por INVERSIONES EN RESTAURANTES Y HOTELES con vigencia inicial de 24 meses, tarifas variables (0% mes 1; 21% meses 2-24), obligaciones operativas para ambas Partes, exclusividad obligatoria, mecanismos de penalidad, protección de datos, confidencialidad y jurisdicción en Ciudad de México.",
-  "fecha_aceptacion": "2024-03-27",
-  "firma": {
-    "firmantes": [
-      {
-        "nombre": "JOSE IGNACIO",
-        "apellidos": "ZEPEDA PINEDA",
-        "correo_electronico": "amado.cruz@gzepeda.com",
-        "hash": "VKPQf/2v6tN1UO8g9fcMdBGKEmdsMG2hUny7Z7JKeWA=",
-        "direccion_ip": "67.205.195.33",
-        "visualizacion_mensaje_datos": "2024-03-27T23:29:06.973Z",
-        "fecha_firma": "2024-04-05T05:10:30.921Z",
-        "tipo_firma": "Firma Electrónica Fiable",
-        "estatus": "Firmado y Completo"
-      }
-    ],
-    "fecha_firma_version_final": "2024-04-05T05:10:31.032Z",
-    "numero_identificador_documento": "6604aaf39806a770abd7843d",
-    "url_auditoria": "https://enterprise.app.trato.io/r/zolrB22yeY4JkCxsvVluH"
-  },
-  "nota_final": "El Aliado reconoce y acepta íntegramente los Términos y Condiciones en la fecha indicada."
+  "PeriodicidadPagos": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente ... la semana inmediatamente siguiente al corte semanal",
+  "FormaPago": "Rappi pagará al Aliado Comercial el valor determinado en la cuenta bancaria relacionada a continuación: Titular: INVERSIONES EN RESTAURANTES Y HOTELES; Cuenta: 01720121531965; Clabe Interbancaria: 127180001215319650; Banco: AZTECA - BANCO AZTECA SA. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.",
+  "CondicionesPago": "El reembolso se realizará semanalmente y será por el valor de las órdenes tramitadas, menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con los presentes Términos y Condiciones. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. En ningún caso, las Partes podrán conciliar órdenes o pagos que tengan una vigencia superior a 2 (dos) meses desde su creación al interior de la Plataforma Rappi.",
+  "DetalleDesembolsos": "Rappi reembolsará semanalmente el valor de las órdenes tramitadas por la Plataforma Rappi, descontando el Uso y Alquiler y otros descuentos aplicables. Modalidad Pick-Up: Rappi cobrará por Uso y Alquiler 13% + IVA del valor de las órdenes Pick-Up; Rappi cubrirá el 35% del valor total de las órdenes canceladas cuya cancelación no sea culpa exclusiva del Aliado (excluyendo Productos que no requieren preparación). El Aliado Comercial asumirá compensaciones por producto equivocado, orden incompleta, o producto en mal estado, y dichos descuentos se aplicarán sobre el valor a reembolsar semanalmente al Aliado Comercial. Rappi efectuará las retenciones correspondientes por las ventas realizadas por el Aliado Comercial a través de la Plataforma Rappi.",
+  "AlcanceExclusividad": "El Aliado Comercial se obliga a tener exclusividad con Rappi, por lo que no podrá celebrar y/o ejecutar, de manera directa o indirecta, ningún tipo de acuerdo con un objeto igual o similar al objeto de los presentes Términos y Condiciones con cualquier empresa y/o plataforma virtual que preste servicios iguales o similares a Rappi (en adelante "Empresa Tercera").",
+  "RupturaExclusividad": "En caso de incumplir con esta obligación, el Aliado Comercial se verá obligado a duplicar el porcentaje acordado por concepto del Uso y Alquiler de la Plataforma Rappi. Dicho aumento aplicará de manera automática, a partir de la configuración del incumplimiento de la presente condición de exclusividad. Adicionalmente, dicho aumento en este valor se deberá aplicar de manera retroactiva por el periodo de tiempo anterior a la fecha de celebración del acuerdo con la Empresa Tercera y permanecerá hasta que el Aliado Comercial termine dicho acuerdo con dicha Empresa Tercera. El incumplimiento del Aliado Comercial de la obligación de exclusividad frente a Rappi, establecida en la presente condición, lo hará incurrir en el pago del 10% (diez por ciento) del valor total de las ventas realizadas a través de la Plataforma Rappi hasta el momento en que se configure el incumplimiento, y deberá ser pago dentro de los 30 (treinta) días siguientes a partir del incumplimiento.",
+  "CondicionesExclusividad": "Dicho aumento aplicará de manera automática, a partir de la configuración del incumplimiento de la presente condición de exclusividad. Adicionalmente, dicho aumento en este valor se deberá aplicar de manera retroactiva por el periodo de tiempo anterior a la fecha de celebración del acuerdo con la Empresa Tercera y permanecerá hasta que el Aliado Comercial termine dicho acuerdo con dicha Empresa Tercera. Este incumplimiento se entenderá configurado sin necesidad de requerimiento por parte de Rappi, declarando el Aliado Comercial que renuncia a constitución en mora, y lo anterior no lo excluye de cumplir con el pago de las demás sumas de dinero que adeude a Rappi hasta ese momento.",
+  "DetalleExclusividad": "La exclusividad impide al Aliado Comercial celebrar acuerdos directos o indirectos con plataformas o empresas que presten servicios iguales o similares a Rappi; el incumplimiento implica duplicar el porcentaje de Uso y Alquiler, aplicación retroactiva y pago del 10% de las ventas totales hasta el momento del incumplimiento, pagadero en 30 días.",
+  "DuracionContrato": "Los presentes Términos y Condiciones aplicarán durante un periodo de 24 meses, contados a partir de la suscripción de los mismos por parte del Aliado Comercial.",
+  "FechaInicio": "2024-03-27",
+  "FechaFin": "2026-03-27",
+  "Preaviso": "(i) Para no prorrogar: deberá notificarlo con un periodo no inferior a 30 (treinta) días calendario a la fecha de terminación. (ii) Para cese anticipado por parte del Aliado: deberá notificar a Rappi con un periodo no inferior a 90 (noventa) días calendario. (iii) Para cese anticipado solicitado por Rappi: deberá notificar al Aliado Comercial con un periodo no inferior a 90 (noventa) días calendario. (iv) En caso de incumplimiento, la parte incumplidora tendrá 10 (diez) días calendario para subsanar el incumplimiento tras notificación por escrito.",
+  "DetalleTermino": "(i) Vigencia inicial de 24 meses, prórroga automática por periodos similares. (ii) Ceses anticipados por parte del Aliado requieren notificación de no menos de 90 días y pago de penalidad (mayor de: 10% ventas hasta la fecha o 10% ventas futuras calculadas por VF = VP*(VA–ME)), pago en 30 días. Se entenderá que el Aliado desea cesar cuando por un periodo igual o superior a 1 mes: a) no se conecte a la Aplicación Rappi Aliados; b) no tramite ninguna orden; y/o c) apague sus Establecimientos de Comercio por medio del Portal de Partners. (iii) Si Rappi desea que el Aliado cese, deberá notificar con 90 días y no cobrará Uso y Alquiler durante dichos 90 días. (iv) En caso de incumplimiento que no sea subsanado en 10 días desde notificación, se podrá cesar el uso sin indemnización. (v) El uso cesará en caso de disolución o liquidación obligatoria. (vi) Rappi podrá cesar uso si identifica actuaciones irregulares en la cuenta o tiendas virtuales del Aliado.",
+  "PeriodicidadRenovacion": "Se prorrogará automáticamente por periodos similares (periodos de 24 meses, según vigencia inicial).",
+  "PreavisoNoRenovacion": "deberá notificarlo con un periodo no inferior a 30 (treinta) días calendario a la fecha de terminación.",
+  "DetalleVigencia": "Término. (i) Los presentes Términos y Condiciones aplicarán durante un periodo de 24 meses, contados a partir de la suscripción de los mismos por parte del Aliado Comercial. Se aclara que la vigencia de los mismos se prorrogará automáticamente por periodos similares al finalizar cada periodo. En el caso en el que Rappi o el Aliado Comercial, no desee prorrogar los presentes Términos y Condiciones, deberá notificarlo con un periodo no inferior a 30 (treinta) días calendario a la fecha de terminación."
 }
