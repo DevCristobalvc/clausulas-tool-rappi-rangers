@@ -23,7 +23,7 @@ def analyze_txts():
     for txt_path in txt_files:
         print(f"Analizando {txt_path.name} ...")
         text = txt_path.read_text(encoding="utf-8")
-        result = analyze_contract(text)
+        result = analyze_contract(text, file_name=txt_path.stem)
 
         output_data = {
             "archivo": txt_path.stem,

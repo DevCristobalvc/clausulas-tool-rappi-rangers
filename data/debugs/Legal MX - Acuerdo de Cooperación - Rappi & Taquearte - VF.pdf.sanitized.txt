@@ -1,0 +1,335 @@
+{
+  "titulo": "Acuerdo de Cooperación entre Tecnologías Rappi, S.A.P.I. de C.V. y TQ Taquearte Corporation, S.A.P.I. de C.V.",
+  "resumen_ejecutivo": "Acuerdo para la exhibición, oferta y comercialización de productos identificados con las marcas 'Taquearte' y 'Tortearte' en la Plataforma Rappi; contiene obligaciones de ambas partes, esquema de pagos, bono de firma, inversiones en Ads, ventas garantizadas, fondo de mercadotecnia, exclusividad, protecciones de datos y mecanismos de terminación.",
+  "fecha_firma": "2024-07-24T23:50:43.940Z",
+  "partes": [
+    {
+      "nombre_legal": "TECNOLOGÍAS RAPPI, S.A.P.I. DE C.V.",
+      "rol": "Rappi",
+      "representante": "Iván Cadavid Silva",
+      "rfc": "",
+      "domicilio_fiscal": "Av. Mariano Escobedo No. 555, Piso 11 y 12, Col. Bosque De Chapultepec I Sección, Miguel Hidalgo, C.P. 11580, Ciudad de México",
+      "contacto_email": "notificacioneslegalmxcr@rappi.com",
+      "banco": ""
+    },
+    {
+      "nombre_legal": "TQ TAQUEARTE CORPORATION, S.A.P.I. DE C.V.",
+      "rol": "Aliado Comercial",
+      "representante": "Luis Alberto González González",
+      "rfc": "TTC210623RB4",
+      "domicilio_fiscal": "Avenida José María Rico 323 Dept. 4, Colonia Acacias, Alcaldía Benito Juárez, C.P. 03240, Ciudad de México",
+      "contacto_email": "lgonzalez@dulceartemx.onmicrosoft.com",
+      "banco": "BBVA"
+    }
+  ],
+  "objeto": "Regular la relación entre Rappi y el Aliado Comercial para exhibir, ofrecer y comercializar Productos identificados con las Marcas a través de la Plataforma Rappi.",
+  "marcas_incluidas": [
+    "Taquearte",
+    "Tortearte"
+  ],
+  "vigencia": {
+    "vigencia_inicial_meses": 36,
+    "renovacion_automatica": true,
+    "plazo_notificacion_no_renovacion_dias": 30
+  },
+  "terminacion": {
+    "causas_de_terminacion": [
+      "Mutuo acuerdo",
+      "Decisión de autoridad competente",
+      "Disolución o liquidación obligatoria",
+      "Terminación unilateral por el Aliado Comercial (anticipada sin justa causa) con aviso mínimo de 90 días y penalidades",
+      "Terminación unilateral por Rappi con aviso de 90 días",
+      "Incumplimiento de obligaciones no subsanado en 10 días",
+      "Actuaciones irregulares detectadas por Rappi (terminación inmediata)"
+    ],
+    "penalidad_terminacion_anticipada_aliado": {
+      "descripcion": "El Aliado paga la penalidad de mayor valor entre (a) 10% del valor total de ventas realizadas hasta la fecha de terminación deseada; o (b) 10% del valor total de ventas futuras determinadas por la fórmula VF = VP * (VA - ME).",
+      "porcentaje": 10
+    },
+    "penalidad_bono_firma_en_caso_de_causa": {
+      "obligacion_devolucion_bono": true,
+      "penalidad_adicional_porcentaje": 50,
+      "descripcion": "Devolver íntegramente los montos desembolsados del Bono de Firma y pagar una pena convencional del 50% sobre lo desembolsado."
+    }
+  },
+  "pagos_y_facturacion": {
+    "uso_y_alquiler_plataforma": {
+      "porcentaje_general": 17,
+      "porcentaje_pick_up": 13,
+      "iva_aplicable": true,
+      "base": "Valor total de los Productos vendidos por medio de la Plataforma Rappi"
+    },
+    "reembolso_semanal": {
+      "descripcion": "Rappi reembolsa semanalmente el valor de las órdenes tramitadas la semana anterior menos uso y alquiler y otros descuentos aplicables.",
+      "frecuencia": "semanal",
+      "cuenta_pago": {
+        "titular": "TQ TAQUEARTE CORPORATION, S.A.P.I. DE C.V.",
+        "cuenta": "0118871698",
+        "clabe": "012180001188716987",
+        "banco": "BBVA"
+      }
+    },
+    "retenciones": "Rappi efectuará las retenciones correspondientes por las ventas de Productos realizadas por el Aliado Comercial a través de la Plataforma Rappi."
+  },
+  "bono_de_firma": {
+    "monto_total_mxn": 18500000,
+    "monto_mxn_letra": "Dieciocho millones quinientos mil pesos 00/100 M.N.",
+    "iva": "mencionado como más IVA; cronograma indica montos incluyendo IVA en desembolsos",
+    "cronograma_desembolso": [
+      {
+        "porcentaje": 60,
+        "monto_mxn": 11100000,
+        "plazo": "30 días calendario tras firma (Rappi dispone de 30 días hábiles desde recepción de factura para pagar)",
+        "incluye_iva": true
+      },
+      {
+        "porcentaje": 40,
+        "monto_mxn": 7400000,
+        "plazo": "Mes 13 de vigencia (Rappi dispone de 30 días hábiles desde recepción de factura para pagar)",
+        "incluye_iva": true
+      }
+    ],
+    "no_cobro_interes": true,
+    "condiciones_de_reembolso": "Si Rappi termina por incumplimiento del Aliado, el Aliado termina anticipadamente sin justa causa o incumple exclusividad, deberá devolver lo desembolsado y pagar penalidad del 50% sobre lo desembolsado; dichos montos descontables de ventas semanales o mediante depósito."
+  },
+  "obligaciones_rappi": [
+    "Diseñar sin costo el espacio en la Plataforma para exhibición de Productos.",
+    "Disponibilidad de la Plataforma (salvo fuerza mayor, caso fortuito o inconvenientes técnicos mayores).",
+    "Compartir reporte semanal detallado de ventas (por Portal de Partners o mecanismo definido).",
+    "Cubrir 35% del valor total de las órdenes canceladas cuya cancelación no sea culpa exclusiva del Aliado (excluye productos que no requieren preparación)."
+  ],
+  "obligaciones_aliado_comercial": [
+    "Proveer gratuitamente logos y artes en formato requerido.",
+    "Diligenciar y actualizar catálogo (productos, precios, características, descripciones).",
+    "Ofrecer misma calidad y precios en Plataforma Rappi que en otros canales (Rappi puede cobrar cargos adicionales al usuario).",
+    "Autorizar uso de marcas y material para publicaciones físicas y digitales.",
+    "Ubicar material POP proporcionado por Rappi y promocionar en redes sociales la disponibilidad en Rappi.",
+    "Tramitar todas las órdenes recibidas por la Plataforma Rappi según lo solicitado; emitir ticket por cada orden a nombre del Aliado, no de Rappi.",
+    "Entregar productos en empaques adecuados y accesorios necesarios; no cobrar a Repartidores Independientes por retiro.",
+    "Verificar entrega de orden al Repartidor Independiente correcto.",
+    "Asumir costo de productos errados o faltantes y autorizar descuento semanal de dichos valores.",
+    "Compensar a Rappi $10.00 MXN por demora de 5 o más minutos en entregar la orden al Repartidor después del Cooking Time; autoriza descuento semanal.",
+    "Dar compensación del 10% del valor de la orden al usuario si toma más de 40 minutos preparar la orden (valor descontado del reembolso de Rappi al Aliado).",
+    "Gestionar permisos/licencias necesarias y permitir acceso/revisión de tablets/dispositivos usados para tramitar órdenes.",
+    "Abstenerse de reproducir/copiar/desarrollar software de Rappi y eliminar software de Rappi al cesar uso."
+  ],
+  "operativa_pedidos": {
+    "aceptacion_ordenes_limite_minutos": 7,
+    "ordenes_no_aceptadas": "Se incluyen como órdenes tomadas y suman al cálculo de Uso y Alquiler; órdenes no aceptadas en 7 minutos eliminadas del sistema.",
+    "pick_up": {
+      "condicionado": true,
+      "uso_y_alquiler_pick_up_porcentaje": 13,
+      "cobertura_cancelaciones_rappi": 35,
+      "responsabilidades_aliado": [
+        "Asumir compensaciones por producto equivocado, orden incompleta o en mal estado (descuento sobre reembolso semanal).",
+        "Asumir valor de compensaciones por órdenes reportadas como no entregadas si no puede comprobar entrega.",
+        "Cobrar al usuario en establecimiento cuando el método de pago seleccionado sea efectivo o tarjeta débito (sin cobrar distinto al precio en Plataforma).",
+        "Responsable de verificar entrega al usuario correcto."
+      ],
+      "desactivacion_unilateral": "Rappi puede desactivar Pick-Up en cualquier momento previa notificación."
+    },
+    "tablets": {
+      "adquisicion_via_rappi": true,
+      "descuento_cuotas_semanales": 4,
+      "obligacion_completar_si_altas_no_cubren": "Completar cuota por transferencia bancaria si ventas no cubren",
+      "pago_pendiente_al_terminar": "Si cese uso de Plataforma y tablets no pagadas, Aliado paga faltante dentro de 15 días hábiles"
+    }
+  },
+  "balanceo": {
+    "facultades_rappi": [
+      "Apagar/suspender establecimientos",
+      "Apagar/suspender productos",
+      "Aumentar/reducir radio de cobertura",
+      "Habilitar/deshabilitar métodos de pago",
+      "Usar herramientas para balancear demanda"
+    ],
+    "efecto_incumplimiento": "Estas acciones no constituyen incumplimiento por parte de Rappi."
+  },
+  "exclusividad": {
+    "obligacion_exclusividad": true,
+    "alcance": "El Aliado no podrá celebrar acuerdos iguales o similares con empresas/plataformas que presten servicios iguales o similares a Rappi.",
+    "incumplimiento_consecuencia": {
+      "duplicacion_porcentaje_uso_alquiler": true,
+      "aplicacion_retroactiva": true,
+      "penalidad_inmediata_porcentaje_ventas": 10,
+      "plazo_pago_penalidad_dias": 30
+    }
+  },
+  "inversion_ads": {
+    "porcentaje_sell_out_mensual": 2.5,
+    "base": "Sell Out del mes inmediatamente anterior",
+    "ejecucion": "Montaje y fechas definidas por Rappi en común acuerdo; se cobrará sólo por clicks efectivamente realizados según términos y condiciones de Ads."
+  },
+  "ventas_garantizadas": {
+    "monto_mxn_mensual": 4000000,
+    "duracion_meses": 36,
+    "remedios_si_no_se_alcanza": {
+      "reduccion_porcentaje_uso_alquiler_para_mes_siguiente": 15,
+      "condicion_de_exclusividad": true,
+      "condicion_tasa_conectividad": {
+        "umbral": 0.95,
+        "formula_nuevo_valor": "Nuevo Valor Ventas Garantizadas = (Ventas Garantizadas Originales X Tasa de Conectividad Real) / 0.95"
+      },
+      "si_no_cumplimiento_por_6_meses_consecutivos": [
+        "Aliado puede terminar anticipadamente y pagar Valor Bono de Firma proporcional a meses restantes",
+        "Por 6 meses siguientes no cumplir exclusividad ni inversión en Ads"
+      ]
+    },
+    "ajustes_por_cierre_o_modificacion_punto_venta": "Rappi notificará y presentará datos; ventas garantizadas se reducirán proporcionalmente."
+  },
+  "fondo_de_mercadotecnia": {
+    "monto_maximo_mxn": 1000000,
+    "manejador": "Rappi a su discreción",
+    "informes_periodicos": true,
+    "condicionado_a_exclusividad": true,
+    "reembolso_en_caso_de_incumplimiento": "Si Rappi termina por incumplimiento del Aliado, Aliado termina anticipadamente sin justa causa o incumple exclusividad, el Aliado debe reembolsar el total ejecutado del Fondo de Mercadotecnia (descuento de ventas semanales o depósito)."
+  },
+  "compromisos_marketing_y_promociones": {
+    "promociones_mensuales": {
+      "minimo_promociones": 3,
+      "detalle": "Al menos 3 promociones mensuales sobre Productos 'Top Sellers' con al menos 30% de descuento."
+    },
+    "publicaciones_redes": {
+      "minimo_publicaciones": 2,
+      "detalle": "Al menos 2 publicaciones mensuales en redes sociales en favor de Rappi."
+    }
+  },
+  "nivel_de_servicio_anexo_1": {
+    "componentes": [
+      {
+        "nombre": "Aceptación de órdenes",
+        "peso": 0.60,
+        "medicion": "Porcentaje de órdenes aceptadas",
+        "umbrales": [
+          {"rango": "93%-100%", "puntuacion": 100},
+          {"rango": "85%-93%", "puntuacion": 90},
+          {"rango": "75%-85%", "puntuacion": 60},
+          {"rango": "60%-75%", "puntuacion": 40},
+          {"rango": "<60%", "puntuacion": 0}
+        ]
+      },
+      {
+        "nombre": "Tiempo de espera del repartidor post-Cooking Time (menos de 4 minutos)",
+        "peso": 0.20,
+        "medicion": "Porcentaje de órdenes con espera < 4 minutos",
+        "umbrales": [
+          {"rango": "100%", "puntuacion": 100},
+          {"rango": "90%-100%", "puntuacion": 90},
+          {"rango": "80%-90%", "puntuacion": 80},
+          {"rango": "60%-70%", "puntuacion": 70},
+          {"rango": "50%-60%", "puntuacion": 0}
+        ]
+      },
+      {
+        "nombre": "Satisfacción del usuario con la orden",
+        "peso": 0.20,
+        "medicion": "Porcentaje de pedidos satisfechos (sin queja/reclamo)",
+        "umbrales": [
+          {"rango": "97%-100%", "puntuacion": 100},
+          {"rango": "92%-97%", "puntuacion": 90},
+          {"rango": "86%-92%", "puntuacion": 70},
+          {"rango": "80%-86%", "puntuacion": 50},
+          {"rango": "<80%", "puntuacion": 0}
+        ]
+      }
+    ],
+    "calculo_total": "Una vez calculado el porcentaje de cada componente, se obtiene el porcentaje total ponderado del nivel de servicio del Aliado."
+  },
+  "proteccion_de_datos_personales": {
+    "definicion_base_datos": "Conjunto organizado de Datos Personales objeto de Tratamiento conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y normativa aplicable.",
+    "transferencia_a_aliado": "Los Datos Personales de Usuarios/Consumidores que adquieran un Producto se transfieren al Aliado únicamente para el trámite de una orden activa; deben eliminarse inmediatamente una vez usados para dicha finalidad.",
+    "prohibiciones_uso": "Cualquier otro uso no autorizado se considera indebido y dará lugar a responsabilidades.",
+    "obligaciones": [
+      "Garantizar tratamiento adecuado y cumplimiento de la regulación de datos personales.",
+      "Mantener estándares máximos de seguridad y notificar incidentes cibernéticos en 24 horas desde su detección con detalle de información expuesta."
+    ],
+    "penalidad_por_uso_indebido_mxn": 1000000
+  },
+  "propiedad_intelectual": {
+    "titularidad": "Rappi retiene todos los derechos de propiedad intelectual de la Plataforma Rappi, Aplicación Rappi Aliados y Portal de Partners. El Aliado conserva la titularidad de sus marcas e imágenes que comparte y debe indemnizar a Rappi por reclamaciones de terceros.",
+    "licencia_de_marcas": "El Aliado licencia las Marcas a efectos de exhibir, ofrecer y comercializar Productos en la Plataforma Rappi conforme al Acuerdo."
+  },
+  "confidencialidad": {
+    "duracion_anos_post_terminacion": 3,
+    "exclusiones": "La información relacionada con ventas del Aliado a través de la Plataforma Rappi no se considera confidencial; Rappi podrá compartir ventas y niveles de servicio con el Aliado.",
+    "obligaciones_de_seguridad": "Aliado debe gestionar riesgos cibernéticos y proteger la información con medidas no inferiores a las exigidas por la Ley Aplicable."
+  },
+  "responsabilidades_e_indemnidad": {
+    "indemnidad_mutua": true,
+    "responsabilidad_aliado_por_productos": "El Aliado es responsable exclusivo por calidad, higiene y seguridad de ingredientes de los Productos y por cumplir la normativa aplicable; debe indemnizar a Rappi por reclamaciones relacionadas.",
+    "responsabilidad_por_incumplimiento": "Si el Aliado incumple o termina anticipadamente, será responsable sin límite por daños y perjuicios económicos, reputacionales y demás."
+  },
+  "anticorrupcion_y_sanctions": {
+    "declaracion_origen_fondos": true,
+    "obligacion_cumplir_normativa_anticorrupcion": true,
+    "terminacion_por_inclusion_en_listas_sanciones": "Cualquiera de las Partes podrá terminar si la otra es incluida en listas OFAC, ONU u otras relacionadas con lavado de activos/financiación del terrorismo."
+  },
+  "fuerza_mayor": {
+    "aplicable": true,
+    "descripcion": "Eventos fuera del control de las Partes, imprevisibles o inevitables que impidan o retrasen cumplimiento; no habrá responsabilidad por retrasos/incumplimientos resultantes."
+  },
+  "resolucion_de_conflictos": {
+    "procedimiento": "Primero arreglo directo entre las Partes; si no resuelto en 30 días calendario, sometimiento a tribunales de la jurisdicción de la Ciudad de México.",
+    "ley_aplicable": "Leyes de los Estados Unidos Mexicanos",
+    "jurisdiccion": "Ciudad de México"
+  },
+  "notificaciones": {
+    "direccion_rappi": "Domicilio fiscal y correos: notificacioneslegalmxcr@rappi.com / luis@rappi.com",
+    "direccion_aliado": "Avenida José María Rico 323 Dept. 4, Col. Acacias, Alcaldía Benito Juárez, C.P. 03240, Ciudad de México; correo: lgonzalez@dulceartemx.onmicrosoft.com",
+    "cambio_direccion_notificacion_plazo_dias": 5
+  },
+  "otros": {
+    "impuestos": "Cada Parte será responsable de los impuestos que le imponga la Ley Aplicable, salvo acuerdo específico en contrario.",
+    "modificaciones_plataforma": "Rappi puede modificar diseño/visual/arte de Plataforma, Aplicación y Portal de Partners en cualquier momento sin previo aviso.",
+    "disponibilidad_plataforma": "Rappi no garantiza disponibilidad o tiempo de operación; usará mejores esfuerzos para estabilizar operatividad.",
+    "autorizacion_descuentos_de_ventas": "El Aliado autoriza a Rappi a ejecutar penalidades y liquidar adeudos reteniendo cantidades de ventas semanales."
+  },
+  "cuentas_bancarias_y_sucursales_anexo": {
+    "sucursales_adhesion": [
+      {
+        "razon_social": "JENSA SERVICIOS ALIMENTICIOS, S.A. DE C.V.",
+        "rfc": "JSA2104132E3",
+        "domicilio_fiscal": "Avenida Tecnológico 701 Norte Int. 2,3,4 y 5, Colonia Agrícola Buenavista, C.P. 52172, Metepec, Estado de México",
+        "cuenta": "0119226036",
+        "clabe": "012180001192260364",
+        "banco": "BBVA"
+      },
+      {
+        "razon_social": "OPERADORA DE ALIMENTOS Y TACOS, S.A.P.I. DE C.V.",
+        "rfc": "OAT160713LN3",
+        "domicilio_fiscal": "Avenida José María Rico 323 Mezanine, Colonia Acacias, C.P. 03240, Alcaldía Benito Juárez, Ciudad de México",
+        "cuenta": "0118869944",
+        "clabe": "012180001188699444",
+        "banco": "BBVA"
+      }
+    ]
+  },
+  "firmas": [
+    {
+      "parte": "Rappi",
+      "nombre": "Iván Cadavid Silva",
+      "rol": "Representante Legal",
+      "email": "ivan@rappi.com",
+      "fecha_firma": "2024-07-24T17:22:25.021Z",
+      "ip": "8.243.221.74"
+    },
+    {
+      "parte": "Aliado Comercial",
+      "nombre": "Luis Alberto González González",
+      "rol": "Representante Legal",
+      "email": "lgonzalez@dulceartemx.onmicrosoft.com",
+      "fechas_firma": [
+        "2024-07-24T23:48:14.912Z",
+        "2024-07-24T23:50:43.795Z",
+        "2024-07-24T23:45:08.974Z"
+      ],
+      "ips": [
+        "200.68.183.161",
+        "200.68.183.161",
+        "189.147.111.46"
+      ]
+    }
+  ],
+  "fecha_version_final_documento": "2024-07-24T23:50:43.940Z",
+  "observaciones_legales_relevantes": "El Acuerdo contiene cláusulas de exclusividad, devoluciones del Bono de Firma en supuestos de incumplimiento, penalidades por uso indebido de datos personales y mecanismos de auditoría y revisión por parte de Rappi. Las cifras económicas, porcentajes e instrumentos de pago están expresados en pesos mexicanos y sujetos a IVA conforme a la normativa aplicable."
+}

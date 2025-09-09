@@ -1,0 +1,184 @@
+{
+  "contrato_id": "5ee0faf78e5b8e0fd2b87cb2",
+  "nombre": "Acuerdo de Cooperación - Rappi & Shake Shack",
+  "tipo_firma": "Firma Digital",
+  "estatus": "Firmado y Completo",
+  "fecha_firma": "2020-06-17",
+  "fecha_efectiva": "2020-05-19",
+  "vigencia_meses": 12,
+  "partes": [
+    {
+      "razon_social": "Tecnologías Rappi S.A.P.I. de C.V.",
+      "registro_federal_contribuyentes": "TRA150604TW1",
+      "domicilio": "Boulevard Miguel de Cervantes Saavedra 57, Col. Ampliación Granada, Del. Miguel Hidalgo. Ciudad de México, C.P. 11520",
+      "representante_legal": "Juan Pablo Ortega Merino",
+      "identificacion_representante": "Pasaporte No. AO224477",
+      "email": "juan@rappi.com",
+      "banco": {
+        "titular": "TECNOLOGÍAS RAPPI S.A.P.I. DE C.V.",
+        "cuenta": "92-00203415-2",
+        "clabe": "014180920020341528",
+        "banco": "SANTANDER"
+      }
+    },
+    {
+      "razon_social": "Operadora de Alimentos y Malteadas S.A.P.I. de C.V. (Shake Shack)",
+      "registro_federal_contribuyentes": "OCC110111QTA",
+      "domicilio": "Avenida Ejército Nacional 769, Torre B Piso 10, Granada, Miguel Hidalgo, Ciudad de México, 11520",
+      "representante_legal": "Juan Carlos Alverde Losada",
+      "identificacion_representante": "Pasaporte No. G22457877",
+      "email": "rlosada@shakeshack.com.mx",
+      "banco": {
+        "titular": "Operadora Alimentos y Malteadas SAPI de CV",
+        "cuenta": "0180378291",
+        "clabe": "012180001803782911",
+        "banco": "BBVA"
+      }
+    }
+  ],
+  "objeto": "Convenio de cooperación para la comercialización y venta de productos del Aliado en la plataforma digital de Rappi, regulando obligaciones comerciales, operación de pedidos, manejo de datos, fondo de mercadotecnia, exclusividad, contraprestación y demás términos relacionados.",
+  "obligaciones_rappi": [
+    "Diseñar sin costo un catálogo personalizado para el Aliado",
+    "Disponibilidad logística para procesar pedidos (salvo fuerza mayor o problemas técnicos mayores)",
+    "Cumplir protocolos de entrega acordados con el Aliado (horarios, sucursales, etc.)",
+    "Enviar reporte semanal detallado de ventas (número de orden, punto de venta, fecha y hora, productos vendidos, forma de pago y perfil de desempeño)",
+    "No cobrar más del porcentaje establecido por uso y alquiler de la plataforma según periodos de exclusividad"
+  ],
+  "obligaciones_aliado": [
+    "Enviar logos y artes de la marca en el formato requerido",
+    "Diligenciar información de productos y precios en los formatos requeridos",
+    "Notificar modificaciones relevantes (productos, ingredientes, dirección, horarios) al día siguiente de realizadas",
+    "Entregar productos a Rappitenderos en empaques adecuados y sellados, con accesorios necesarios (cubiertos, servilletas, salsas, condimentos)",
+    "Tramitar todos los pedidos recibidos a través de cualquier plataforma de Rappi",
+    "Autorizar uso de imagen de la marca para publicaciones físicas y digitales previa conciliación con mercadotecnia del Aliado",
+    "Ubicar material publicitario suministrado por Rappi en lugar visible y promocionar la alianza en redes sociales previa autorización",
+    "Emitir ticket del pedido a nombre del usuario que realizó el pedido y entregarlo con la entrega",
+    "Contar y mantener permisos y licencias para la venta de bebidas alcohólicas, cumplir restricciones de zonas y horarios"
+  ],
+  "contraprestacion": {
+    "durante_exclusividad_porcentaje_plataforma": 0.0,
+    "post_exclusividad_porcentaje_plataforma": 10.0,
+    "si_continua_exclusividad_despues_12_meses_porcentaje": 5.0,
+    "porcentaje_maximo_cancelaciones_usuario": 60.0,
+    "monto_porcentaje_adicional_alianza": "",
+    "detalle_pago": "Transferencia semanal: las cantidades recibidas de lunes a domingo serán transferidas por Rappi al Aliado a más tardar el viernes siguiente antes de las 10:00 hrs. Rappi emite factura semanal a semana vencida el primer día de la semana siguiente.",
+    "metodo_transferencia": "consignación bancaria a la cuenta registrada, con prórroga al primer día hábil si el último día cae en día inhábil"
+  },
+  "fondo_mercadotecnia": {
+    "total": 10000000,
+    "aporte_rappi": 5000000,
+    "aporte_aliado": 5000000,
+    "uso": "Desarrollo conjunto de planes de publicidad definidos en Anexo firmado por las partes; inversiones graduales durante la vigencia para potenciar ventas",
+    "condicion_retencion_deposito": "Rappi depositará su monto al Aliado dentro de 15 días hábiles siguientes a la firma del Anexo; si el Aliado incumple la exclusividad debe devolver íntegramente el monto depositado dentro de 30 días"
+  },
+  "exclusividad": {
+    "obligatoria": true,
+    "periodo_inicial_meses": 6,
+    "prorroga_meses": 6,
+    "notificacion_no_prorroga_dias": 30,
+    "restricciones": "Durante exclusividad el Aliado no podrá exhibir sus productos ni mostrar marcas en plataforma igual o similar a Rappi",
+    "incumplimiento_penalidad_porcentaje_ventas": 10.0,
+    "incumplimiento_restitucion_fondo": true,
+    "incumplimiento_duplicacion_porcentaje": 20.0,
+    "observaciones": "Si el Aliado incumple la exclusividad se le cobrará 10% del valor total de ventas hasta el momento del incumplimiento y deberá reintegrar los montos del Fondo de Mercadotecnia. Si exhibe en otra plataforma durante exclusividad, el porcentaje de uso/alquiler se duplicará a 20% + IVA a partir de notificación."
+  },
+  "penalidades": [
+    {
+      "concepto": "Uso no autorizado de datos personales de usuarios",
+      "monto": 1000000,
+      "moneda": "MXN",
+      "observaciones": "Prohibido utilizar datos para fines distintos al objeto; penalidad aplicada por incumplimiento del manejo de bases de datos"
+    },
+    {
+      "concepto": "Incumplimiento de exclusividad (reintegro fondo + % ventas)",
+      "monto_porcentaje_ventas": 10.0,
+      "observaciones": "Pago dentro de 30 días; además devolución del fondo de mercadotecnia depositado"
+    },
+    {
+      "concepto": "Exhibición en plataforma competidora durante exclusividad",
+      "monto_porcentaje_ventas": 20.0,
+      "observaciones": "Aplicable desde notificación y acreditación de incumplimiento por Rappi hasta cese de exhibición en la otra plataforma"
+    }
+  ],
+  "manejo_datos": {
+    "transfieren_datos_personales": true,
+    "datos_transferidos": [
+      "nombre",
+      "correo electrónico",
+      "teléfono"
+    ],
+    "responsable_tratamiento_aliado": true,
+    "alcance_uso": "Único y exclusivo para el objeto del Convenio; el Aliado no puede utilizarlos para fines externos",
+    "obligaciones": "El Aliado debe contar con autorización de titulares y cumplir Ley Federal de Protección de Datos Personales en Posesión de los Particulares; indemnizar y mantener en paz y a salvo a Rappi por reclamaciones",
+    "aviso_privacidad_url": "https://legal.rappi.com/mexico/aviso-de-privacidad-usuarios/"
+  },
+  "propiedad_intelectual": {
+    "transferencia_tecnologia": false,
+    "derechos_marcarios": "No constituye cesión de derechos de propiedad industrial. Las partes podrán usar razonablemente la marca de la otra para alcanzar el objeto, sin afectar imagen y buen nombre.",
+    "restricciones_software": "Abstenerse de reproducir, copiar o desarrollar cualquier software de Rappi (aplicación y sitio web)"
+  },
+  "confidencialidad": {
+    "obligacion": true,
+    "alcance": "Mantener estricta confidencialidad sobre información compartida; obligación se mantiene incluso después de la terminación del Acuerdo",
+    "consecuencias_incumplimiento": "Responsabilidad por daños y perjuicios, acciones civiles y penales"
+  },
+  "integracion_pos": {
+    "obligacion_rappi": true,
+    "plazo_habiles": 5
+  },
+  "venta_bebidas_alcoholicas": {
+    "aliado_responsable_permiso": true,
+    "observaciones": "El Aliado es responsable de expedición y renovación de licencias y de cumplir restricciones de venta por zonas y horarios"
+  },
+  "impuestos": "Cada parte será responsable del pago de los impuestos que le correspondan por ley.",
+  "notificaciones": {
+    "rappi_emails": [
+      "contacto.comerciales@rappi.com",
+      "luis@rappi.com"
+    ],
+    "aliado_email": "rlosada@shakeshack.com.mx",
+    "cambio_direccion_plazo_dias": 5
+  },
+  "jurisdiccion": "Juzgados y tribunales de la Ciudad de México, México",
+  "terminacion": {
+    "causas": [
+      "Mutuo acuerdo",
+      "Decisión de autoridad competente",
+      "Disolución o liquidación de cualquiera de las Partes",
+      "Incumplimiento de obligaciones por alguna de las Partes (con 10 días para subsanar salvo otras disposiciones)",
+      "Renuncia unilateral del Aliado con 90 días de antelación",
+      "Renuncia unilateral de cualquiera de las Partes tras el primer año sin penalización (90 días aviso)"
+    ],
+    "efectos_primer_ano": "Si el Aliado termina el contrato durante el primer año deberá devolver el Fondo de Mercadotecnia depositado; Rappi si termina durante el primer año deberá pagar al Aliado el equivalente al fondo depositado"
+  },
+  "firmas": [
+    {
+      "parte": "Rappi",
+      "nombre": "Juan Pablo Ortega Merino",
+      "email": "juan@rappi.com",
+      "fecha_firma": "2020-06-10"
+    },
+    {
+      "parte": "Aliado",
+      "nombre": "Juan Carlos Alverde Losada",
+      "email": "jcalverde@toks.com.mx",
+      "fecha_firma": "2020-06-17"
+    }
+  ],
+  "url_auditoria": "https://rappi.app.trato.io/r/ZtTgTmMf5",
+  "riesgos_principales": [
+    "Responsabilidad por manejo indebido de datos personales (penalidad de $1,000,000 MXN y obligación de indemnizar a Rappi)",
+    "Obligación de exclusividad que limita canales comerciales y puede generar sanciones y devolución de fondos si se incumple",
+    "Riesgo financiero por penalidades y reintegro del Fondo de Mercadotecnia en caso de terminación anticipada por el Aliado en el primer año"
+  ],
+  "recomendaciones": [
+    "Verificar y documentar consentimiento de titulares para el tratamiento y transferencia de datos personales antes del intercambio de información",
+    "Asegurar registro y control de campañas y presencia en plataformas para cumplir la cláusula de exclusividad",
+    "Mantener evidencia documental de depósitos y uso del Fondo de Mercadotecnia para mitigar riesgos en caso de disputa",
+    "Revisar procedimientos de emisión de tickets y control de inventarios para minimizar reclamaciones por pedidos errados o incompletos"
+  ],
+  "anexos": [
+    "Anexo 1 – Formato Reporte Semanal / Formato Reporte Mensual (flujo de reporte del Aliado en la plataforma)",
+    "Anexo de Plan de Publicidad (a suscribir por las partes) - detalla acciones asumidas por ambos para el uso del Fondo de Mercadotecnia"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "contrato_nombre": "ACUERDO DE COOPERACIÓN",
+  "documento_id": "601c6d7eed8ed14e8d15fe11",
+  "nombre_documento": "Legal MX - Acuerdo de Cooperación - Rappi & Hooters - VF 04.02.2021.docx",
+  "tipo_firma": "Firma Electrónica",
+  "estatus": "Firmado y Completo",
+  "fecha_firma": "2021-02-04",
+  "fecha_inicio": "2021-02-04",
+  "vigencia_meses": 48,
+  "fecha_termino": "2025-02-04",
+  "partes": [
+    {
+      "rol": "Rappi",
+      "razon_social": "Tecnologías Rappi, S.A.P.I. de C.V.",
+      "rfc": "TRA150604TW1",
+      "domicilio": "Boulevard Miguel de Cervantes Saavedra 57, Col. Ampliación Granada, Del. Miguel Hidalgo. Ciudad de México, México. C.P. 11520",
+      "representante_legal": "Juan Pablo Ortega Merino",
+      "identificacion_representante": "Pasaporte No. AO224477",
+      "emails_notificacion": [
+        "asolis@rappi.com",
+        "luis@rappi.com",
+        "legal.quejas@rappi.com"
+      ]
+    },
+    {
+      "rol": "Aliado",
+      "marca": "Hooters",
+      "razon_social": "Hooters de México S.A. de C.V.",
+      "rfc": "HME970425QN1",
+      "domicilio": "Avenida Insurgentes Sur 2018, Colonia Exhacienda de Guadalupe Chimalistac, Alcaldía Álvaro Obregón, Ciudad de México. C.P. 01050",
+      "representante_legal": "Paolo Pagnozzi",
+      "identificacion_representante": "Credencial para votar número 1489523019",
+      "emails_notificacion": [
+        "ppagnozzi@dival.com.mx",
+        "amedina@dival.com.mx",
+        "gperez@dival.com.mx"
+      ],
+      "otras_sociedades_obligadas_solidariamente": [
+        "Hoot N S.A.P.I. de C.V.",
+        "Hooters del Ángel S.A. de C.V.",
+        "Romanos Grill Satélite S.A. de C.V."
+      ]
+    }
+  ],
+  "resumen_objeto": "Convenio de cooperación para que el Aliado ofrezca y venda sus productos a través de la plataforma virtual de Rappi, con objetivos comerciales, mecanismos de operación, niveles de servicio, incentivos (bonos y línea de crédito) y condiciones de exclusividad y terminación.",
+  "obligaciones_rappi": "Diseñar catálogo sin costo; disponibilidad logística salvo fuerza mayor; cumplir protocolos de entrega; enviar reporte mensual de ventas; tramitar pedidos vía plataforma; implementar cambios en catálogo y precios en plazos establecidos (3 días hábiles normalmente, 24 horas en emergencias si hay personal disponible); garantizar niveles de servicio conforme Anexo 1; manejo de fondos de mercadotecnia y compensación según cláusulas.",
+  "obligaciones_aliado": "Proveer logos y artes; diligenciar información de productos y precios; notificar cambios; mantener calidad y precios en punto de venta; entregar productos empaquetados y sellados y accesorios; tramitar pedidos de cualquier plataforma del Sistema Rappi; autorizar uso de imagen para publicaciones; colocar material publicitario; asumir ciertas compensaciones por órdenes erradas o incompletas; permitir acceso a tablets y apps; abstenerse de reproducir software de Rappi; eliminar software al terminar el acuerdo; cumplir normatividad de seguridad alimentaria; cumplir obligaciones de exclusividad.",
+  "condiciones_financieras": {
+    "comision_plataforma_percent": 9,
+    "comision_plataforma_iva": true,
+    "pick_up_comision_percent": 5,
+    "pick_up_comision_iva": true,
+    "pick_up_exclusividad_breach_percent": 9,
+    "reembolso_cancelaciones_por_usuarios_por_rappi_percent": 35,
+    "retencion_por_incumplimiento_proceso": {
+      "plazo_notificacion_aliado_dias": 10,
+      "procedimiento": "Rappi notifica por escrito el incumplimiento y montos; Aliado tiene 10 días para aceptar o responder; si acepta o no responde se retienen las cantidades de ventas."
+    }
+  },
+  "signing_bonus": {
+    "max_amount_mxn": 43000000,
+    "iva_aplica": true,
+    "importe_sin_comprobantes_mxn": 35200000,
+    "desembolso_inicial_mxn": 15000000,
+    "desembolso_inicial_condicion": "Envío previo de comprobante fiscal por dicho monto",
+    "desembolso_remanente_mxn": 20200000,
+    "desembolso_remanente_plazo_dias": 10,
+    "pago_diferencial_condicion_mxn": "Si pagos reales > 35,200,000 presentar comprobantes; diferencial pagado 15 días después de recibidos comprobantes",
+    "obligacion_exclusividad_inicio_operacion_dias": 30,
+    "restitucion_por_terminacion_anticipada": "Aliado debe devolver monto total del Signing Bonus con reducción del 1.04% por mes transcurrido; pago conforme Cláusula Séptima",
+    "excepcion_no_restitucion": "Si terminación por incumplimiento de Rappi en Ventas Garantizadas o incumplimiento de Rappi que no sea subsanado en 10 días hábiles"
+  },
+  "bono_nuevas_aperturas": {
+    "per_sucursal_mxn": 2000000,
+    "iva_aplica": true,
+    "max_aperturas": 15,
+    "tope_total_mxn": 30000000,
+    "plazo_notificacion_antelacion_dias": 80,
+    "condicion_cobertura": "La nueva sucursal debe estar en zona con cobertura Rappi y no solaparse con polígonos de cobertura salvo acuerdo",
+    "ajuste_por_overlap_percent": "Se descuenta del bono el porcentaje de cruce de coberturas",
+    "limite_para_solo_venta_en_linea_mxn": 1000000,
+    "solicitud_maxima_meses_vigencia": 36,
+    "restitucion_por_incumplimiento_exclusividad": "Devolución total con reducción de 1.04% por mes transcurrido"
+  },
+  "linea_credito": {
+    "monto_total_mxn": 107500000,
+    "disposiciones": [
+      {
+        "nombre": "Primera",
+        "monto_mxn": 7500000,
+        "plazo_solicitud_dias_habiles": 30
+      },
+      {
+        "nombre": "Segunda",
+        "monto_mxn": 46250000,
+        "plazo_solicitud_dias_habiles": 60
+      },
+      {
+        "nombre": "Tercera",
+        "monto_mxn": 53750000,
+        "plazo_solicitud": "Dentro de las últimas 4 semanas de los primeros 12 meses",
+        "condiciones_intereses": "Para la Tercera disposición se aplicará TIIE 28 + 2% anual sobre monto insoluto; intereses generan IVA"
+      }
+    ],
+    "repago": {
+      "descuento_semanal_por_ventas_mxn": 500000,
+      "inicio_repago_semanal_semana": "Miércoles siguiente a la Tercera disposición",
+      "plazo_liquidacion_total_semanas": 52,
+      "opcion_pago_anticipado_dias_habiles": 2,
+      "moratorio": "Si no liquida cuando corresponde, se aplica el mayor entre 6% mensual o el interés moratorio máximo del Código Civil CDMX",
+      "vencimiento_anticipado_por_incumplimiento_exclusividad": "Vencimiento anticipado de saldos; pena convencional TIIE + 5%"
+    },
+    "documentacion": "Anexo por cada disposición y pagaré por el monto desembolsado; desembolsos mediante transferencia a la cuenta de la Cláusula Séptima en un plazo de 15 días hábiles tras firma del anexo"
+  },
+  "ventas_garantizadas": {
+    "semaforo_rojo_mxn": 234800000,
+    "semaforo_naranja_mxn": 211600000,
+    "semaforo_amarillo_mxn": 190000000,
+    "semaforo_verde_mxn": 148000000,
+    "incluye": "Delivery y Pick Up",
+    "metodo_calculo": "Prorrateo por días de cada semáforo en el trimestre; ejemplo y Anexo 4 incluido",
+    "compromiso_rappi_si_faltante": "Rappi asumirá 60% del valor faltante a fondo perdido (equivalente a utilidad neta garantizada)",
+    "plazo_pago_compensacion": "Depósito en cuenta en los primeros 10 días hábiles de cada mes para los primeros tres meses y luego en los primeros 10 días hábiles de cada trimestre",
+    "condicion_exclusividad": "La garantía está condicionada al cumplimiento de la cláusula de exclusividad y a mantener sucursales abiertas como mínimo las existentes",
+    "ajuste_por_conectividad": {
+      "tasa_minima_porcentaje": 95,
+      "formula": "Nuevo Valor Ventas Garantizadas = (Ventas Garantizadas Originales X Tasa de Conectividad Real ) / 0.95"
+    },
+    "revisiones": "Revisiones mensuales meses 1-3; compensaciones y ajustes; revisiones anuales después del tercer año"
+  },
+  "exclusividad": {
+    "obligacion_de_exclusividad": true,
+    "alcance": "El Aliado no podrá celebrar acuerdos iguales o similares con plataformas que compitan con Rappi en zonas con cobertura de Rappi",
+    "excepciones": "No se considera violación el delivery propio del Aliado, pick-up mediante sus repartidores, pedidos por llamada o WhatsApp y otras tecnologías que no constituyan plataforma on-line colaborativa con repartidores terceros",
+    "penalidades_por_incumplimiento": {
+      "incremento_comision_percent": 18,
+      "penalidad_adicional_percent_ventas": 10,
+      "aplicacion_retroactiva": "El incremento se aplica retroactivamente por los meses anteriores al acuerdo con otra plataforma",
+      "procedimiento": "Determinado de forma fehaciente y de buena fe; Rappi retendrá pagos hasta cubrir penalidad"
+    },
+    "terminacion_optativa": {
+      "ventana_al_final_10_meses": {
+        "descripcion": "Dentro de 30 días calendario siguientes a la conclusión del décimo mes completo de operación exclusiva, Aliado puede terminar exclusividad sin penalidad si no pacta exclusividad con competidor ni negocia con más de un competidor.",
+        "efecto_comision": "Comisión incrementa de 9%+IVA a 18%+IVA (Rappi igualará si otro agregador cobra menor comisión no exclusiva comprobada)"
+      },
+      "terminacion_por_insuficiencia_ventas": {
+        "periodo_evaluacion": "Entre mes 4 y mes 12, y aplicable anualmente para el segundo año",
+        "condicion": "Si ventas alcanzan <85% del objetivo proporcional y Aliado cumple con niveles de servicio del Anexo 3, exclusividad deja de tener efectos",
+        "aviso": "Aviso en mes 13 y efectos 60 días posteriores; incrementa comisión a 18%+IVA"
+      },
+      "consecuencias": "Al cesar exclusividad, ciertas cláusulas (Línea de Crédito, Signing Bonus, Bono Nuevas Aperturas, Ventas Garantizadas y Fondo de Mercadotecnia) dejan de tener efecto; obligaciones de repago continúan"
+    }
+  },
+  "niveles_servicio": {
+    "anexo_1_rappi": {
+      "componentes": [
+        "Tiempos de entrega y recolección por Rappitenderos (ponderación 50%)",
+        "Órdenes canceladas por Rappi (ponderación 50%)"
+      ],
+      "metricas": {
+        "repartidor_demora_definicion": "Repartidor llega con más de 20 minutos de demora respecto a momento en que pedido está listo para retirar",
+        "umbrales": {
+          "optimo": "0% - 2.999%",
+          "bueno": "3% - 6.999%",
+          "regular": "7% - 9.999%",
+          "malo": "10% o mayor"
+        },
+        "evaluacion": "Métrica ponderada debe ser igual o mayor a 'Bueno'; si 3 meses consecutivos por debajo, Aliado puede terminar con causa justificada"
+      }
+    },
+    "anexo_3_aliado": {
+      "componentes": [
+        "Aceptación de órdenes (60%)",
+        "Tiempo de espera del Rappitendero post cooking time (20%)",
+        "Satisfacción del usuario (20%)"
+      ],
+      "umbrales": {
+        "aceptacion": "93%-100% = máxima calificación",
+        "tiempo_espera": "90%-100% dentro de 4 minutos",
+        "satisfaccion": "97%-100% = máxima calificación"
+      },
+      "uso_para": "Determinación del porcentaje que Rappi debe asumir cuando Aliado no alcance ventas mensuales garantizadas"
+    }
+  },
+  "fondo_mercadotecnia": {
+    "total_mxn": 45000000,
+    "uso": "Desarrollo de plan de mercadotecnia, adquisición y reactivación de usuarios, campañas en medios digitales, TV, influencers, vía pública y plataforma",
+    "aliado_veto": "Aliado puede vetar campañas que afecten directa y materialmente",
+    "lineamientos": "Todas las campañas deben seguir lineamientos de la franquicia maestra (Hooters of America)",
+    "cupones": {
+      "destinado_mxn": 10000000,
+      "valor_maximo_por_cupon_mxn": 150,
+      "valor_modificable": true
+    },
+    "fondo_compensacion_usuarios_mxn": 4000000
+  },
+  "privacidad_y_datos": {
+    "manejo_bases_datos": "Cada parte es responsable del tratamiento de los datos personales que reciba; datos transferidos al Aliado solo para el objeto del Acuerdo; uso y almacenamiento limitado y prohibido para fines distintos",
+    "penalidad_por_uso_no_autorizado_mxn": 1000000,
+    "aviso_privacidad_rappi": "https://legal.rappi.com/mexico/aviso-de-privacidad-usuarios/",
+    "aviso_privacidad_aliado": "www.hooters.com.mx",
+    "responsabilidad_por_reclamaciones": "Aliado mantendrá a Rappi en paz y a salvo ante reclamaciones o sanciones por uso no autorizado de datos"
+  },
+  "propiedad_intelectual": {
+    "no_transferencia_tecnologia": true,
+    "licencia_uso_marca_mutua": "Uso razonable de marca de la otra Parte para alcanzar objeto del Acuerdo, sin afectar imagen o buen nombre",
+    "restriccion_software": "Aliado no reproducirá ni desarrollará software de Rappi; eliminará software al término"
+  },
+  "confidencialidad": {
+    "obligacion": "Ambas Partes mantendrán estricta confidencialidad sobre información compartida para el desarrollo del Acuerdo",
+    "vigencia_post_terminacion": true,
+    "remedios": "Responsabilidad por daños y perjuicios y derecho a iniciar acciones civiles y penales"
+  },
+  "terminacion": {
+    "causas_de_terminacion_con_justa_causa": [
+      "Mutuo acuerdo entre las Partes",
+      "Decisión de autoridad competente",
+      "Disolución o liquidación obligatoria de cualquiera de las Partes (para Aliado, debe aplicar a todas las razones sociales firmantes)",
+      "Incumplimiento material no subsanado en 15 días hábiles tras aviso"
+    ],
+    "terminacion_unilateral_aliado_sin_causa": {
+      "plazo_preaviso_dias": 90,
+      "obligaciones_pago": "Restituir, en su caso, sumas erogadas por Rappi (Signing Bonus, Línea de Crédito, Bono Nuevas Aperturas, Ventas Garantizadas) y pagar 20% del valor total de ventas realizadas a través del Sistema Rappi hasta el aviso"
+    },
+    "terminacion_unilateral_rappi_sin_causa": {
+      "plazo_preaviso_dias": 30,
+      "efectos": "Rappi no cobrará uso y alquiler de plataforma entre notificación y fecha efectiva; Aliado solo devuelve cantidades erogadas por Línea de Crédito"
+    },
+    "efectos_generales": "A la fecha efectiva de terminación Aliado libre para relacionarse con otras plataformas; Rappi no pagará por beneficios intangibles adquiridos por Aliado"
+  },
+  "impuestos": "Cada Parte será responsable de los impuestos que las leyes le impongan con ocasión de este Acuerdo",
+  "ley_aplicable": "Leyes federales de los Estados Unidos Mexicanos",
+  "jurisdiccion": "Tribunales competentes ubicados en la Ciudad de México, renuncia a otras jurisdicciones",
+  "notificaciones": {
+    "rappi_emails": [
+      "asolis@rappi.com",
+      "luis@rappi.com",
+      "legal.quejas@rappi.com"
+    ],
+    "aliado_emails": [
+      "ppagnozzi@dival.com.mx",
+      "amedina@dival.com.mx",
+      "gperez@dival.com.mx"
+    ],
+    "cambio_domicilio_plazo_dias": 5,
+    "observacion": "Cualquier notificación relacionada deberá realizarse a los tres correos de Rappi"
+  },
+  "anexos": [
+    "Anexo 1 - Nivel de Servicio de Rappi",
+    "Anexo 2 - Actividades de Mercadotecnia a cargo del Aliado",
+    "Anexo 3 - Nivel de Servicio del Aliado",
+    "Anexo 4 - Ejemplo teórico para cálculo de desembolsos y pagos",
+    "Anexo 5 - Restaurantes Hooters en México"
+  ],
+  "restaurantes_listado_anexo5": [
+    {
+      "nombre": "HOOTERS INSURGENTES",
+      "direccion": "Av. Insurgentes Sur 2018, Col. Hacienda de Guadalupe, CP. 01050",
+      "banco": "Banco Santander (México S.A.)",
+      "cuenta": "65-50037124-8",
+      "clabe": "014180655003712481"
+    },
+    {
+      "nombre": "HOOTERS GUADALAJARA",
+      "razon_social": "Hoot N S.A.P.I. de C.V.",
+      "direccion": "Av. Rafael Sanzio 150 Loc. UP/IS 03 Col. Tabachines Vallarta Zapopan CP. 45020",
+      "banco": "Banco Santander (México S.A.)",
+      "cuenta": "65-50469029-8",
+      "clabe": "014180655046902986"
+    },
+    {
+      "nombre": "HOOTERS LA DIANA",
+      "razon_social": "Hooters del Ángel S.A. de C.V.",
+      "direccion": "Rio Lerma 203 Col. Cuauhtémoc CP. 06500",
+      "banco": "Banco Santander (México S.A.)",
+      "cuenta": "65-50297502-3",
+      "clabe": "014180655029750236"
+    },
+    {
+      "nombre": "ROMANO'S MACARONI GRILL PLAZA SATÉLITE",
+      "razon_social": "Romanos Grill Satélite S.A. de C.V.",
+      "direccion": "Cto. Centro Comercial 2251, Cd. Satélite, 53100 Naucalpan de Juárez, Méx.",
+      "banco": "Banco Santander (México S.A.)",
+      "cuenta": "65-50177437-7",
+      "clabe": "014180655017743776"
+    }
+  ],
+  "firmantes": [
+    {
+      "nombre": "Juan Pablo Ortega Merino",
+      "representa": "Tecnologías Rappi, S.A.P.I. de C.V.",
+      "email": "juan@rappi.com",
+      "hash": "slKQAQd7HVhpEZ3unbxuY7tbr1C0j4aLMMpLulMWpOI=",
+      "ip": "",
+      "fecha_firma": "2021-02-04T17:03:00"
+    },
+    {
+      "nombre": "Paolo Pagnozzi",
+      "representa": "Hooters de México, S.A. de C.V.",
+      "email": "ppagnozzi@dival.com.mx",
+      "hash": "URJ0ZkOyBd8mYnOMpVXNgGgSq4es38VsPaD4OBkY8/s=",
+      "ip": "189.236.21.164",
+      "fecha_firma": "2021-02-04T16:37:00"
+    },
+    {
+      "nombre": "Javier Alejandro Medina Ibáñez",
+      "representa": "Hooters de México, S.A. de C.V.",
+      "email": "ami@northgate.com",
+      "hash": "835fk4YxJ1f2YtT4PxH9ThRyju9nckSVb+UAnj1dq24=",
+      "ip": "187.190.186.66",
+      "fecha_firma": "2021-02-04T16:45:00"
+    }
+  ],
+  "metadatos_firma": {
+    "fecha_ultima_firma": "2021-02-04T17:03:00",
+    "url_auditoria": "https://rappi.app.trato.io/r/AMGM1xjEc",
+    "mensaje_datos_ley": "Firmado de forma electrónica y mensaje de datos conforme al artículo 89 del Código de Comercio"
+  },
+  "riesgos_principales": [
+    "Penalidades económicas por incumplimiento de exclusividad: incremento de comisión a 18%+IVA y 10% adicional sobre ventas hasta cubrir penalidad.",
+    "Obligación de restitución del Signing Bonus y Bonos de Nuevas Aperturas en caso de terminación unilateral sin causa por parte del Aliado (con reducción mensual de 1.04%).",
+    "Vencimiento anticipado de línea de crédito y pena convencional TIIE+5% si Aliado incumple exclusividad.",
+    "Riesgo reputacional y sanciones por uso indebido de datos personales; penalidad contractual de $1,000,000 MXN y obligación de indemnizar a Rappi.",
+    "Condiciones de pago de Ventas Garantizadas condicionadas al cumplimiento de niveles de servicio y conectividad mínima (95%)."
+  ],
+  "acciones_recomendadas": [
+    "Documentar y conservar comprobantes de pago relacionados con el uso del Signing Bonus y terminaciones de otros compromisos para efectos de justificar desembolsos.",
+    "Mantener registros operativos y métricas de conectividad y niveles de servicio para mitigar retenciones y reclamaciones en Ventas Garantizadas.",
+    "Limitar y controlar acceso a datos personales de usuarios, establecer protocolos y auditorías para evitar la penalidad por uso no autorizado.",
+    "Revisar calendarios y plazos de ventanas optativas de terminación de exclusividad para evaluar alternativas comerciales.",
+    "Confirmar y registrar cuentas bancarias y datos en Anexo 5 para evitar problemas en transferencias de reembolsos y pagos."
+  ],
+  "campos_adicionales_disponibles": false,
+  "observaciones": ""
+}

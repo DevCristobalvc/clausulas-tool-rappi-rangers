@@ -1,0 +1,246 @@
+{
+  "contract_title": "Convenio Modificatorio No. 2 al Acuerdo de Cooperación",
+  "parties": [
+    {
+      "entity_name": "TECNOLOGÍAS RAPPI S.A.P.I. DE C.V.",
+      "role": "Rappi",
+      "representative": {
+        "name": "ALEJANDRO ALBERTO SOLÍS OSTROSKY",
+        "position": ""
+      }
+    },
+    {
+      "entity_name": "RESTAURANTES ADMX, S. DE R.L. DE C.V.",
+      "role": "Aliado",
+      "representative": {
+        "name": "ANABELL GONZÁLEZ NAVA",
+        "position": ""
+      }
+    }
+  ],
+  "original_agreement_date": "2018-06-22",
+  "adendum_1_date": "2018-08-09",
+  "convenio_modificatorio_1_date": "2019-09-22",
+  "amendment_number": 2,
+  "amendment_signed_date": "2022-06-02",
+  "amendment_effective_date": "2022-01-01",
+  "term_extension": {
+    "extension_start": "2021-09-22",
+    "extension_end": "2023-09-22",
+    "extension_months": 24,
+    "auto_renew_after_expiry": true,
+    "auto_renew_period_months": 24,
+    "termination_notice_days": 30
+  },
+  "scope_object": "Modificar, eliminar y adicionar ciertas cláusulas al Acuerdo de Cooperación relativas a obligaciones, contraprestación, reembolsos, compensaciones, conciliación, reportes y publicidad/mercadotecnia.",
+  "key_modifications": [
+    {
+      "clause_reference": "Cláusula 4 (iv) apartado viii",
+      "summary": "Rappi reembolsará al Aliado todos los pedidos ingresados por la Plataforma Rappi, exceptuando el valor de compensaciones a consumidores por órdenes erradas, incompletas o en mal estado; Aliado no asumirá compensaciones por dichos conceptos por un monto superior al 0.5% trimestral de ventas.",
+      "effective_date": "2022-01-01"
+    },
+    {
+      "clause_reference": "Cláusula 4 (iv) apartado xii",
+      "summary": "Rappi cubrirá 100% del valor de órdenes canceladas cuya cancelación no sea atribuible al Aliado. Se definen cancelaciones atribuibles al Aliado (stockout, tienda cerrada).",
+      "effective_date": "2022-01-01"
+    },
+    {
+      "clause_reference": "Cláusula 5 (iv) apartado xiv",
+      "summary": "Rappi cubrirá el costo de órdenes que sean canceladas después de iniciado su preparación, cuando la cancelación no sea atribuible al Aliado.",
+      "effective_date": "2022-01-01"
+    },
+    {
+      "clause_reference": "Cláusula 7 Contraprestación",
+      "summary": "Rappi reembolsará semanalmente al Aliado el valor de ventas por órdenes tramitadas a través de la Plataforma, menos el valor cobrado por uso de la Plataforma. El porcentaje cobrado por uso depende de ventas trimestrales de la marca 'McDonald's' y varía entre 15% y 18% más IVA según tramos.",
+      "effective_date": "2022-01-01"
+    }
+  ],
+  "reimbursement_and_compensation_rules": {
+    "aliado_responsibilities": {
+      "assume_value_of": [
+        "productos errados",
+        "productos incompletos",
+        "productos en mal estado"
+      ],
+      "evidence_required_for_mal_state": "fotografía",
+      "exclusions_aliado_no_assume": [
+        "empaques en mal estado (packaging)",
+        "temperatura de la comida",
+        "bebidas derramadas"
+      ],
+      "cap_quarterly_percent_of_sales": 0.5,
+      "claims_time_limit_days_for_aliado_liability": 7
+    },
+    "rappi_responsibilities": {
+      "reimbursements_for_cancellations_not_attributable_to_aliado": "100% del valor de la orden",
+      "reimbursement_timing_for_quarterly_excess": "Dentro de 30 días naturales posteriores a la conciliación",
+      "discounts_pause_if_report_not_created": true
+    },
+    "reconciliation_limits": {
+      "max_age_for_conciliation_of_orders_or_payments": "2 months",
+      "exception_pre_report_creation": "compensaciones por quejas derivadas de órdenes erradas, incompletas y/o en mal estado conciliables hasta 3 meses si informadas por Rappi antes del reporte automático"
+    }
+  },
+  "platform_fee_table": [
+    {
+      "sales_quarterly_inclusive_iva_min": 0,
+      "sales_quarterly_inclusive_iva_max": 107500000.00,
+      "platform_fee_percent": 15,
+      "note": "más IVA"
+    },
+    {
+      "sales_quarterly_inclusive_iva_min": 107500000.01,
+      "sales_quarterly_inclusive_iva_max": 132225000.00,
+      "platform_fee_percent": 16,
+      "note": "más IVA"
+    },
+    {
+      "sales_quarterly_inclusive_iva_min": 132500000.01,
+      "sales_quarterly_inclusive_iva_max": 172000000.00,
+      "platform_fee_percent": 17,
+      "note": "más IVA"
+    },
+    {
+      "sales_quarterly_inclusive_iva_min": 172000000.01,
+      "sales_quarterly_inclusive_iva_max": null,
+      "platform_fee_percent": 18,
+      "note": "más IVA"
+    }
+  ],
+  "payment_terms": {
+    "reimbursement_frequency": "Weekly (miércoles de la semana siguiente)",
+    "basis": "Ventas generadas por órdenes tramitadas a través de la Plataforma menos valor cobrado por uso de la Plataforma",
+    "determination_of_weekly_fee": "Se determina conforme al tramo trimestral vigente de ventas de la marca 'McDonald's' a la fecha del reembolso",
+    "invoice_timing_from_rappi": "Factura por uso de Plataforma enviada dentro de 5 días hábiles siguientes al reembolso"
+  },
+  "bank_account_for_payments": {
+    "titular": "RESTAURANTES ADMX, S. DE R.L. DE C.V.",
+    "cuenta_bancaria": "236021017",
+    "clabe_interbancaria": "002180002360210171",
+    "banco": "Citibanamex"
+  },
+  "reporting_requirements": {
+    "anexo": "Anexo 1 - Reporte Pedidos Compensados",
+    "report_contents": {
+      "compensations_table_columns": [
+        "Brand ID",
+        "Brand Name",
+        "Store ID",
+        "Store Name",
+        "Order ID",
+        "Amount",
+        "Reason",
+        "Comments",
+        "Created At"
+      ],
+      "order_detail_table_columns": [
+        "Order ID",
+        "Store Name",
+        "Store ID",
+        "Created At",
+        "State",
+        "Comment"
+      ]
+    },
+    "delivery_method": "Dashboard (enlace y contraseña enviados por Rappi)",
+    "access_scope": "Acceso por establecimiento, grupo de establecimientos o región con visualización restringida",
+    "update_frequency": "Diaria (día vencido)",
+    "creation_deadline_from_signature_days": 180,
+    "report_creation_deadline_date": "2022-11-29",
+    "consequence_if_not_created_in_time": "Rappi detendrá los descuentos por concepto de compensaciones hasta que el reporte sea creado y compartido"
+  },
+  "advertising_and_marketing_investments": {
+    "rappi_investments": [
+      {
+        "amount_mxn": 5000000.00,
+        "description": "Publicidad de la alianza a través de canales propios de Rappi. Ejecutado dentro de 12 meses siguientes a la firma."
+      },
+      {
+        "amount_mxn": 7000000.00,
+        "description": "Servicios internos y/o agencia de medios para promocionar la alianza a través de canales del Aliado."
+      },
+      {
+        "amount_mxn": 50000000.00,
+        "description": "Campañas de adquisición y reactivación de consumidores; Rappi garantiza al menos 1 campaña mensual exclusiva para el Aliado."
+      }
+    ],
+    "aliado_investments": [
+      {
+        "amount_mxn_annually": 3000000.00,
+        "description": "Inversión anual en RappiAds; Rappi destinará 20% de lo efectivamente invertido en campañas de comunicación, promociones y/o envíos gratis."
+      },
+      {
+        "amount_mxn": 37400000.00,
+        "description": "Promociones y descuentos en beneficio de consumidores a través de la Plataforma; mínimo 2 promociones mensuales exclusivas para la Plataforma."
+      },
+      {
+        "amount_mxn": 5700000.00,
+        "description": "Campañas de comunicación offline y online."
+      },
+      {
+        "amount_mxn": 11600000.00,
+        "description": "Publicidad y promoción de la alianza a través de canales propios del Aliado."
+      }
+    ],
+    "approval_process": {
+      "aliado_must_approve_pieces_including_brand": true,
+      "approval_timing_hours": 48,
+      "consequence_of_no_approval": "Rappi no estará obligado a ejecutar el monto destinado hasta acuerdo mutuo; la falta de autorización no se considera incumplimiento por parte de Rappi"
+    },
+    "termination_of_investment_clause": "La cláusula de Inversión en Publicidad/Mercadotecnia dejará de regir al culminar la Vigencia extendida."
+  },
+  "conciliation_and_reconciliation": {
+    "monthly_reconciliation": true,
+    "monthly_reconciliation_scope": "Valores descontados por productos errados, en mal estado y/u órdenes incompletas",
+    "evidence_standard_for_aliado": "Fotografía tomada por Aliado antes de entregar el pedido al Rappitendero",
+    "time_limits": {
+      "max_age_orders_or_payments_for_conciliation": "2 months",
+      "pre_report_creation_compensation_conciliation_limit": "3 months"
+    }
+  },
+  "caps_and_limits": {
+    "aliado_quarterly_compensation_cap_percent": 0.5,
+    "claims_window_days_for_consumer_compensation": 7,
+    "reimbursement_deadline_for_quarterly_excess_days": 30
+  },
+  "governing_law": "México (se firma conforme al artículo 89 del Código de Comercio)",
+  "prevalence_clause": true,
+  "confidentiality_clause_present": false,
+  "dispute_resolution": "",
+  "signatures": [
+    {
+      "party": "Rappi",
+      "name": "ALEJANDRO ALBERTO SOLÍS OSTROSKY",
+      "signature_date": "2022-06-02"
+    },
+    {
+      "party": "Aliado",
+      "name": "ANABELL GONZÁLEZ NAVA",
+      "signature_date": "2022-06-02"
+    }
+  ],
+  "annexes": [
+    {
+      "name": "Anexo 1",
+      "description": "Reporte Pedidos Compensados con tablas de compensaciones y detalle de pedidos, entregado vía Dashboard, actualización diaria."
+    }
+  ],
+  "compliance_obligations": {
+    "photographic_evidence_required_for_mal_state": true,
+    "aliado_must_provide_pre_delivery_photos_optionally": true,
+    "rappi_must_create_report_within_days": 180
+  },
+  "identified_risks": [
+    "Riesgo financiero para el Aliado por asumir compensaciones hasta 0.5% trimestral; posible variabilidad si ventas cambian.",
+    "Dependencia del reporte automatizado para la reanudación de descuentos; demora en creación del reporte puede impactar flujos.",
+    "Complejidad operacional en conciliaciones mensuales y límites temporales de conciliación (2 meses)."
+  ],
+  "recommended_actions": [
+    "Verificar controles internos de evidencias fotográficas y procesos de registro de pedidos para reducir descuentos improcedentes.",
+    "Monitorear trimestralmente el porcentaje de compensaciones para validar si procede reembolso por exceso sobre 0.5%.",
+    "Solicitar confirmación técnica y acceso al Dashboard y copia del formato del reporte antes del plazo de 180 días.",
+    "Documentar y acordar proceso y responsables para aprobaciones de piezas publicitarias (48 horas) para evitar retrasos en campañas."
+  ],
+  "legal_risk_level": "medio",
+  "analysis_summary": "El Convenio Modificatorio No. 2 regula en detalle reembolsos, responsabilidades por compensaciones y una inversión publicitaria bilateral significativa. Establece límites y procesos (reportes, conciliaciones, plazos) que favorecen transparencia, pero introduce riesgos operativos y financieros para el Aliado que deben monitorearse (cap 0.5% trimestral, dependencia del reporte, límites de conciliación)."
+}

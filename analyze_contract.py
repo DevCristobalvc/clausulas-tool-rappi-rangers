@@ -1,43 +1,142 @@
+# analyze_contract.py
 import json
 import logging
+import re
+from pathlib import Path
 from openai import OpenAI
 from pydantic import ValidationError
 
-from config import MODEL_NAME, OPENAI_API_KEY, OPENAI_BASE_URL
+from config import MODEL_NAME, OPENAI_BASE_URL, OPENAI_API_KEY
 from models import ContratoAnalisis
 
-# Config logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-# Cliente OpenAI
 client = OpenAI(base_url=OPENAI_BASE_URL, api_key=OPENAI_API_KEY)
 
-# Prompt del sistema (se puede mover a prompts.py)
 SYSTEM_PROMPT = """
 Eres un analista legal experto.
-Analiza el texto de un contrato y devuelve SOLO un JSON con la siguiente estructura (campos exactos):
-{ ... igual al que ya definiste ... }
-No incluyas explicaciones ni texto extra fuera del JSON.
+Devuelve ÚNICAMENTE un JSON válido, bien formado, que siga exactamente esta estructura de Python Pydantic (ContratoAnalisis).
+No incluyas comentarios, explicaciones, ni texto fuera del objeto JSON.
+Si no hay información para un campo, usa:
+- false para booleanos
+- "" para strings
+- null para fechas
+Devuelve un único bloque JSON cerrado con { }.
 """
 
-def _extract_output_text(resp) -> str:
-    """Extrae texto de la respuesta del modelo, manejando diferentes formatos"""
-    output_text = ""
-    try:
-        for item in getattr(resp, "output", []):
-            contents = getattr(item, "content", None) or item.get("content", [])
-            for c in contents:
-                if isinstance(c, dict) and "text" in c:
-                    output_text += c["text"]
-                elif hasattr(c, "text"):
-                    output_text += c.text
-    except Exception:
-        # fallback: si existe atributo "output_text"
-        output_text = getattr(resp, "output_text", "")
-    return output_text.strip()
+DEBUG_DIR = Path("data/debugs")
+DEBUG_DIR.mkdir(parents=True, exist_ok=True)
 
-def analyze_contract(text: str) -> dict:
-    """Envía el texto al modelo y devuelve un dict validado"""
+def _extract_output_text(resp) -> str:
+    """
+    Extrae de forma robusta el texto de la respuesta del modelo.
+    Soporta varias formas: resp.output_text, resp.output (lista de dicts u objetos).
+    """
+    # 1) output_text si existe (forma simple)
+    if hasattr(resp, "output_text") and getattr(resp, "output_text"):
+        return str(getattr(resp, "output_text")).strip()
+
+    # 2) intentar usar resp.output (puede ser lista de dicts o lista de objetos)
+    output = ""
+    out = None
+    try:
+        out = getattr(resp, "output", None)
+    except Exception:
+        out = None
+    # si todavía no hay, intentar acceso como dict
+    if out is None:
+        try:
+            out = resp["output"]  # some SDKs allow dict-like access
+        except Exception:
+            out = None
+
+    if not out:
+        # último recurso, serializar repr
+        try:
+            return repr(resp)
+        except Exception:
+            return ""
+
+    for item in out:
+        # item puede ser dict o un objeto con atributos
+        contents = None
+        if isinstance(item, dict):
+            contents = item.get("content") or item.get("message") or item.get("output")
+        else:
+            contents = getattr(item, "content", None) or getattr(item, "message", None) or getattr(item, "output", None)
+
+        # si contents es string/None/iterable
+        if isinstance(contents, str):
+            output += contents
+            continue
+        if not contents:
+            # revisar si item tiene .text o "text"
+            if isinstance(item, dict) and "text" in item:
+                output += item["text"]
+            else:
+                txt = getattr(item, "text", None)
+                if isinstance(txt, str):
+                    output += txt
+            continue
+
+        # contents es iterable (lista)
+        for c in contents:
+            if isinstance(c, dict):
+                # forma típica: {"text": "..."}
+                if "text" in c and isinstance(c["text"], str):
+                    output += c["text"]
+                else:
+                    # concatenar cualquier value string que aparezca
+                    for v in c.values():
+                        if isinstance(v, str):
+                            output += v
+            else:
+                # c puede ser objeto con .text
+                txt = getattr(c, "text", None) or getattr(c, "content", None)
+                if isinstance(txt, str):
+                    output += txt
+
+    return output.strip()
+
+def _sanitize_json(raw_text: str) -> str:
+    """
+    Limpia el raw_text intentando dejar un bloque JSON válido:
+    - reemplaza comillas “curly” por comillas normales
+    - extrae el primer bloque { ... }
+    - quita comas colgantes antes de } o ]
+    """
+    if not raw_text:
+        return "{}"
+    s = raw_text.replace("“", "\"").replace("”", "\"").replace("’", "'").replace("—", "-")
+
+    m = re.search(r"\{.*\}", s, re.DOTALL)
+    if m:
+        s = m.group(0)
+
+    # quitar comas colgantes
+    s = re.sub(r",\s*([\}\]])", r"\1", s)
+
+    # balancear llaves
+    open_braces = s.count("{")
+    close_braces = s.count("}")
+    if close_braces < open_braces:
+        s += "}" * (open_braces - close_braces)
+
+    return s
+
+def _fill_missing(parsed_json: dict) -> dict:
+    """Rellena claves faltantes con defaults desde ContratoAnalisis"""
+    base = ContratoAnalisis().model_dump()
+    if not isinstance(parsed_json, dict):
+        return base
+    base.update(parsed_json)
+    return base
+
+def analyze_contract(text: str, file_name: str = "debug") -> dict:
+    """
+    Envía el texto al LLM, guarda raw para debug, intenta sanear y parsear el JSON,
+    valida con Pydantic y devuelve siempre un dict con todos los campos.
+    """
     try:
         resp = client.responses.create(
             model=MODEL_NAME,
@@ -45,25 +144,49 @@ def analyze_contract(text: str) -> dict:
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": text}
             ],
-            max_output_tokens=3000,
+            #max_output_tokens=3000,
         )
 
-        output_text = _extract_output_text(resp)
+        raw_output = _extract_output_text(resp)
+        # Guardar raw para inspección
+        (DEBUG_DIR / f"{file_name}.raw.txt").write_text(raw_output, encoding="utf-8")
 
-        # Intentar parsear a JSON
-        parsed_json = json.loads(output_text)
+        sanitized = _sanitize_json(raw_output)
+        (DEBUG_DIR / f"{file_name}.sanitized.txt").write_text(sanitized, encoding="utf-8")
 
-        # Validar con Pydantic
+        # Intentar parsear
         try:
-            contrato = ContratoAnalisis(**parsed_json)
+            parsed = json.loads(sanitized)
+        except json.JSONDecodeError as e:
+            logging.error(f"❌ JSON parse error ({file_name}): {e}")
+            # Intento adicional: si había otro bloque JSON dentro, reintentar
+            m = re.search(r"\{.*\}", sanitized, re.DOTALL)
+            if m:
+                try:
+                    parsed = json.loads(m.group(0))
+                except Exception as e2:
+                    logging.error(f"❌ Segundo intento de parseo falló ({file_name}): {e2}")
+                    return ContratoAnalisis().model_dump()
+            else:
+                return ContratoAnalisis().model_dump()
+
+        # Rellenar claves faltantes y validar
+        filled = _fill_missing(parsed)
+        try:
+            contrato = ContratoAnalisis(**filled)
             return contrato.model_dump()
         except ValidationError as ve:
-            logging.error(f"❌ Validación fallida: {ve}")
-            return {}
+            logging.error(f"❌ Validación fallida ({file_name}): {ve}")
+            # intentar con la base + parsed (ya hicimos fill_missing); si aun así falla, fallback
+            try:
+                fallback = ContratoAnalisis().model_dump()
+                fallback.update(parsed if isinstance(parsed, dict) else {})
+                contrato = ContratoAnalisis(**fallback)
+                return contrato.model_dump()
+            except Exception as e:
+                logging.error(f"❌ Fallback tras validación fallida también falló ({file_name}): {e}")
+                return ContratoAnalisis().model_dump()
 
-    except json.JSONDecodeError as je:
-        logging.error(f"❌ Error al parsear JSON: {je}")
-        return {}
     except Exception as e:
-        logging.error(f"❌ Análisis falló: {e}")
-        return {}
+        logging.error(f"❌ Error en {file_name}: {e}")
+        return ContratoAnalisis().model_dump()

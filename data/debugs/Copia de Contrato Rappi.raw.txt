@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "titulo": "",
+  "partes": [],
+  "fecha_firma": null,
+  "fecha_inicio": null,
+  "fecha_termino": null,
+  "objeto": "",
+  "monto": {
+    "cantidad": 0,
+    "moneda": ""
+  },
+  "obligaciones": [],
+  "clausulas": [],
+  "riesgos": [],
+  "recomendaciones": [],
+  "incumplimientos": [],
+  "cumplimiento_legal": false,
+  "resumen_ejecutivo": "",
+  "conclusion": "",
+  "analista": {
+    "nombre": "",
+    "firma": "",
+    "fecha": null
+  },
+  "es_valido": false,
+  "referencias": []
+}

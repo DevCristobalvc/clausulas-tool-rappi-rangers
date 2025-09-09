@@ -1,4 +1,26 @@
 {
   "archivo": "Legal MX  - Acuerdo de Cooperación - Rappi - Shake Shack VF 29.05.2020 (2)",
-  "analisis": {}
+  "analisis": {
+    "TieneDesembolsos": false,
+    "PeriodicidadPagos": "",
+    "FormaPago": "",
+    "CondicionesPago": "",
+    "DetalleDesembolsos": "",
+    "TieneExclusividad": false,
+    "AlcanceExclusividad": "",
+    "RupturaExclusividad": "",
+    "CondicionesExclusividad": "",
+    "DetalleExclusividad": "",
+    "DuracionContrato": "",
+    "FechaInicio": null,
+    "FechaFin": null,
+    "TerminacionUnilateral": false,
+    "PenalidadTerminacion": false,
+    "Preaviso": "",
+    "DetalleTermino": "",
+    "TieneRenovacionAutomatica": false,
+    "PeriodicidadRenovacion": "",
+    "PreavisoNoRenovacion": "",
+    "DetalleVigencia": ""
+  }
 }

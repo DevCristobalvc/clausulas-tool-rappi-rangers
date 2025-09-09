@@ -1,0 +1,316 @@
+{
+  "contrato_valido": true,
+  "razones_no_valido": "",
+  "partes": [
+    {
+      "nombre": "Tecnologías Rappi S.A.P.I. de C.V.",
+      "rfc": "TRA150604TW1",
+      "domicilio": "Calzada General Mariano Escobedo 555, pisos 11 y 12, Miguel Hidalgo, Ciudad de México, C.P. 11580"
+    },
+    {
+      "nombre": "INVERSIONES EN RESTAURANTES Y HOTELES",
+      "rfc": "IRH150302UU3",
+      "domicilio": ""
+    }
+  ],
+  "vigencia": {
+    "inicio": "2024-03-27",
+    "meses": 24,
+    "prorroga_automatica": true,
+    "terminacion_anticipada": {
+      "por_parte_aliado_dias_notificacion": 90,
+      "por_parte_rappi_dias_notificacion": 90,
+      "incumplimiento_subsanacion_dias": 10,
+      "penalidad_porcentaje": 10.0,
+      "penalidad_formula": "VF = VP * (VA - ME)"
+    }
+  },
+  "tarifas": {
+    "meses": [
+      {
+        "mes": 1,
+        "porcentaje": 0.0,
+        "nota": "0% + IVA"
+      },
+      {
+        "mes": 2,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 3,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 4,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 5,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 6,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 7,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 8,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 9,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 10,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 11,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 12,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 13,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 14,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 15,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 16,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 17,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 18,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 19,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 20,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 21,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 22,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 23,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      },
+      {
+        "mes": 24,
+        "porcentaje": 21.0,
+        "nota": "21% + IVA"
+      }
+    ],
+    "pick_up_porcentaje": 13.0,
+    "nota_cancelaciones": "Rappi cubrirá el 35% del valor total de órdenes canceladas cuya cancelación no sea culpa exclusiva del Aliado Comercial (excluye productos que no requieren preparación)."
+  },
+  "obligaciones": {
+    "rappi": [
+      "Diseñar sin costo el espacio dentro de la Plataforma para que el Aliado exhiba, ofrezca y comercialice sus Productos.",
+      "Disponer la Plataforma para que Usuarios/Consumidores adquieran Productos (excepto fuerza mayor, caso fortuito o inconvenientes técnicos mayores).",
+      "Compartir un reporte semanal detallado de ventas al Aliado (por Portal de Partners o mecanismo definido).",
+      "Cubrir parte del valor de órdenes canceladas según lo establecido (35% en condiciones señaladas)."
+    ],
+    "aliado": [
+      "Entregar gratuitamente logos y artes de la Marca en el formato requerido.",
+      "Diligenciar y actualizar la información del Catálogo (productos, precios, descripciones).",
+      "Notificar modificaciones relevantes de Catálogo, dirección y horarios.",
+      "Responder por la veracidad de la información en su tienda virtual y mantener la misma calidad y precios que en otros canales.",
+      "Atender y tramitar órdenes recibidas a través de la Plataforma conforme a lo solicitado por Usuarios/Consumidores.",
+      "No preparar órdenes no aceptadas dentro de los 7 minutos siguientes a su recepción (se eliminarán).",
+      "Emitir tickets de cada orden (no a nombre de Rappi).",
+      "Entregar Productos en empaques adecuados, sellados, con accesorios y ticket; no exigir pago a Repartidores Independientes por retiro.",
+      "Verificar entrega de pedidos al Repartidor Independiente correcto.",
+      "Asumir valor de productos errados o faltantes y autorizar descuento semanal de dichos valores.",
+      "Pagar $10 MXN por cada demora de 5 minutos o más en entregar la orden al Repartidor Independiente después del Cooking Time (descuento semanal).",
+      "Compensar al Usuario/Consumidor con 10% del valor de la orden si la preparación toma más de 40 minutos (valor descontado del reembolso por Rappi al Aliado).",
+      "Gestionar permisos, licencias y autorizaciones necesarias para operación conforme a Ley Aplicable.",
+      "Permitir acceso y revisión de tablets o dispositivos usados para tramitar órdenes.",
+      "Abstenerse de reproducir, copiar o desarrollar software de Rappi y eliminar software de Rappi al cesar uso."
+    ]
+  },
+  "balanceo_y_control_operativo": {
+    "facultades_rappi": [
+      "Apagar o suspender Establecimientos de Comercio.",
+      "Apagar o suspender Productos.",
+      "Aumentar o reducir Radio de Cobertura.",
+      "Habilitar o deshabilitar métodos de pago.",
+      "Usar herramientas para balancear demanda."
+    ]
+  },
+  "seguridad_higiene": {
+    "responsabilidad_aliado": "El Aliado es totalmente responsable por calidad, higiene, elaboración y seguridad de ingredientes y debe cumplir la Ley Aplicable en materia de seguridad alimentaria.",
+    "consecuencia_incumplimiento": "Aliado asume el valor de reclamos por Usuarios/Consumidores; Rappi realizará descuento semanal correspondiente."
+  },
+  "forma_de_pago_y_cuentas": {
+    "frecuencia_reembolso": "semanal",
+    "mecanica": "Rappi reembolsará el valor de órdenes tramitadas la semana siguiente al corte semanal menos Uso y Alquiler y otros descuentos aplicables.",
+    "fecha_corte": "",
+    "cuenta_bancaria": {
+      "titular": "INVERSIONES EN RESTAURANTES Y HOTELES SAPI",
+      "cuenta": "01720121531965",
+      "clabe_interbancaria": "127180001215319650",
+      "banco": "AZTECA - BANCO AZTECA SA"
+    },
+    "facturacion_electronica": true,
+    "conciliaciones_max_antiguedad_meses": 2
+  },
+  "retenciones": "Rappi efectuará las retenciones correspondientes sobre el valor de las ventas del Aliado Comercial realizadas a través de la Plataforma Rappi.",
+  "modalidad_pick_up": {
+    "uso_alquiler_porcentaje": 13.0,
+    "cobertura_cancelaciones": "Rappi cubrirá 35% del valor total de órdenes canceladas no atribuibles al Aliado (excluye productos sin preparación).",
+    "responsabilidades_aliado": [
+      "Asumir compensaciones por producto equivocado, orden incompleta o producto en mal estado (descuento sobre reembolso semanal).",
+      "Asumir compensaciones por órdenes reportadas como no entregadas si no puede comprobar entrega.",
+      "Cobrar al Usuario en establecimiento en pagos en efectivo o débito conforme al precio en Plataforma (no cobrar distinto).",
+      "Verificar entrega al Usuario/Consumidor correcto.",
+      "Rappi podrá desactivar Pick-Up unilateralmente con notificación."
+    ]
+  },
+  "condiciones_especiales": {
+    "aliados_premium_enlace": "https://legalaliados.rappi.com/?page_id=6",
+    "notificacion_modificaciones_dias": 8
+  },
+  "exclusividad": {
+    "obligatoria": true,
+    "consecuencia_incumplimiento": "duplicar el porcentaje acordado por Uso y Alquiler y pago adicional del 10% del valor total de ventas hasta momento del incumplimiento; aplicación retroactiva mientras dure el acuerdo con tercero.",
+    "pago_adicional_por_incumplimiento_porcentaje": 10.0,
+    "plazo_pago_dias": 30
+  },
+  "propiedad_intelectual": {
+    "rappi_propietaria": "Rappi conserva todos los derechos sobre la Plataforma Rappi, Aplicación Rappi Aliados y Portal de Partners.",
+    "aliado_responsable": "El Aliado declara tener derechos sobre imágenes/fotografías compartidas y mantendrá indemne a Rappi frente a reclamaciones de terceros."
+  },
+  "independencia_partes": "Las Partes son contratistas independientes; no existe relación laboral ni joint venture.",
+  "fuerza_mayor": "Ninguna Parte será responsable por retrasos o incumplimientos derivados de caso fortuito o fuerza mayor según definición contractual.",
+  "indemnidad_y_responsabilidad": {
+    "aliado_responsable_por": [
+      "salarios y acreencias laborales de su personal",
+      "inconvenientes con Producto o entrega",
+      "falta de calidad, idoneidad y seguridad de Productos",
+      "daños a terceros por acciones u omisiones",
+      "incumplimiento de obligaciones contractuales"
+    ],
+    "obligacion_indemnizar": "Las Partes se mantienen indemnizadas respecto de terceros por incumplimiento y Ley Aplicable."
+  },
+  "confidencialidad": {
+    "definicion": "Información técnica, comercial, financiera, estratégica, legal y de cualquier naturaleza relacionada con operaciones de negocios reveladas entre las Partes.",
+    "duracion_anos": 3,
+    "excepcion_secreto_comercial": "Persistirá en la medida que constituya secreto comercial debidamente identificado según Ley Aplicable."
+  },
+  "ciberseguridad_y_notificacion_incidentes": {
+    "obligaciones_aliado": [
+      "Gestionar riesgos cibernéticos y proteger información con medidas no menos rigurosas que la Ley Aplicable.",
+      "Notificar a Rappi incidentes cibernéticos que afecten confidencialidad, integridad o disponibilidad dentro de 24 horas desde conocimiento, detallando información comprometida."
+    ]
+  },
+  "resolucion_conflictos": {
+    "primera_instancia": "Arreglo directo entre las Partes",
+    "plazo_arreglo_directo_dias": 30,
+    "jurisdiccion_final": "tribunales de la jurisdicción ordinaria de la Ciudad de México"
+  },
+  "proteccion_datos_personales": {
+    "obligaciones": [
+      "Garantizar adecuado Tratamiento de la información contenida en bases de datos suministradas por la otra Parte con autorización de Titulares.",
+      "Cumplir la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y demás Ley Aplicable.",
+      "Mantener estándares máximos de seguridad, protección, resguardo y confidencialidad."
+    ],
+    "finalidad_transferencia_a_aliado": "Trámite y entrega de una orden activa dentro de la Plataforma Rappi; eliminar inmediatamente una vez utilizada para dicha finalidad.",
+    "penalidad_por_uso_indebido_mxn": 1000000.0,
+    "plazo_pago_penalidad_dias": 30
+  },
+  "disposiciones_generales": {
+    "nulidad_parcial_no_renuncia": "Si alguna disposición es nula, el resto permanece vigente; la falta o demora en ejercicio de derechos no constituye renuncia.",
+    "cesion": "Aliado no podrá ceder total o parcialmente la ejecución de los Términos y Condiciones.",
+    "acuerdo_total": "Estos Términos y Condiciones representan el acuerdo exclusivo entre las Partes.",
+    "impuestos": "Cada Parte será responsable de sus impuestos conforme a Ley Aplicable.",
+    "modificaciones_plataforma_sin_aviso": "Rappi podrá modificar diseño, visuales y arte de la Plataforma, Aplicación y Portal sin previo aviso.",
+    "disponibilidad_no_garantizada": "Rappi no garantiza disponibilidad o uptime; hará mejores esfuerzos en caso de inestabilidad.",
+    "canales_de_comunicacion": [
+      "Portal Aliados",
+      "notificacionlegalmx@rappi.com",
+      "Calzada General Mariano Escobedo 555, pisos 11 y 12, Miguel Hidalgo, Ciudad de México, C.P. 11580"
+    ],
+    "venta_bebidas_alcoholicas": "Aliado declara contar con permisos y cumplir restricciones de zona, horario y demás limitaciones aplicables.",
+    "ley_aplicable": "Leyes de los Estados Unidos Mexicanos",
+    "domicilio_contractual": "Ciudad de México (efectos legales); domicilio tributario conforme a municipio desde donde comercialice Productos.",
+    "autorizacion_retenccion_ventas": "Aliado autoriza a Rappi a ejecutar penalidades y liquidar adeudos reteniendo cantidades de ventas semanales.",
+    "cumplimiento_anticorrupcion_y_sourcing": "Aliado declara ingresos lícitos, cumplimiento de leyes anticorrupción y no mantener relaciones con proveedores que vulneren derechos laborales o leyes aplicables."
+  },
+  "derecho_revision_auditoria": {
+    "derecho_rappi": "Rappi podrá revisar y auditar cumplimiento de numerales relacionados con ética, anticorrupción, sourcing y cumplimiento legal con aviso previo de 5 días hábiles.",
+    "consecuencias_auditoria": [
+      "Aliado deberá indemnizar por daños y perjuicios derivados",
+      "Rappi podrá cesar uso de Plataforma sin preaviso",
+      "Rappi podrá cobrar costo de auditoría"
+    ]
+  },
+  "resumen": "Contrato de adhesión para uso de la Plataforma Rappi por INVERSIONES EN RESTAURANTES Y HOTELES con vigencia inicial de 24 meses, tarifas variables (0% mes 1; 21% meses 2-24), obligaciones operativas para ambas Partes, exclusividad obligatoria, mecanismos de penalidad, protección de datos, confidencialidad y jurisdicción en Ciudad de México.",
+  "fecha_aceptacion": "2024-03-27",
+  "firma": {
+    "firmantes": [
+      {
+        "nombre": "JOSE IGNACIO",
+        "apellidos": "ZEPEDA PINEDA",
+        "correo_electronico": "amado.cruz@gzepeda.com",
+        "hash": "VKPQf/2v6tN1UO8g9fcMdBGKEmdsMG2hUny7Z7JKeWA=",
+        "direccion_ip": "67.205.195.33",
+        "visualizacion_mensaje_datos": "2024-03-27T23:29:06.973Z",
+        "fecha_firma": "2024-04-05T05:10:30.921Z",
+        "tipo_firma": "Firma Electrónica Fiable",
+        "estatus": "Firmado y Completo"
+      }
+    ],
+    "fecha_firma_version_final": "2024-04-05T05:10:31.032Z",
+    "numero_identificador_documento": "6604aaf39806a770abd7843d",
+    "url_auditoria": "https://enterprise.app.trato.io/r/zolrB22yeY4JkCxsvVluH"
+  },
+  "nota_final": "El Aliado reconoce y acepta íntegramente los Términos y Condiciones en la fecha indicada."
+}
