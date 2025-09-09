@@ -1,3 +1,4 @@
 final.json
 .env
 /__pycache__
+/venv
