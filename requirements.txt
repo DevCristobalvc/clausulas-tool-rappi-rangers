@@ -1,0 +1,7 @@
+pdfplumber
+openai
+pydantic
+python-dotenv
+gspread
+oauth2client
+google-api-python-
