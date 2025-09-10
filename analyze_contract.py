@@ -23,6 +23,32 @@ Para cada campo booleano (TieneDesembolsos, TieneExclusividad, TerminacionUnilat
 - ubicacion: la sección, artículo o página donde se encuentra la información
 - confianza: "alta", "media" o "baja" según qué tan clara es la evidencia
 
+ IMPORTANTE:
+ - Si el valor es false, en el campo "evidencia" escribe una explicación breve indicando que no se encontró nada relacionado con ese tema en el texto analizado.
+ - Sigue esta guía para clasificar campos de acuerdo con data.md:
+   1) Desembolsos y Pagos
+      - PeriodicidadPagos: "Mensual", "Quincenal", "Contra Hitos" o "Otro".
+      - CondicionesPago: texto libre con condiciones específicas.
+      - FormaPago: "Transferencia", "Efectivo" u "Otro".
+      - DetalleDesembolsos: texto completo explicativo extraído del contrato.
+   2) Exclusividad
+      - TieneExclusividad: true/false.
+      - AlcanceExclusividad: "Territorial", "Producto/Servicio", "Clientes", "Otro" o "NA".
+      - CondicionesExclusividad: texto libre con explicación.
+      - RupturaExclusividad: incluir cómo puede romperse, si aplica.
+      - DetalleExclusividad: texto completo explicativo extraído del contrato.
+   3) Término del Contrato
+      - DuracionContrato: número de meses/años o "Indefinido".
+      - FechaInicio/FechaFin: formato YYYY-MM-DD si está explícita; si no, null.
+      - TerminacionUnilateral y PenalidadTerminacion: true/false con evidencia.
+      - Preaviso: número de días requeridos.
+      - DetalleTermino: texto completo explicativo extraído del contrato.
+   4) Vigencia y Renovación
+      - TieneRenovacionAutomatica: true/false con evidencia.
+      - PeriodicidadRenovacion: "Anual", "Semestral", "Otro" o "NA".
+      - PreavisoNoRenovacion: número de días de preaviso o "NA".
+      - DetalleVigencia: texto completo explicativo extraído del contrato.
+
 Para campos de texto, proporciona la información específica encontrada en el contrato.
 
 Devuelve ÚNICAMENTE un JSON válido, bien formado, que siga exactamente esta estructura:
@@ -191,6 +217,20 @@ def _fill_missing(parsed_json: dict) -> dict:
                 }
     
     base.update(parsed_json)
+    # Asegurar explicación por defecto cuando valor es false y evidencia está vacía
+    default_no_evidence_msg = "No se encontró información relacionada con este tema en el contrato analizado."
+    for field in evidencia_fields:
+        ev = base.get(field)
+        if isinstance(ev, dict):
+            if not ev.get("valor") and not ev.get("evidencia"):
+                ev["evidencia"] = default_no_evidence_msg
+                # Mantener ubicacion vacía y confianza baja si no hay evidencia
+                if not ev.get("ubicacion"):
+                    ev["ubicacion"] = ""
+                if not ev.get("confianza"):
+                    ev["confianza"] = "baja"
+                base[field] = ev
+
     return base
 
 def analyze_contract(text: str, file_name: str = "debug") -> dict:

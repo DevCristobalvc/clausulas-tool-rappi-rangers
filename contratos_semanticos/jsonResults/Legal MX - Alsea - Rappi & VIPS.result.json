@@ -1,0 +1,41 @@
+{
+  "archivo": "Legal MX - Alsea - Rappi & VIPS.txt",
+  "DesembolsosPagos": {
+    "TieneDesembolsos": "NO",
+    "PeriodicidadPagos": "NA",
+    "CondicionesPago": "No hay nada significativo.",
+    "FormaPago": "Otro",
+    "DetalleDesembolsos": "No hay nada significativo."
+  },
+  "Exclusividad": {
+    "TieneExclusividad": "NO",
+    "AlcanceExclusividad": "NA",
+    "CondicionesExclusividad": "No hay nada significativo.",
+    "RupturaExclusividad": "NO",
+    "DetalleExclusividad": "No hay nada significativo."
+  },
+  "TerminoContrato": {
+    "DuracionContrato": "NA",
+    "FechaInicio": "",
+    "FechaFin": "",
+    "TerminacionUnilateral": "NO",
+    "PenalidadTerminacion": "NO",
+    "Preaviso": "NA",
+    "DetalleTermino": "No hay nada significativo."
+  },
+  "VigenciaRenovacion": {
+    "TieneRenovacionAutomatica": "NO",
+    "PeriodicidadRenovacion": "NA",
+    "PreavisoNoRenovacion": "NA",
+    "DetalleVigencia": "No hay nada significativo."
+  },
+  "_debug": {
+    "similitudes": {
+      "DesembolsosPagos": 0.4411,
+      "Exclusividad": 0.3375,
+      "TerminoContrato": 0.4187,
+      "VigenciaRenovacion": 0.3559
+    },
+    "umbral": 0.45
+  }
+}

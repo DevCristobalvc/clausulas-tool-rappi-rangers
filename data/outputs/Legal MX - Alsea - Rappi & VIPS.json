@@ -3,7 +3,7 @@
   "analisis": {
     "TieneDesembolsos": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró ninguna cláusula relativa a desembolsos o pagos en el texto proporcionado; el documento contiene únicamente metadatos y datos de firma.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -13,7 +13,7 @@
     "DetalleDesembolsos": "",
     "TieneExclusividad": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró ninguna cláusula de exclusividad en el texto proporcionado; el documento contiene únicamente metadatos y datos de firma.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -26,13 +26,13 @@
     "FechaFin": null,
     "TerminacionUnilateral": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró ninguna cláusula sobre terminación unilateral en el texto proporcionado; el documento contiene únicamente metadatos y datos de firma.",
       "ubicacion": "",
       "confianza": "baja"
     },
     "PenalidadTerminacion": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró ninguna cláusula sobre penalidades por terminación en el texto proporcionado; el documento contiene únicamente metadatos y datos de firma.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -40,7 +40,7 @@
     "DetalleTermino": "",
     "TieneRenovacionAutomatica": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró ninguna cláusula sobre renovación automática en el texto proporcionado; el documento contiene únicamente metadatos y datos de firma.",
       "ubicacion": "",
       "confianza": "baja"
     },

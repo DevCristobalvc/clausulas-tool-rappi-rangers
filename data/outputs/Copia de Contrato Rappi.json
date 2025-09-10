@@ -3,7 +3,7 @@
   "analisis": {
     "TieneDesembolsos": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -13,7 +13,7 @@
     "DetalleDesembolsos": "",
     "TieneExclusividad": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -26,13 +26,13 @@
     "FechaFin": null,
     "TerminacionUnilateral": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
       "ubicacion": "",
       "confianza": "baja"
     },
     "PenalidadTerminacion": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -40,7 +40,7 @@
     "DetalleTermino": "",
     "TieneRenovacionAutomatica": {
       "valor": false,
-      "evidencia": "",
+      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
       "ubicacion": "",
       "confianza": "baja"
     },

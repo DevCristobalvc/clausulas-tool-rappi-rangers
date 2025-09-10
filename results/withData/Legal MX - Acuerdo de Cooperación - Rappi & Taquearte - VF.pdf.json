@@ -1,9 +1,9 @@
 {
-  "archivo": "Contrato Dairy Queen firmado",
+  "archivo": "Legal MX - Acuerdo de Cooperación - Rappi & Taquearte - VF.pdf",
   "analisis": {
     "TieneDesembolsos": {
       "valor": false,
-      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
+      "evidencia": "",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -13,7 +13,7 @@
     "DetalleDesembolsos": "",
     "TieneExclusividad": {
       "valor": false,
-      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
+      "evidencia": "",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -26,13 +26,13 @@
     "FechaFin": null,
     "TerminacionUnilateral": {
       "valor": false,
-      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
+      "evidencia": "",
       "ubicacion": "",
       "confianza": "baja"
     },
     "PenalidadTerminacion": {
       "valor": false,
-      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
+      "evidencia": "",
       "ubicacion": "",
       "confianza": "baja"
     },
@@ -40,7 +40,7 @@
     "DetalleTermino": "",
     "TieneRenovacionAutomatica": {
       "valor": false,
-      "evidencia": "No se encontró información relacionada con este tema en el contrato analizado.",
+      "evidencia": "",
       "ubicacion": "",
       "confianza": "baja"
     },

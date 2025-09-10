@@ -1,48 +1,48 @@
 {
   "TieneDesembolsos": {
     "valor": true,
-    "evidencia": "CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners.",
-    "ubicacion": "Cláusula Octava - Forma de pago",
+    "evidencia": "“CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners.\nRappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación:\nRazón Social Sucursal Cuenta Clabe Banco\nCocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Centro 0116922856 012180001169228562 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Echegaray 0487318316 012180004873183165 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Ermita 0116146325 012180001161463257 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Izcalli 0116955444 012180001169554443 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA\nAJM, S.A. de C.V. Xalpa\nCocina Mexicana La Viga 0116955541 012180001169555413 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA\nAJM, S.A. de C.V. Industrial\nCocina Mexicana Miramontes 0116146279 012180001161462795 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Satélite 0116146236 012180001161462368 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Universidad 0116146287 012180001161462876 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA\nAJM, S.A. de C.V.\nOperadora de Ajusco 0112991462 012180001129914625 BBVA\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nOperadora de Las Américas 1135338437 072 180 01135338437 8 Banorte\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nOperadora de Metepec 1135336808 072 180 01135336808 0\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nEl Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.”",
+    "ubicacion": "CLÁUSULA OCTAVA. - Forma de pago (modificada por CLÁUSULA SEGUNDA)",
     "confianza": "alta"
   },
   "TieneExclusividad": {
     "valor": false,
-    "evidencia": "",
-    "ubicacion": "",
-    "confianza": "baja"
+    "evidencia": "No se encontró cláusula de exclusividad en el Convenio Modificatorio. Existe una obligación de igualar precios en la CLÁUSULA CUARTA (v) pero no una restricción que impida al Aliado operar en otros canales.",
+    "ubicacion": "CLÁUSULA CUARTA (v) - Obligaciones del Aliado Comercial",
+    "confianza": "alta"
   },
   "TerminacionUnilateral": {
     "valor": false,
-    "evidencia": "",
+    "evidencia": "No se encontró cláusula que permita terminación unilateral en el Convenio Modificatorio analizado.",
     "ubicacion": "",
-    "confianza": "baja"
+    "confianza": "alta"
   },
   "PenalidadTerminacion": {
     "valor": false,
-    "evidencia": "",
+    "evidencia": "No se encontró en el texto ninguna disposición relativa a penalidades por terminación.",
     "ubicacion": "",
-    "confianza": "baja"
+    "confianza": "alta"
   },
   "TieneRenovacionAutomatica": {
     "valor": false,
-    "evidencia": "",
+    "evidencia": "No se encontró cláusula de renovación automática en el Convenio Modificatorio.",
     "ubicacion": "",
-    "confianza": "baja"
+    "confianza": "alta"
   },
-  "PeriodicidadPagos": "Rappi reembolsará ... semanalmente ... la semana inmediatamente siguiente al corte semanal",
-  "FormaPago": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación.",
-  "CondicionesPago": "Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación.",
-  "DetalleDesembolsos": "Rappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación: Razón Social Sucursal Cuenta Clabe Banco Cocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA AJM, S.A. de C.V.; Cocina Mexicana Centro 0116922856 012180001169228562 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA AJM, S.A. de C.V.; Cocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA AJM, S.A. de C.V.; Cocina Mexicana Echegaray 0487318316 012180004873183165 BBVA AJM, S.A. de C.V.; Cocina Mexicana Ermita 0116146325 012180001161463257 BBVA AJM, S.A. de C.V.; Cocina Mexicana Izcalli 0116955444 012180001169554443 BBVA AJM, S.A. de C.V.; Cocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA AJM, S.A. de C.V. Xalpa; Cocina Mexicana La Viga 0116955541 012180001169555413 BBVA AJM, S.A. de C.V.; Cocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA AJM, S.A. de C.V. Industrial; Cocina Mexicana Miramontes 0116146279 012180001161462795 BBVA AJM, S.A. de C.V.; Cocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA AJM, S.A. de C.V.; Cocina Mexicana Satélite 0116146236 012180001161462368 BBVA AJM, S.A. de C.V.; Cocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA AJM, S.A. de C.V.; Cocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA AJM, S.A. de C.V.; Cocina Mexicana Universidad 0116146287 012180001161462876 BBVA AJM, S.A. de C.V.; Cocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA AJM, S.A. de C.V.; Operadora de Ajusco 0112991462 012180001129914625 BBVA Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Las Américas 1135338437 072180011353384378 Banorte Negocios de Expansión Restaurantera, S.A. de C.V.; Operadora de Metepec 1135336808 072180011353368080 Negocios de Expansión Restaurantera, S.A. de C.V. El Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.",
-  "AlcanceExclusividad": "",
+  "PeriodicidadPagos": "Otro (semanal)",
+  "FormaPago": "Transferencia",
+  "CondicionesPago": "Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. La fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Los descuentos podrán ser visualizados por el Aliado Comercial a través del Portal Partners. Pagos a cuentas bancarias indicadas en la cláusula; aceptación de envío y recibo de facturas por medios electrónicos.",
+  "DetalleDesembolsos": "CLÁUSULA OCTAVA. - Forma de pago. Rappi reembolsará al Aliado Comercial el valor de las órdenes solicitadas semanalmente por los Usuarios/Consumidores y tramitadas a través de la Plataforma Rappi, la semana inmediatamente siguiente al corte semanal menos: (i) el valor cobrado por Rappi por concepto de Uso y Alquiler de la Plataforma Rappi; y (ii) cualquier otro descuento aplicable de conformidad con lo establecido en el presente Acuerdo de Cooperación. Se aclara que la fecha de corte semanal y de pago será debidamente informada por parte de Rappi al Aliado Comercial. Se aclara que los descuentos referenciados en el numeral (ii) anterior podrán ser visualizados por el Aliado Comercial a través del Portal Partners.\nRappi pagará al Aliado Comercial el valor determinado, conforme a las ventas realizadas por cada razón social, en las cuentas bancarias relacionadas a continuación:\nRazón Social Sucursal Cuenta Clabe Banco\nCocina Mexicana Azcapotzalco 0116955495 012180001169554951 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Centro 0116922856 012180001169228562 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Ixtapaluca 0116146252 012180001161462520 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Cuauhtémoc 0116146333 012180001161463338 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Echegaray 0487318316 012180004873183165 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Ermita 0116146325 012180001161463257 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Izcalli 0116955444 012180001169554443 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Iztapalapa 0116146201 012180001161462012 BBVA\nAJM, S.A. de C.V. Xalpa\nCocina Mexicana La Viga 0116955541 012180001169555413 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Lerma Parque 0116955525 012180001169555251 BBVA\nAJM, S.A. de C.V. Industrial\nCocina Mexicana Miramontes 0116146279 012180001161462795 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Pensylvania 0116146309 012180001161463095 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Satélite 0116146236 012180001161462368 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Taxqueña 0116146341 012180001161463419 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Tlatelolco 0116146368 012180001161463684 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Universidad 0116146287 012180001161462876 BBVA\nAJM, S.A. de C.V.\nCocina Mexicana Zaragoza 0116905889 012180001169058897 BBVA\nAJM, S.A. de C.V.\nOperadora de Ajusco 0112991462 012180001129914625 BBVA\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nOperadora de Las Américas 1135338437 072 180 01135338437 8 Banorte\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nOperadora de Metepec 1135336808 072 180 01135336808 0\nNegocios de\nExpansión\nRestaurantera, S.A. de\nC.V.\nEl Aliado Comercial acepta el envío y recibo de facturas por medios electrónicos.",
+  "AlcanceExclusividad": "NA",
   "RupturaExclusividad": "",
   "CondicionesExclusividad": "",
   "DetalleExclusividad": "",
-  "DuracionContrato": "El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales.",
+  "DuracionContrato": "",
   "FechaInicio": "2024-12-30",
   "FechaFin": null,
   "Preaviso": "",
   "DetalleTermino": "",
   "PeriodicidadRenovacion": "",
   "PreavisoNoRenovacion": "",
-  "DetalleVigencia": "Las Partes declaran que suscribieron en fecha 31 de octubre de 2024 un Acuerdo de Cooperación... II. El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales."
+  "DetalleVigencia": "DECLARACIONES II: \"El Acuerdo actualmente se encuentra vigente y surtiendo todos sus efectos legales.\" CLÁUSULA SEGUNDA: modifica ciertas cláusulas a efecto de que, \"a partir de la fecha de firma del presente Convenio Modificatorio\" queden redactadas como se indica. CLÁUSULA TERCERA: \"Las Partes acuerdan que en todo aquello que no haya sido modificado expresamente mediante el presente Convenio Modificatorio, el Acuerdo continuará ejecutándose en iguales condiciones a lo inicialmente pactado en dicho documento y cualquier otro Anexo/Convenio Modificatorio suscrito entre las Partes.\""
 }
