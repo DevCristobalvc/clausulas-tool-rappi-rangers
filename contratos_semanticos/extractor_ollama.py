@@ -2,8 +2,8 @@
 """
 Extractor semántico de cláusulas de contratos (.txt) -> JSON por archivo.
 
-Motor semántico: OpenAI Embeddings (text-embedding-3-small por defecto).
-Docs oficiales (OpenAI): Embeddings (guía + API reference).
+Motor semántico: Ollama Embeddings (nomic-embed-text por defecto).
+Docs oficiales (Ollama): https://ollama.com/library/nomic-embed-text
 """
 
 import os
@@ -14,14 +14,10 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
+import requests
 from dotenv import load_dotenv
 from rapidfuzz import fuzz
 import dateparser
-
-# -------- OpenAI SDK (ver docs oficiales) ----------
-# https://platform.openai.com/docs/guides/embeddings
-# https://platform.openai.com/docs/api-reference/embeddings
-from openai import OpenAI
 
 # ==========================
 # CONFIG
@@ -32,10 +28,13 @@ OUTPUT_JSONL = Path("salida_contratos.jsonl")
 OUTPUT_JSON = Path("salida_contratos.json")
 OUTPUT_DIR_PER_FILE = Path("jsonResults")
 
-# Modelo embeddings (costo vs. calidad)
-# EMBEDDING_MODEL = "text-embedding-3-large"   # o "text-embedding-3-small"
-#EMBEDDING_MODEL = "text-embedding-3-small"   # o "text-embedding-3-small"
-EMBEDDING_MODEL = "nomic-embed-text"
+load_dotenv()
+# Configuración de Ollama
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
+OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL")
+
+# Modelo embeddings (usando Ollama)
+EMBEDDING_MODEL = OLLAMA_EMBED_MODEL
 
 # Umbral de similitud para considerar un párrafo "relevante"
 SIM_THRESHOLD = 0.45
@@ -241,45 +240,68 @@ def extract_preaviso(text: str) -> str:
         return f"{num} {unidad}"
     return "NA"
 
-# ------------------ OpenAI Embeddings helpers ------------------
+# ------------------ Ollama Embeddings helpers ------------------
 
-def embed_texts(client: OpenAI, texts: List[str], model: str) -> np.ndarray:
+def _ollama_embed_batch(texts: List[str], model: str) -> np.ndarray:
     """
-    Embebe una lista de textos en lotes, retorna matriz (N x D).
-    Docs oficiales: API Reference -> Embeddings.create
+    Ollama /api/embeddings no admite batch en un solo request; hacemos loop.
+    Implementa manejo de errores y reintentos para mayor robustez.
     """
     embs = []
-    for i in range(0, len(texts), BATCH_SIZE):
-        batch = texts[i:i+BATCH_SIZE]
-        resp = client.embeddings.create(model=model, input=batch)  # ver docs
-        # resp.data es una lista con .embedding por cada input
-        embs.extend([np.array(d.embedding, dtype=np.float32) for d in resp.data])
+    for t in texts:
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                r = requests.post(
+                    f"{OLLAMA_BASE_URL}/api/embeddings",
+                    json={"model": model, "prompt": t},
+                    timeout=120
+                )
+                r.raise_for_status()
+                embs.append(np.array(r.json()["embedding"], dtype=np.float32))
+                break  # Éxito, salir del loop de reintentos
+            except requests.exceptions.RequestException as e:
+                if attempt == max_retries - 1:  # Último intento
+                    print(f"Error al obtener embedding para texto (intento {attempt + 1}): {e}")
+                    # Agregar un vector cero como fallback
+                    embs.append(np.zeros(768, dtype=np.float32))  # nomic-embed-text tiene 768 dimensiones
+                else:
+                    print(f"Reintentando embedding (intento {attempt + 1}/{max_retries}): {e}")
+                    continue
     return np.vstack(embs) if embs else np.zeros((0, 0), dtype=np.float32)
 
-def embed_centroid(client: OpenAI, queries: List[str], model: str) -> np.ndarray:
+def embed_texts(client_unused, texts: List[str], model: str) -> np.ndarray:
     """
-    Calcula un "centroide" (promedio) de embeddings para un conjunto de queries.
+    Embebe una lista de textos usando Ollama, retorna matriz (N x D).
+    El parámetro client_unused se mantiene para compatibilidad con la interfaz existente.
+    """
+    if not texts:
+        return np.zeros((0, 0), dtype=np.float32)
+    return _ollama_embed_batch(texts, OLLAMA_EMBED_MODEL)
+
+def embed_centroid(client_unused, queries: List[str], model: str) -> np.ndarray:
+    """
+    Calcula un "centroide" (promedio) de embeddings para un conjunto de queries usando Ollama.
     Esto funciona bien para definir la intención semántica del tema.
+    El parámetro client_unused se mantiene para compatibilidad con la interfaz existente.
     """
     if not queries:
         return np.zeros((1, 1), dtype=np.float32)
-    resp = client.embeddings.create(model=model, input=queries)
-    vecs = [np.array(d.embedding, dtype=np.float32) for d in resp.data]
-    centroid = np.mean(vecs, axis=0)
-    # normaliza
+    vecs = _ollama_embed_batch(queries, OLLAMA_EMBED_MODEL)
+    centroid = vecs.mean(axis=0)
     centroid = centroid / max(np.linalg.norm(centroid), 1e-8)
     return centroid
 
-def best_paragraph_for_theme(client: OpenAI,
+def best_paragraph_for_theme(client_unused,
                              chunks: List[str],
                              theme_queries: List[str],
                              model: str) -> Tuple[Optional[str], float]:
     if not chunks:
         return None, 0.0
     # Centroide del tema
-    theme_vec = embed_centroid(client, theme_queries, model)
+    theme_vec = embed_centroid(client_unused, theme_queries, model)
     # Embeddings de párrafos
-    para_embs = embed_texts(client, chunks, model)
+    para_embs = embed_texts(client_unused, chunks, model)
     if para_embs.size == 0:
         return None, 0.0
     # Normaliza
@@ -427,14 +449,14 @@ def extract_vigencia_renovacion(paragraph: Optional[str]) -> Dict:
 # PIPELINE
 # ==========================
 
-def process_file(client: OpenAI, path: Path) -> Dict:
+def process_file(client_unused, path: Path) -> Dict:
     text = read_txt(path)
     chunks = paragraph_chunk(text)
 
     # Para cada tema, selecciona el mejor párrafo por embeddings
     best_paragraphs = {}
     for key, queries in THEME_QUERIES.items():
-        best_p, best_sim = best_paragraph_for_theme(client, chunks, queries, EMBEDDING_MODEL)
+        best_p, best_sim = best_paragraph_for_theme(client_unused, chunks, queries, EMBEDDING_MODEL)
         best_paragraphs[key] = (best_p if best_sim >= SIM_THRESHOLD else None, best_sim)
 
     # Construye el JSON final (cada padre es una propiedad del objeto raíz)
@@ -463,13 +485,29 @@ def process_file(client: OpenAI, path: Path) -> Dict:
 
 def main():
     load_dotenv()  # permite usar .env
-    api_key = os.getenv("OPENAI_API_KEY")
-    OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
-
-    if not api_key:
-        raise RuntimeError("Falta OPENAI_API_KEY en entorno o .env")
-
-    client = OpenAI(api_key=api_key, base_url=OPENAI_BASE_URL)
+    
+    # Verificar que Ollama esté disponible
+    try:
+        response = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=10)
+        response.raise_for_status()
+        models = response.json().get("models", [])
+        model_names = [model.get("name", "") for model in models]
+        
+        if OLLAMA_EMBED_MODEL not in model_names:
+            print(f"ADVERTENCIA: El modelo {OLLAMA_EMBED_MODEL} no está disponible en Ollama.")
+            print(f"Modelos disponibles: {model_names}")
+            print(f"Para instalar el modelo, ejecuta: ollama pull {OLLAMA_EMBED_MODEL}")
+            raise RuntimeError(f"Modelo {OLLAMA_EMBED_MODEL} no encontrado en Ollama")
+        else:
+            print(f"✓ Modelo {OLLAMA_EMBED_MODEL} encontrado en Ollama")
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Error al conectar con Ollama en {OLLAMA_BASE_URL}: {e}")
+        print("Asegúrate de que Ollama esté ejecutándose y sea accesible.")
+        raise RuntimeError(f"No se puede conectar con Ollama: {e}")
+    
+    # client_unused se mantiene para compatibilidad con la interfaz existente
+    client_unused = None
 
     files = sorted([p for p in INPUT_DIR.glob("*.txt") if p.is_file()])
     if not files:
@@ -483,7 +521,7 @@ def main():
     with OUTPUT_JSONL.open("w", encoding="utf-8") as f:
         for path in files:
             try:
-                result = process_file(client, path)
+                result = process_file(client_unused, path)
                 results.append(result)
                 f.write(json.dumps(result, ensure_ascii=False) + "\n")
                 # Guarda también un JSON formateado por archivo en jsonResults/
