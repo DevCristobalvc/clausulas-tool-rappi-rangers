@@ -31,7 +31,7 @@
   },
   "_debug": {
     "similitudes": {
-      "DesembolsosPagos": 0.4411,
+      "DesembolsosPagos": 0.441,
       "Exclusividad": 0.3375,
       "TerminoContrato": 0.4187,
       "VigenciaRenovacion": 0.3559

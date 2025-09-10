@@ -2,7 +2,7 @@
 """
 Extractor semántico de cláusulas de contratos (.txt) -> JSON por archivo.
 
-Motor semántico: OpenAI Embeddings (text-embedding-3-large por defecto).
+Motor semántico: OpenAI Embeddings (text-embedding-3-small por defecto).
 Docs oficiales (OpenAI): Embeddings (guía + API reference).
 """
 
@@ -32,11 +32,9 @@ OUTPUT_JSONL = Path("salida_contratos.jsonl")
 OUTPUT_JSON = Path("salida_contratos.json")
 OUTPUT_DIR_PER_FILE = Path("jsonResults")
 
-# Modelo embeddings (ajústalo si quieres costo vs. calidad)
+# Modelo embeddings (costo vs. calidad)
 # EMBEDDING_MODEL = "text-embedding-3-large"   # o "text-embedding-3-small"
 EMBEDDING_MODEL = "text-embedding-3-small"   # o "text-embedding-3-small"
-# Nota: Ambos son parte de la familia text-embedding-3.* (ver docs de modelos)
-# https://platform.openai.com/docs/models/text-embedding-3-small
 
 # Umbral de similitud para considerar un párrafo "relevante"
 SIM_THRESHOLD = 0.45
@@ -465,10 +463,12 @@ def process_file(client: OpenAI, path: Path) -> Dict:
 def main():
     load_dotenv()  # permite usar .env
     api_key = os.getenv("OPENAI_API_KEY")
+    OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
+
     if not api_key:
         raise RuntimeError("Falta OPENAI_API_KEY en entorno o .env")
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=OPENAI_BASE_URL)
 
     files = sorted([p for p in INPUT_DIR.glob("*.txt") if p.is_file()])
     if not files:

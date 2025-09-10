@@ -32,7 +32,7 @@
   "_debug": {
     "similitudes": {
       "DesembolsosPagos": 0.4981,
-      "Exclusividad": 0.3903,
+      "Exclusividad": 0.3917,
       "TerminoContrato": 0.4744,
       "VigenciaRenovacion": 0.391
     },

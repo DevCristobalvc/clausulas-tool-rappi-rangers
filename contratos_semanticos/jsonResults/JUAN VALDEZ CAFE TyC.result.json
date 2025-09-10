@@ -33,7 +33,7 @@
     "similitudes": {
       "DesembolsosPagos": 0.5338,
       "Exclusividad": 0.4696,
-      "TerminoContrato": 0.5229,
+      "TerminoContrato": 0.523,
       "VigenciaRenovacion": 0.4187
     },
     "umbral": 0.45

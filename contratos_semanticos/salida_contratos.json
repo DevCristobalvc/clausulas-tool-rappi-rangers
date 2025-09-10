@@ -34,7 +34,7 @@
       "similitudes": {
         "DesembolsosPagos": 0.5338,
         "Exclusividad": 0.4696,
-        "TerminoContrato": 0.5229,
+        "TerminoContrato": 0.523,
         "VigenciaRenovacion": 0.4187
       },
       "umbral": 0.45
@@ -74,8 +74,8 @@
     "_debug": {
       "similitudes": {
         "DesembolsosPagos": 0.5407,
-        "Exclusividad": 0.499,
-        "TerminoContrato": 0.5594,
+        "Exclusividad": 0.4983,
+        "TerminoContrato": 0.5595,
         "VigenciaRenovacion": 0.4258
       },
       "umbral": 0.45
@@ -155,7 +155,7 @@
     },
     "_debug": {
       "similitudes": {
-        "DesembolsosPagos": 0.4411,
+        "DesembolsosPagos": 0.441,
         "Exclusividad": 0.3375,
         "TerminoContrato": 0.4187,
         "VigenciaRenovacion": 0.3559
@@ -196,8 +196,8 @@
     },
     "_debug": {
       "similitudes": {
-        "DesembolsosPagos": 0.4547,
-        "Exclusividad": 0.3817,
+        "DesembolsosPagos": 0.4548,
+        "Exclusividad": 0.3831,
         "TerminoContrato": 0.4941,
         "VigenciaRenovacion": 0.4248
       },
@@ -238,7 +238,7 @@
     "_debug": {
       "similitudes": {
         "DesembolsosPagos": 0.4981,
-        "Exclusividad": 0.3903,
+        "Exclusividad": 0.3917,
         "TerminoContrato": 0.4744,
         "VigenciaRenovacion": 0.391
       },
@@ -279,9 +279,9 @@
     "_debug": {
       "similitudes": {
         "DesembolsosPagos": 0.5276,
-        "Exclusividad": 0.5137,
+        "Exclusividad": 0.5126,
         "TerminoContrato": 0.5733,
-        "VigenciaRenovacion": 0.432
+        "VigenciaRenovacion": 0.4317
       },
       "umbral": 0.45
     }
