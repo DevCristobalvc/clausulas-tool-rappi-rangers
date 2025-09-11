@@ -1,40 +1,40 @@
 {
   "archivo": "CONTRATO (35).txt",
   "DesembolsosPagos": {
-    "TieneDesembolsos": "NO",
-    "PeriodicidadPagos": "NA",
-    "CondicionesPago": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado",
-    "FormaPago": "Otro",
-    "DetalleDesembolsos": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado"
+    "TieneDesembolsos": "SI",
+    "PeriodicidadPagos": "Semanal",
+    "CondicionesPago": "Definiciones.",
+    "FormaPago": "Transferencia",
+    "DetalleDesembolsos": "Confidencialidad. transferencias bancarias a la semana. En caso que el Aliado supere este Adicionalmente, dicho aumento en este valor se deberá aplicar de manera\nnúmero de transferencias semanales, deberá asumir el costo de dichas retroactiva por los meses anteriores a la fecha de celebración del contrato con\ntransferencias bancarias.\n\n\"transferencias bancarias a la semana.\""
   },
   "Exclusividad": {
-    "TieneExclusividad": "NO",
-    "AlcanceExclusividad": "NA",
-    "CondicionesExclusividad": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado",
-    "RupturaExclusividad": "NO",
-    "DetalleExclusividad": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado"
+    "TieneExclusividad": "SI",
+    "AlcanceExclusividad": "Producto/Servicio",
+    "CondicionesExclusividad": "Exclusividad.",
+    "RupturaExclusividad": "SI",
+    "DetalleExclusividad": "Exclusividad. La presente cláusula se encuentra condicionada a: 1) el\naumento aplicará de manera automática, a partir de la configuración del cumplimiento del Aliado de la obligación de exclusividad establecida en la\nincumplimiento de la presente cláusula de exclusividad. El incumplimiento del Aliado de la obligación de Cumplimiento.\n\n\"Exclusividad.\""
   },
   "TerminoContrato": {
     "DuracionContrato": "NA",
     "FechaInicio": "",
     "FechaFin": "",
-    "TerminacionUnilateral": "NO",
+    "TerminacionUnilateral": "SI",
     "PenalidadTerminacion": "NO",
     "Preaviso": "NA",
-    "DetalleTermino": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado"
+    "DetalleTermino": "Se aclara que el producto adicional será determinado de\nbancaria relacionada a continuación: mutuo acuerdo por las Partes. En ese sentido, estos\nplataforma hasta el momento en que se configure la terminación; y ii) el cien\ndatos personales no podrán ser utilizados o almacenados por el Aliado toda\npor ciento (100%) de los valores entregados al Aliado por Rappi en razón de la\nvez que no cuenta con la debida autorización del titular para este fin.\n\n\"Partes.\""
   },
   "VigenciaRenovacion": {
     "TieneRenovacionAutomatica": "NO",
     "PeriodicidadRenovacion": "NA",
     "PreavisoNoRenovacion": "NA",
-    "DetalleVigencia": "Firma: _____________________ Firma: _______________\nNombre:___________________ Nombre: Julia Irlanda Casillas Regalado"
+    "DetalleVigencia": "No hay nada significativo."
   },
   "_debug": {
     "similitudes": {
-      "DesembolsosPagos": 0.6604,
-      "Exclusividad": 0.6146,
-      "TerminoContrato": 0.7259,
-      "VigenciaRenovacion": 0.6391
+      "DesembolsosPagos": 0.6273,
+      "Exclusividad": 0.5279,
+      "TerminoContrato": 0.4771,
+      "VigenciaRenovacion": 0.3664
     },
     "umbral": 0.45
   }

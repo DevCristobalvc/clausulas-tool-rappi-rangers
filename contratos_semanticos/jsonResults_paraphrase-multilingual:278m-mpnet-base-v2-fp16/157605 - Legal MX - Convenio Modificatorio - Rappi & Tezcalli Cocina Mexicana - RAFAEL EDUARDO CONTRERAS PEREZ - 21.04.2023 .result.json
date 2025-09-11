@@ -1,0 +1,41 @@
+{
+  "archivo": "157605 - Legal MX - Convenio Modificatorio - Rappi & Tezcalli Cocina Mexicana - RAFAEL EDUARDO CONTRERAS PEREZ - 21.04.2023 .txt",
+  "DesembolsosPagos": {
+    "TieneDesembolsos": "NO",
+    "PeriodicidadPagos": "NA",
+    "CondicionesPago": "Representante Legal: TERESA GUTIERREZ SMITH\nCorreo Electrónico: teresa.gutierrez@rappi.com\nHash: D1qMQtUV7ggBy2AaJZ17Hc/Sb71CeNGV1UIfJIo2KEA=\nDirección IP: 189.203.150.232\nFirmado el: 02/may/2023 10:13:06 GMT-5(2023-05-02T15:13:06.851Z)\nNombre: Rafael Eduardo\nApellidos: Contreras Pérez\nCorreo Electrónico: rafaed021@gma",
+    "FormaPago": "Otro",
+    "DetalleDesembolsos": "Representante Legal: TERESA GUTIERREZ SMITH\nCorreo Electrónico: teresa.gutierrez@rappi.com\nHash: D1qMQtUV7ggBy2AaJZ17Hc/Sb71CeNGV1UIfJIo2KEA=\nDirección IP: 189.203.150.232\nFirmado el: 02/may/2023 10:13:06 GMT-5(2023-05-02T15:13:06.851Z)\nNombre: Rafael Eduardo\nApellidos: Contreras Pérez\nCorreo Electrónico: rafaed021@gmail.com\nHash: VRYKsA2b125Tr+1gBamAH3Ll11SQzqX247UoTlgrA7o=\nDirección IP: 187.190.223.95\nVisualización del Mensaje de datos: 22/abr/2023 21:09:13 GMT-5(2023-04-23T02:09:13.651Z)\nFirmado el: 26/abr/2023 00:05:28 GMT-5(2023-04-26T05:05:28.559Z)\nFECHA DE FIRMA A LA VERSIÓN FINAL DEL DOCUMENTO\n02/may/2023 10:13:06 GMT-5(2023-05-02T15:13:06.943Z)\nURL de la Auditoría\nhttps://enterprise.app.trato.io/r/Ej7SnH8U1Z2NdYYPB-OoP\n*Este documento fue firmado con el uso de medios electrónicos y garantiza\nla integridad del documento, así como la identidad de los firmantes. La URL\nque se detalla en la parte superior permite validar las firmas electrónicas, el\nmensaje de datos y el estado del documento."
+  },
+  "Exclusividad": {
+    "TieneExclusividad": "NO",
+    "AlcanceExclusividad": "NA",
+    "CondicionesExclusividad": "No hay nada significativo.",
+    "RupturaExclusividad": "NO",
+    "DetalleExclusividad": "No hay nada significativo."
+  },
+  "TerminoContrato": {
+    "DuracionContrato": "NA",
+    "FechaInicio": "",
+    "FechaFin": "",
+    "TerminacionUnilateral": "NO",
+    "PenalidadTerminacion": "NO",
+    "Preaviso": "NA",
+    "DetalleTermino": "Representante Legal: TERESA GUTIERREZ SMITH\nCorreo Electrónico: teresa.gutierrez@rappi.com\nHash: D1qMQtUV7ggBy2AaJZ17Hc/Sb71CeNGV1UIfJIo2KEA=\nDirección IP: 189.203.150.232\nFirmado el: 02/may/2023 10:13:06 GMT-5(2023-05-02T15:13:06.851Z)\nNombre: Rafael Eduardo\nApellidos: Contreras Pérez\nCorreo Electrónico: rafaed021@gmail.com\nHash: VRYKsA2b125Tr+1gBamAH3Ll11SQzqX247UoTlgrA7o=\nDirección IP: 187.190.223.95\nVisualización del Mensaje de datos: 22/abr/2023 21:09:13 GMT-5(2023-04-23T02:09:13.651Z)\nFirmado el: 26/abr/2023 00:05:28 GMT-5(2023-04-26T05:05:28.559Z)\nFECHA DE FIRMA A LA VERSIÓN FINAL DEL DOCUMENTO\n02/may/2023 10:13:06 GMT-5(2023-05-02T15:13:06.943Z)\nURL de la Auditoría\nhttps://enterprise.app.trato.io/r/Ej7SnH8U1Z2NdYYPB-OoP\n*Este documento fue firmado con el uso de medios electrónicos y garantiza\nla integridad del documento, así como la identidad de los firmantes. La URL\nque se detalla en la parte superior permite validar las firmas electrónicas, el\nmensaje de datos y el estado del documento."
+  },
+  "VigenciaRenovacion": {
+    "TieneRenovacionAutomatica": "NO",
+    "PeriodicidadRenovacion": "NA",
+    "PreavisoNoRenovacion": "NA",
+    "DetalleVigencia": "No hay nada significativo."
+  },
+  "_debug": {
+    "similitudes": {
+      "DesembolsosPagos": 0.4557,
+      "Exclusividad": 0.4497,
+      "TerminoContrato": 0.5508,
+      "VigenciaRenovacion": 0.3975
+    },
+    "umbral": 0.45
+  }
+}

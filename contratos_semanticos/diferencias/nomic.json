@@ -1,0 +1,41 @@
+{
+  "archivo": "1e05dcb0-d8ed-4a17-9902-fad7e4e067ae (2) (1).txt",
+  "DesembolsosPagos": {
+    "TieneDesembolsos": "SI",
+    "PeriodicidadPagos": "Semanal",
+    "CondicionesPago": "- Conciliaciones.",
+    "FormaPago": "Transferencia",
+    "DetalleDesembolsos": "El\nvalor pagadero por parte del Aliado Comercial a Rappi, mencionado anteriormente, es de carácter adicional a\naquel pagado por concepto de Uso y Alquiler de la Plataforma Rappi; (xvi) Dar una compensación equivalente\nal 10% (diez por ciento) del valor de la orden al Usuario/Consumidor en los casos en los que tome más de\n40 (cuarenta) minutos en preparar la totalidad de la orden. El valor total de estas compensaciones será\ndescontado del valor total a ser reembolsado por parte de Rappi al Aliado Comercial, de conformidad con la\nCláusula “Octava” del presente Acuerdo de Cooperación; (xvii) Gest"
+  },
+  "Exclusividad": {
+    "TieneExclusividad": "SI",
+    "AlcanceExclusividad": "Producto/Servicio",
+    "CondicionesExclusividad": "El Aliado Comercial se compromete a no tener ni mantener una relación comercial\ncon un proveedor que incumpla con la Ley Aplicable con relación a: a) la discriminación por motivos\nde raza o género; b) el trabajo infantil; c) el trabajo esclavo o degradante; y d) el acoso moral o sexual\no derivado de actividades ilícitas o relacionadas con el narcotráfico o el financiamiento del terrorismo.",
+    "RupturaExclusividad": "SI",
+    "DetalleExclusividad": "Las Partes declaran y garantizan que tanto ellas como sus funcionarios, empleados,\ndirectivos, o subcontratistas cumplen la Ley Aplicable en materia de anticorrupción, incluyendo, pero\nsin limitarse a la Ley General de Responsabilidades Administrativas, la Ley sobre Prácticas Corruptas\nen el Extranjero de EE.UU. de 1977, la Ley sobre Sobornos del Reino Unido de 2010 o aquellas que\nla modifiquen, subroguen, reglamenten o desarrollen, así como aquellas regulaciones nacionales e\ninternacionales relativas a la prevención del fraude, el soborno, la corrupción, el lavado de dinero y el\nterrorismo. I"
+  },
+  "TerminoContrato": {
+    "DuracionContrato": "NA",
+    "FechaInicio": "2022-08-19",
+    "FechaFin": "2022-08-19",
+    "TerminacionUnilateral": "NO",
+    "PenalidadTerminacion": "SI",
+    "Preaviso": "NA",
+    "DetalleTermino": "Las Partes declaran y garantizan que tanto ellas como sus funcionarios, empleados,\ndirectivos, o subcontratistas cumplen la Ley Aplicable en materia de anticorrupción, incluyendo, pero\nsin limitarse a la Ley General de Responsabilidades Administrativas, la Ley sobre Prácticas Corruptas\nen el Extranjero de EE.UU. de 1977, la Ley sobre Sobornos del Reino Unido de 2010 o aquellas que\nla modifiquen, subroguen, reglamenten o desarrollen, así como aquellas regulaciones nacionales e\ninternacionales relativas a la prevención del fraude, el soborno, la corrupción, el lavado de dinero y el\nterrorismo. I"
+  },
+  "VigenciaRenovacion": {
+    "TieneRenovacionAutomatica": "NO",
+    "PeriodicidadRenovacion": "NA",
+    "PreavisoNoRenovacion": "NA",
+    "DetalleVigencia": "INFORMACIÓN CONFIDENCIAL\nACUERDO DE COOPERACIÓN\nACUERDO DE COOPERACIÓN (EN ADELANTE, “ACUERDO DE COOPERACIÓN”) QUE\nES CELEBRADO, POR UNA PARTE POR TECNOLOGÍAS RAPPI, S.A.P.I., DE C.V. (EN\nADELANTE, “RAPPI”), REPRESENTADO EN ESTE ACTO POR ALEJANDRO ALBERTO\nSOLÍS OSTROSKY, Y, POR OTRO LADO, CARLOS JESUS CAMPOS EUAN (EN ADELANTE,\n“ALIADO COMERCIAL”), PARTES QUE EN LO SUCESIVO CONJUNTAMENTE SERÁN\nREFERIDAS COMO “PARTES” E INDIVIDUALMENTE COMO “PARTE”, DE\nCONFORMIDAD CON LAS SIGUIENTES DECLARACIONES, DEFINICIONES Y\nCLÁUSULAS:\nI. DECLARACIONES:\nA. Declara Rappi, a través de su representante legal,"
+  },
+  "_debug": {
+    "similitudes": {
+      "DesembolsosPagos": 0.5691,
+      "Exclusividad": 0.585,
+      "TerminoContrato": 0.6665,
+      "VigenciaRenovacion": 0.5423
+    },
+    "umbral": 0.45
+  }
+}
