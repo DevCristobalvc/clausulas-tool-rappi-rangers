@@ -1,0 +1,41 @@
+{
+  "archivo": "Contrato Dairy Queen firmado.txt",
+  "DesembolsosPagos": {
+    "TieneDesembolsos": "NO",
+    "PeriodicidadPagos": "NA",
+    "CondicionesPago": "model='moondream' created_at='2025-09-12T15:13:46.629771Z' done=True done_reason='stop' total_duration=205865792 load_duration=36586125 prompt_eval_count=819 prompt_eval_duration=159176459 eval_count=1 eval_duration=184750 message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None)",
+    "FormaPago": "Otro",
+    "DetalleDesembolsos": "model='moondream' created_at='2025-09-12T15:13:46.629771Z' done=True done_reason='stop' total_duration=205865792 load_duration=36586125 prompt_eval_count=819 prompt_eval_duration=159176459 eval_count=1 eval_duration=184750 message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None)"
+  },
+  "Exclusividad": {
+    "TieneExclusividad": "NO",
+    "AlcanceExclusividad": "NA",
+    "CondicionesExclusividad": "model='moondream' created_at='2025-09-12T15:13:46.629771Z' done=True done_reason='stop' total_duration=205865792 load_duration=36586125 prompt_eval_count=819 prompt_eval_duration=159176459 eval_count=1 eval_duration=184750 message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None)",
+    "RupturaExclusividad": "NO",
+    "DetalleExclusividad": "model='moondream' created_at='2025-09-12T15:13:46.629771Z' done=True done_reason='stop' total_duration=205865792 load_duration=36586125 prompt_eval_count=819 prompt_eval_duration=159176459 eval_count=1 eval_duration=184750 message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None)"
+  },
+  "TerminoContrato": {
+    "DuracionContrato": "NA",
+    "FechaInicio": "",
+    "FechaFin": "",
+    "TerminacionUnilateral": "NO",
+    "PenalidadTerminacion": "NO",
+    "Preaviso": "NA",
+    "DetalleTermino": "No hay nada significativo."
+  },
+  "VigenciaRenovacion": {
+    "TieneRenovacionAutomatica": "NO",
+    "PeriodicidadRenovacion": "NA",
+    "PreavisoNoRenovacion": "NA",
+    "DetalleVigencia": "No hay nada significativo."
+  },
+  "_debug": {
+    "similitudes": {
+      "DesembolsosPagos": 0.4931,
+      "Exclusividad": 0.4547,
+      "TerminoContrato": 0.4438,
+      "VigenciaRenovacion": 0.4437
+    },
+    "umbral": 0.45
+  }
+}
