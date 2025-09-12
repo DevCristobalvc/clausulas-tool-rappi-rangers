@@ -39,7 +39,7 @@ sheet = spreadsheet.sheet1  # primera pestaña
 
 # === CONFIG JSONS DE CONTRATOS SEMANTICOS ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-JSON_RESULTS_DIR = os.path.join(BASE_DIR, "contratos_semanticos", "jsonResults")
+JSON_RESULTS_DIR = os.path.join(BASE_DIR, "contratos_semanticos", "json_with_resume")
 
 # Carpeta específica de Drive donde están los PDFs
 DRIVE_FOLDER_ID = "1IS9ODgk1SVBK4kbFjglAqrdzgzS1lQbV"
